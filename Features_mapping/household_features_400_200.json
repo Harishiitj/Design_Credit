@@ -1,0 +1,4861 @@
+{
+  "created_at": "2025-09-11T10:01:41.971673",
+  "merging_keys": [
+    {
+      "key_name": "hhid",
+      "description": "Case Identification",
+      "file": "IAHR7EFL.DTA"
+    },
+    {
+      "key_name": "caseid",
+      "description": "Case Identification",
+      "file": [
+        "IAIR7EFL.DTA",
+        "IAMR7EFL.DTA",
+        "IAKR7EFL.DTA",
+        "IABR7EFL.DTA",
+        "IACR7EFL.DTA"
+      ]
+    },
+    {
+      "key_name": "v001",
+      "description": "Cluster number",
+      "file": [
+        "IAIR7EFL.DTA",
+        "IAMR7EFL.DTA",
+        "IAKR7EFL.DTA",
+        "IAHR7EFL.DTA",
+        "IABR7EFL.DTA",
+        "IACR7EFL.DTA"
+      ]
+    },
+    {
+      "key_name": "v002",
+      "description": "Household number",
+      "file": [
+        "IAIR7EFL.DTA",
+        "IAMR7EFL.DTA",
+        "IAKR7EFL.DTA",
+        "IAHR7EFL.DTA",
+        "IABR7EFL.DTA",
+        "IACR7EFL.DTA"
+      ]
+    },
+    {
+      "key_name": "v003",
+      "description": "Respondent's line number",
+      "file": [
+        "IAIR7EFL.DTA",
+        "IAMR7EFL.DTA",
+        "IAKR7EFL.DTA",
+        "IABR7EFL.DTA",
+        "IACR7EFL.DTA"
+      ]
+    }
+  ],
+  
+  "useful_count": 600,
+  "useful": [
+    {
+      "id": "F0001",
+      "feature_name": "age",
+      "description": "Age in years",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0002",
+      "feature_name": "sex",
+      "description": "Sex / gender",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0003",
+      "feature_name": "marital_status",
+      "description": "Marital status",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0004",
+      "feature_name": "education_years",
+      "description": "Years of formal education",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0005",
+      "feature_name": "literacy",
+      "description": "Can read and write (self-reported)",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0006",
+      "feature_name": "religion",
+      "description": "Religion / faith",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0007",
+      "feature_name": "caste_group",
+      "description": "Caste / social group",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0008",
+      "feature_name": "household_income",
+      "description": "Total monthly household income (local currency)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0009",
+      "feature_name": "occupation",
+      "description": "Primary occupation of person",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0010",
+      "feature_name": "employment_status",
+      "description": "Employment status (self-employed, salaried, casual, unemployed)",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0011",
+      "feature_name": "assets_index",
+      "description": "Household asset index (derived)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0012",
+      "feature_name": "land_ownership",
+      "description": "Own agricultural land (hectares)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0013",
+      "feature_name": "house_type",
+      "description": "Type of dwelling (pucca, semi-pucca, kutcha)",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0014",
+      "feature_name": "floor_material",
+      "description": "Main floor material",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0015",
+      "feature_name": "wall_material",
+      "description": "Main wall material",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0016",
+      "feature_name": "roof_material",
+      "description": "Main roof material",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0017",
+      "feature_name": "rooms_count",
+      "description": "Number of rooms",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0018",
+      "feature_name": "primary_cooking_fuel",
+      "description": "Primary cooking fuel (LPG, wood, dung, kerosene, electricity)",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0019",
+      "feature_name": "secondary_cooking_fuel",
+      "description": "Secondary cooking fuel used",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0020",
+      "feature_name": "stove_type",
+      "description": "Stove type (open fire, chulah, improved cookstove, LPG stove, electric)",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0021",
+      "feature_name": "fuel_collection_time",
+      "description": "Avg hours per week spent collecting biomass fuel",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0022",
+      "feature_name": "gas_connection",
+      "description": "LPG connection present",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0023",
+      "feature_name": "refill_frequency_months",
+      "description": "Average months between LPG refills",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0024",
+      "feature_name": "kerosene_use",
+      "description": "Kerosene used for lighting/cooking",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0025",
+      "feature_name": "cooking_location",
+      "description": "Location of cooking (indoor separate kitchen, indoor single room, outdoor)",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0026",
+      "feature_name": "chimney_present",
+      "description": "Chimney or hood present",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0027",
+      "feature_name": "windows_in_kitchen",
+      "description": "Number of windows in kitchen",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0028",
+      "feature_name": "time_cooking_indoor",
+      "description": "Avg hours per day cooking indoors (all household)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0029",
+      "feature_name": "water_source",
+      "description": "Main source of drinking water",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0030",
+      "feature_name": "water_treatment",
+      "description": "Does household treat drinking water (boil/filter/chlorinate)",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0031",
+      "feature_name": "toilet_type",
+      "description": "Type of sanitation facility",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0032",
+      "feature_name": "handwash_facility",
+      "description": "Handwashing facility with soap present",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0033",
+      "feature_name": "waste_water_disposal",
+      "description": "Waste water disposal method",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0034",
+      "feature_name": "solid_waste_collection",
+      "description": "Municipal solid waste collection access",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0035",
+      "feature_name": "waste_burning",
+      "description": "Does household burn solid waste",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0036",
+      "feature_name": "compost_practice",
+      "description": "Household composts organic waste",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0037",
+      "feature_name": "vehicle_own",
+      "description": "Any motorized vehicle owned",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0038",
+      "feature_name": "distance_to_road_km",
+      "description": "Distance to nearest major road (km)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0039",
+      "feature_name": "commute_time",
+      "description": "Avg commute time to work (minutes)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0040",
+      "feature_name": "pesticide_use",
+      "description": "Household uses pesticides in farming",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0041",
+      "feature_name": "fertilizer_use",
+      "description": "Chemical fertilizer application (kg/acre)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0042",
+      "feature_name": "livestock_owned",
+      "description": "Number of livestock owned",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0043",
+      "feature_name": "daily_calorie_intake",
+      "description": "Estimated daily calorie intake (kcal/person)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0044",
+      "feature_name": "protein_grams",
+      "description": "Daily protein intake (g/person)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0045",
+      "feature_name": "fat_grams",
+      "description": "Daily fat intake (g/person)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0046",
+      "feature_name": "iron_mg",
+      "description": "Daily iron intake (mg/person)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0047",
+      "feature_name": "vitaminA_ug",
+      "description": "Daily vitamin A intake (\u00b5g/person)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0048",
+      "feature_name": "diet_diversity_score",
+      "description": "Dietary Diversity Score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0049",
+      "feature_name": "meals_per_day",
+      "description": "Average meals per day",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0050",
+      "feature_name": "breastfeeding_status",
+      "description": "Breastfeeding (for infants)",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0051",
+      "feature_name": "hemoglobin_g_dl",
+      "description": "Hemoglobin (g/dL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0052",
+      "feature_name": "hematocrit_pct",
+      "description": "Hematocrit (%)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0053",
+      "feature_name": "rbc_count_million",
+      "description": "RBC count (million cells/\u00b5L)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0054",
+      "feature_name": "wbc_count_thousands",
+      "description": "WBC count (10^3/\u00b5L)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0055",
+      "feature_name": "platelet_count_thousands",
+      "description": "Platelet count (10^3/\u00b5L)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0056",
+      "feature_name": "fasting_glucose_mg_dl",
+      "description": "Fasting blood glucose (mg/dL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0057",
+      "feature_name": "hba1c_pct",
+      "description": "Glycated hemoglobin (HbA1c %)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0058",
+      "feature_name": "total_cholesterol_mg_dl",
+      "description": "Total cholesterol (mg/dL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0059",
+      "feature_name": "ldl_mg_dl",
+      "description": "LDL cholesterol (mg/dL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0060",
+      "feature_name": "hdl_mg_dl",
+      "description": "HDL cholesterol (mg/dL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0061",
+      "feature_name": "triglycerides_mg_dl",
+      "description": "Triglycerides (mg/dL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0062",
+      "feature_name": "serum_ferritin_ng_ml",
+      "description": "Serum ferritin (ng/mL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0063",
+      "feature_name": "vitaminD_ng_ml",
+      "description": "Serum 25(OH)D (ng/mL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0064",
+      "feature_name": "crp_mg_l",
+      "description": "C-reactive protein (mg/L)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0065",
+      "feature_name": "blood_lead_ug_dl",
+      "description": "Blood lead (\u00b5g/dL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0066",
+      "feature_name": "blood_cadmium_ug_l",
+      "description": "Blood cadmium (\u00b5g/L)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0067",
+      "feature_name": "urinary_arsenic_ug_l",
+      "description": "Urinary arsenic (\u00b5g/L)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0068",
+      "feature_name": "urinary_cotinine_ng_ml",
+      "description": "Urinary cotinine (ng/mL) - smoking biomarker",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0069",
+      "feature_name": "urine_albumin_mg_g",
+      "description": "Urine albumin-to-creatinine ratio (mg/g)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0070",
+      "feature_name": "creatinine_mg_dl",
+      "description": "Serum creatinine (mg/dL)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0071",
+      "feature_name": "eGFR_ml_min_1_73m2",
+      "description": "Estimated GFR (mL/min/1.73m2)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0072",
+      "feature_name": "height_cm",
+      "description": "Height in cm",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0073",
+      "feature_name": "weight_kg",
+      "description": "Weight in kg",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0074",
+      "feature_name": "bmi",
+      "description": "Body Mass Index (kg/m^2)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0075",
+      "feature_name": "waist_cm",
+      "description": "Waist circumference (cm)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0076",
+      "feature_name": "hip_cm",
+      "description": "Hip circumference (cm)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0077",
+      "feature_name": "blood_pressure_sys",
+      "description": "Systolic BP (mm Hg)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0078",
+      "feature_name": "blood_pressure_dia",
+      "description": "Diastolic BP (mm Hg)",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0079",
+      "feature_name": "respiratory_symptoms",
+      "description": "Chronic respiratory symptoms (cough/wheeze)",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0080",
+      "feature_name": "asthma_diagnosis",
+      "description": "Doctor-diagnosed asthma",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0081",
+      "feature_name": "chronic_bronchitis",
+      "description": "Chronic bronchitis status",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0082",
+      "feature_name": "diabetes_diagnosis",
+      "description": "Doctor-diagnosed diabetes",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0083",
+      "feature_name": "hypertension_diagnosis",
+      "description": "Doctor-diagnosed hypertension",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0084",
+      "feature_name": "self_rated_health",
+      "description": "Self-rated health (excellent->poor)",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0085",
+      "feature_name": "tobacco_smoke_exposure",
+      "description": "Household smoking inside house (yes/no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0086",
+      "feature_name": "individual_smoking",
+      "description": "Individual current smoker",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0087",
+      "feature_name": "alcohol_use",
+      "description": "Alcohol consumption (current)",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0088",
+      "feature_name": "physical_activity_min_week",
+      "description": "Minutes of moderate+vigorous activity per week",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0089",
+      "feature_name": "distance_to_health_center_km",
+      "description": "Distance to nearest health facility (km)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0090",
+      "feature_name": "health_insurance",
+      "description": "Any health insurance coverage",
+      "datatype": "binary",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0091",
+      "feature_name": "immunization_status",
+      "description": "Child immunization up-to-date",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0092",
+      "feature_name": "proximity_industry_km",
+      "description": "Distance to nearest industrial facility (km)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0093",
+      "feature_name": "ambient_pm25_est",
+      "description": "Estimated ambient PM2.5 (\u00b5g/m3) at residence",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0094",
+      "feature_name": "noise_exposure_db",
+      "description": "Reported noise disturbance (dB equivalent estimate)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0095",
+      "feature_name": "flood_history",
+      "description": "Household experienced flooding in past 5 years",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0096",
+      "feature_name": "solar_panel",
+      "description": "Household has solar PV",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0097",
+      "feature_name": "rainwater_harvest",
+      "description": "Rainwater harvesting present",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0098",
+      "feature_name": "energy_efficient_bulbs",
+      "description": "Energy efficient bulbs installed",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0099",
+      "feature_name": "bicycle_count",
+      "description": "Number of bicycles owned",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0100",
+      "feature_name": "awareness_air_pollution",
+      "description": "Awareness of air pollution health effects",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0101",
+      "feature_name": "clean_fuel_attitude",
+      "description": "Attitude towards clean cooking fuels",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0102",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0103",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0104",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0105",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0106",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0107",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0108",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0109",
+      "feature_name": "Cooking - charcoal_use",
+      "description": "Use of charcoal as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0110",
+      "feature_name": "Hours per week using LPG",
+      "description": "Hours per week using LPG for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0111",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0112",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0113",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0114",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0115",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0116",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0117",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0118",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0119",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0120",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0121",
+      "feature_name": "Cooking - dung_use",
+      "description": "Use of dung as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0122",
+      "feature_name": "Hours per week using crop_residue",
+      "description": "Hours per week using crop_residue for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0123",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0124",
+      "feature_name": "segregation_plastic practice",
+      "description": "Household practice: segregation plastic (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0125",
+      "feature_name": "nitrate_mg_l level (lab)",
+      "description": "Lab-measured nitrate/ mg/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0126",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0127",
+      "feature_name": "transferrin_mg_dl (lab)",
+      "description": "Laboratory marker: transferrin_mg_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0128",
+      "feature_name": "Child - stunting_z score",
+      "description": "Child health indicator: stunting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0129",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0130",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0131",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0132",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0133",
+      "feature_name": "Cooking - kerosene_use",
+      "description": "Use of kerosene as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0134",
+      "feature_name": "Hours per week using wood",
+      "description": "Hours per week using wood for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0135",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0136",
+      "feature_name": "burning practice",
+      "description": "Household practice: burning (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0137",
+      "feature_name": "coliforms_cfu100ml level (lab)",
+      "description": "Lab-measured coliforms/ cfu100ml in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0138",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0139",
+      "feature_name": "urinary_sodium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_sodium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0140",
+      "feature_name": "Child - underweight_z score",
+      "description": "Child health indicator: underweight_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0141",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0142",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0143",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0144",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0145",
+      "feature_name": "Cooking - LPG_use",
+      "description": "Use of LPG as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0146",
+      "feature_name": "Hours per week using electricity",
+      "description": "Hours per week using electricity for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0147",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0148",
+      "feature_name": "collecting_for_recycling practice",
+      "description": "Household practice: collecting for recycling (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0149",
+      "feature_name": "lead_ug_l level (lab)",
+      "description": "Lab-measured lead/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0150",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0151",
+      "feature_name": "serum_albumin_g_dl (lab)",
+      "description": "Laboratory marker: serum_albumin_g_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0152",
+      "feature_name": "Child - age_at_weaning_days",
+      "description": "Child health indicator: age_at_weaning_days",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0153",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0154",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0155",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0156",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0157",
+      "feature_name": "Cooking - crop_residue_use",
+      "description": "Use of crop_residue as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0158",
+      "feature_name": "Hours per week using charcoal",
+      "description": "Hours per week using charcoal for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0159",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0160",
+      "feature_name": "composting_organics practice",
+      "description": "Household practice: composting organics (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0161",
+      "feature_name": "turbidity_NTU level (lab)",
+      "description": "Lab-measured turbidity/ NTU in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0162",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0163",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0164",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0165",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0166",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0167",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0168",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0169",
+      "feature_name": "Cooking - wood_use",
+      "description": "Use of wood as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0170",
+      "feature_name": "Hours per week using dung",
+      "description": "Hours per week using dung for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0171",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0172",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0173",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0174",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0175",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0176",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0177",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0178",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0179",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0180",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0181",
+      "feature_name": "Cooking - electricity_use",
+      "description": "Use of electricity as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0182",
+      "feature_name": "Hours per week using kerosene",
+      "description": "Hours per week using kerosene for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0183",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0184",
+      "feature_name": "segregation_plastic practice",
+      "description": "Household practice: segregation plastic (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0185",
+      "feature_name": "nitrate_mg_l level (lab)",
+      "description": "Lab-measured nitrate/ mg/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0186",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0187",
+      "feature_name": "transferrin_mg_dl (lab)",
+      "description": "Laboratory marker: transferrin_mg_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0188",
+      "feature_name": "Child - stunting_z score",
+      "description": "Child health indicator: stunting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0189",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0190",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0191",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0192",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0193",
+      "feature_name": "Cooking - charcoal_use",
+      "description": "Use of charcoal as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0194",
+      "feature_name": "Hours per week using LPG",
+      "description": "Hours per week using LPG for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0195",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0196",
+      "feature_name": "burning practice",
+      "description": "Household practice: burning (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0197",
+      "feature_name": "coliforms_cfu100ml level (lab)",
+      "description": "Lab-measured coliforms/ cfu100ml in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0198",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0199",
+      "feature_name": "urinary_sodium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_sodium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0200",
+      "feature_name": "Child - underweight_z score",
+      "description": "Child health indicator: underweight_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0201",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0202",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0203",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0204",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0205",
+      "feature_name": "Cooking - dung_use",
+      "description": "Use of dung as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0206",
+      "feature_name": "Hours per week using crop_residue",
+      "description": "Hours per week using crop_residue for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0207",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0208",
+      "feature_name": "collecting_for_recycling practice",
+      "description": "Household practice: collecting for recycling (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0209",
+      "feature_name": "lead_ug_l level (lab)",
+      "description": "Lab-measured lead/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0210",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0211",
+      "feature_name": "serum_albumin_g_dl (lab)",
+      "description": "Laboratory marker: serum_albumin_g_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0212",
+      "feature_name": "Child - age_at_weaning_days",
+      "description": "Child health indicator: age_at_weaning_days",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0213",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0214",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0215",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0216",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0217",
+      "feature_name": "Cooking - kerosene_use",
+      "description": "Use of kerosene as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0218",
+      "feature_name": "Hours per week using wood",
+      "description": "Hours per week using wood for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0219",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0220",
+      "feature_name": "composting_organics practice",
+      "description": "Household practice: composting organics (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0221",
+      "feature_name": "turbidity_NTU level (lab)",
+      "description": "Lab-measured turbidity/ NTU in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0222",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0223",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0224",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0225",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0226",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0227",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0228",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0229",
+      "feature_name": "Cooking - LPG_use",
+      "description": "Use of LPG as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0230",
+      "feature_name": "Hours per week using electricity",
+      "description": "Hours per week using electricity for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0231",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0232",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0233",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0234",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0235",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0236",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0237",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0238",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0239",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0240",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0241",
+      "feature_name": "Cooking - crop_residue_use",
+      "description": "Use of crop_residue as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0242",
+      "feature_name": "Hours per week using charcoal",
+      "description": "Hours per week using charcoal for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0243",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0244",
+      "feature_name": "segregation_plastic practice",
+      "description": "Household practice: segregation plastic (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0245",
+      "feature_name": "nitrate_mg_l level (lab)",
+      "description": "Lab-measured nitrate/ mg/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0246",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0247",
+      "feature_name": "transferrin_mg_dl (lab)",
+      "description": "Laboratory marker: transferrin_mg_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0248",
+      "feature_name": "Child - stunting_z score",
+      "description": "Child health indicator: stunting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0249",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0250",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0251",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0252",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0253",
+      "feature_name": "Cooking - wood_use",
+      "description": "Use of wood as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0254",
+      "feature_name": "Hours per week using dung",
+      "description": "Hours per week using dung for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0255",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0256",
+      "feature_name": "burning practice",
+      "description": "Household practice: burning (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0257",
+      "feature_name": "coliforms_cfu100ml level (lab)",
+      "description": "Lab-measured coliforms/ cfu100ml in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0258",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0259",
+      "feature_name": "urinary_sodium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_sodium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0260",
+      "feature_name": "Child - underweight_z score",
+      "description": "Child health indicator: underweight_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0261",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0262",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0263",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0264",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0265",
+      "feature_name": "Cooking - electricity_use",
+      "description": "Use of electricity as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0266",
+      "feature_name": "Hours per week using kerosene",
+      "description": "Hours per week using kerosene for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0267",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0268",
+      "feature_name": "collecting_for_recycling practice",
+      "description": "Household practice: collecting for recycling (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0269",
+      "feature_name": "lead_ug_l level (lab)",
+      "description": "Lab-measured lead/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0270",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0271",
+      "feature_name": "serum_albumin_g_dl (lab)",
+      "description": "Laboratory marker: serum_albumin_g_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0272",
+      "feature_name": "Child - age_at_weaning_days",
+      "description": "Child health indicator: age_at_weaning_days",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0273",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0274",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0275",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0276",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0277",
+      "feature_name": "Cooking - charcoal_use",
+      "description": "Use of charcoal as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0278",
+      "feature_name": "Hours per week using LPG",
+      "description": "Hours per week using LPG for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0279",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0280",
+      "feature_name": "composting_organics practice",
+      "description": "Household practice: composting organics (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0281",
+      "feature_name": "turbidity_NTU level (lab)",
+      "description": "Lab-measured turbidity/ NTU in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0282",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0283",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0284",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0285",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0286",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0287",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0288",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0289",
+      "feature_name": "Cooking - dung_use",
+      "description": "Use of dung as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0290",
+      "feature_name": "Hours per week using crop_residue",
+      "description": "Hours per week using crop_residue for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0291",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0292",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0293",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0294",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0295",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0296",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0297",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0298",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0299",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0300",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0301",
+      "feature_name": "Cooking - kerosene_use",
+      "description": "Use of kerosene as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0302",
+      "feature_name": "Hours per week using wood",
+      "description": "Hours per week using wood for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0303",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0304",
+      "feature_name": "segregation_plastic practice",
+      "description": "Household practice: segregation plastic (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0305",
+      "feature_name": "nitrate_mg_l level (lab)",
+      "description": "Lab-measured nitrate/ mg/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0306",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0307",
+      "feature_name": "transferrin_mg_dl (lab)",
+      "description": "Laboratory marker: transferrin_mg_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0308",
+      "feature_name": "Child - stunting_z score",
+      "description": "Child health indicator: stunting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0309",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0310",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0311",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0312",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0313",
+      "feature_name": "Cooking - LPG_use",
+      "description": "Use of LPG as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0314",
+      "feature_name": "Hours per week using electricity",
+      "description": "Hours per week using electricity for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0315",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0316",
+      "feature_name": "burning practice",
+      "description": "Household practice: burning (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0317",
+      "feature_name": "coliforms_cfu100ml level (lab)",
+      "description": "Lab-measured coliforms/ cfu100ml in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0318",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0319",
+      "feature_name": "urinary_sodium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_sodium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0320",
+      "feature_name": "Child - underweight_z score",
+      "description": "Child health indicator: underweight_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0321",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0322",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0323",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0324",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0325",
+      "feature_name": "Cooking - crop_residue_use",
+      "description": "Use of crop_residue as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0326",
+      "feature_name": "Hours per week using charcoal",
+      "description": "Hours per week using charcoal for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0327",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0328",
+      "feature_name": "collecting_for_recycling practice",
+      "description": "Household practice: collecting for recycling (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0329",
+      "feature_name": "lead_ug_l level (lab)",
+      "description": "Lab-measured lead/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0330",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0331",
+      "feature_name": "serum_albumin_g_dl (lab)",
+      "description": "Laboratory marker: serum_albumin_g_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0332",
+      "feature_name": "Child - age_at_weaning_days",
+      "description": "Child health indicator: age_at_weaning_days",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0333",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0334",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0335",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0336",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0337",
+      "feature_name": "Cooking - wood_use",
+      "description": "Use of wood as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0338",
+      "feature_name": "Hours per week using dung",
+      "description": "Hours per week using dung for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0339",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0340",
+      "feature_name": "composting_organics practice",
+      "description": "Household practice: composting organics (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0341",
+      "feature_name": "turbidity_NTU level (lab)",
+      "description": "Lab-measured turbidity/ NTU in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0342",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0343",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0344",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0345",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0346",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0347",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0348",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0349",
+      "feature_name": "Cooking - electricity_use",
+      "description": "Use of electricity as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0350",
+      "feature_name": "Hours per week using kerosene",
+      "description": "Hours per week using kerosene for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0351",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0352",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0353",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0354",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0355",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0356",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0357",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0358",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0359",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0360",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0361",
+      "feature_name": "Cooking - charcoal_use",
+      "description": "Use of charcoal as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0362",
+      "feature_name": "Hours per week using LPG",
+      "description": "Hours per week using LPG for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0363",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0364",
+      "feature_name": "segregation_plastic practice",
+      "description": "Household practice: segregation plastic (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0365",
+      "feature_name": "nitrate_mg_l level (lab)",
+      "description": "Lab-measured nitrate/ mg/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0366",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0367",
+      "feature_name": "transferrin_mg_dl (lab)",
+      "description": "Laboratory marker: transferrin_mg_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0368",
+      "feature_name": "Child - stunting_z score",
+      "description": "Child health indicator: stunting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0369",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0370",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0371",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0372",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0373",
+      "feature_name": "Cooking - dung_use",
+      "description": "Use of dung as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0374",
+      "feature_name": "Hours per week using crop_residue",
+      "description": "Hours per week using crop_residue for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0375",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0376",
+      "feature_name": "burning practice",
+      "description": "Household practice: burning (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0377",
+      "feature_name": "coliforms_cfu100ml level (lab)",
+      "description": "Lab-measured coliforms/ cfu100ml in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0378",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0379",
+      "feature_name": "urinary_sodium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_sodium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0380",
+      "feature_name": "Child - underweight_z score",
+      "description": "Child health indicator: underweight_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0381",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0382",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0383",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0384",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0385",
+      "feature_name": "Cooking - kerosene_use",
+      "description": "Use of kerosene as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0386",
+      "feature_name": "Hours per week using wood",
+      "description": "Hours per week using wood for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0387",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0388",
+      "feature_name": "collecting_for_recycling practice",
+      "description": "Household practice: collecting for recycling (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0389",
+      "feature_name": "lead_ug_l level (lab)",
+      "description": "Lab-measured lead/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0390",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0391",
+      "feature_name": "serum_albumin_g_dl (lab)",
+      "description": "Laboratory marker: serum_albumin_g_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0392",
+      "feature_name": "Child - age_at_weaning_days",
+      "description": "Child health indicator: age_at_weaning_days",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0393",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0394",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0395",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0396",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0397",
+      "feature_name": "Cooking - LPG_use",
+      "description": "Use of LPG as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0398",
+      "feature_name": "Hours per week using electricity",
+      "description": "Hours per week using electricity for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0399",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0400",
+      "feature_name": "composting_organics practice",
+      "description": "Household practice: composting organics (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0401",
+      "feature_name": "turbidity_NTU level (lab)",
+      "description": "Lab-measured turbidity/ NTU in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0402",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0403",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0404",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0405",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0406",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0407",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0408",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0409",
+      "feature_name": "Cooking - crop_residue_use",
+      "description": "Use of crop_residue as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0410",
+      "feature_name": "Hours per week using charcoal",
+      "description": "Hours per week using charcoal for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0411",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0412",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0413",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0414",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0415",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0416",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0417",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0418",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0419",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0420",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0421",
+      "feature_name": "Cooking - wood_use",
+      "description": "Use of wood as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0422",
+      "feature_name": "Hours per week using dung",
+      "description": "Hours per week using dung for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0423",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0424",
+      "feature_name": "segregation_plastic practice",
+      "description": "Household practice: segregation plastic (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0425",
+      "feature_name": "nitrate_mg_l level (lab)",
+      "description": "Lab-measured nitrate/ mg/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0426",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0427",
+      "feature_name": "transferrin_mg_dl (lab)",
+      "description": "Laboratory marker: transferrin_mg_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0428",
+      "feature_name": "Child - stunting_z score",
+      "description": "Child health indicator: stunting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0429",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0430",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0431",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0432",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0433",
+      "feature_name": "Cooking - electricity_use",
+      "description": "Use of electricity as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0434",
+      "feature_name": "Hours per week using kerosene",
+      "description": "Hours per week using kerosene for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0435",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0436",
+      "feature_name": "burning practice",
+      "description": "Household practice: burning (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0437",
+      "feature_name": "coliforms_cfu100ml level (lab)",
+      "description": "Lab-measured coliforms/ cfu100ml in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0438",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0439",
+      "feature_name": "urinary_sodium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_sodium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0440",
+      "feature_name": "Child - underweight_z score",
+      "description": "Child health indicator: underweight_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0441",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0442",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0443",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0444",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0445",
+      "feature_name": "Cooking - charcoal_use",
+      "description": "Use of charcoal as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0446",
+      "feature_name": "Hours per week using LPG",
+      "description": "Hours per week using LPG for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0447",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0448",
+      "feature_name": "collecting_for_recycling practice",
+      "description": "Household practice: collecting for recycling (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0449",
+      "feature_name": "lead_ug_l level (lab)",
+      "description": "Lab-measured lead/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0450",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0451",
+      "feature_name": "serum_albumin_g_dl (lab)",
+      "description": "Laboratory marker: serum_albumin_g_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0452",
+      "feature_name": "Child - age_at_weaning_days",
+      "description": "Child health indicator: age_at_weaning_days",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0453",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0454",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0455",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0456",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0457",
+      "feature_name": "Cooking - dung_use",
+      "description": "Use of dung as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0458",
+      "feature_name": "Hours per week using crop_residue",
+      "description": "Hours per week using crop_residue for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0459",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0460",
+      "feature_name": "composting_organics practice",
+      "description": "Household practice: composting organics (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0461",
+      "feature_name": "turbidity_NTU level (lab)",
+      "description": "Lab-measured turbidity/ NTU in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0462",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0463",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0464",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0465",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0466",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0467",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0468",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0469",
+      "feature_name": "Cooking - kerosene_use",
+      "description": "Use of kerosene as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0470",
+      "feature_name": "Hours per week using wood",
+      "description": "Hours per week using wood for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0471",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0472",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0473",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0474",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0475",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0476",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0477",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0478",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0479",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0480",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0481",
+      "feature_name": "Cooking - LPG_use",
+      "description": "Use of LPG as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0482",
+      "feature_name": "Hours per week using electricity",
+      "description": "Hours per week using electricity for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0483",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0484",
+      "feature_name": "segregation_plastic practice",
+      "description": "Household practice: segregation plastic (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0485",
+      "feature_name": "nitrate_mg_l level (lab)",
+      "description": "Lab-measured nitrate/ mg/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0486",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0487",
+      "feature_name": "transferrin_mg_dl (lab)",
+      "description": "Laboratory marker: transferrin_mg_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0488",
+      "feature_name": "Child - stunting_z score",
+      "description": "Child health indicator: stunting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0489",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0490",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0491",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0492",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0493",
+      "feature_name": "Cooking - crop_residue_use",
+      "description": "Use of crop_residue as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0494",
+      "feature_name": "Hours per week using charcoal",
+      "description": "Hours per week using charcoal for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0495",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0496",
+      "feature_name": "burning practice",
+      "description": "Household practice: burning (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0497",
+      "feature_name": "coliforms_cfu100ml level (lab)",
+      "description": "Lab-measured coliforms/ cfu100ml in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0498",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0499",
+      "feature_name": "urinary_sodium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_sodium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0500",
+      "feature_name": "Child - underweight_z score",
+      "description": "Child health indicator: underweight_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0501",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0502",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0503",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0504",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0505",
+      "feature_name": "Cooking - wood_use",
+      "description": "Use of wood as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0506",
+      "feature_name": "Hours per week using dung",
+      "description": "Hours per week using dung for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0507",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0508",
+      "feature_name": "collecting_for_recycling practice",
+      "description": "Household practice: collecting for recycling (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0509",
+      "feature_name": "lead_ug_l level (lab)",
+      "description": "Lab-measured lead/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0510",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0511",
+      "feature_name": "serum_albumin_g_dl (lab)",
+      "description": "Laboratory marker: serum_albumin_g_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0512",
+      "feature_name": "Child - age_at_weaning_days",
+      "description": "Child health indicator: age_at_weaning_days",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0513",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0514",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0515",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0516",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0517",
+      "feature_name": "Cooking - electricity_use",
+      "description": "Use of electricity as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0518",
+      "feature_name": "Hours per week using kerosene",
+      "description": "Hours per week using kerosene for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0519",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0520",
+      "feature_name": "composting_organics practice",
+      "description": "Household practice: composting organics (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0521",
+      "feature_name": "turbidity_NTU level (lab)",
+      "description": "Lab-measured turbidity/ NTU in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0522",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0523",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0524",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0525",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0526",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0527",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0528",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0529",
+      "feature_name": "Cooking - charcoal_use",
+      "description": "Use of charcoal as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0530",
+      "feature_name": "Hours per week using LPG",
+      "description": "Hours per week using LPG for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0531",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0532",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0533",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0534",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0535",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0536",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0537",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0538",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0539",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0540",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0541",
+      "feature_name": "Cooking - dung_use",
+      "description": "Use of dung as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0542",
+      "feature_name": "Hours per week using crop_residue",
+      "description": "Hours per week using crop_residue for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0543",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0544",
+      "feature_name": "segregation_plastic practice",
+      "description": "Household practice: segregation plastic (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0545",
+      "feature_name": "nitrate_mg_l level (lab)",
+      "description": "Lab-measured nitrate/ mg/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0546",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0547",
+      "feature_name": "transferrin_mg_dl (lab)",
+      "description": "Laboratory marker: transferrin_mg_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0548",
+      "feature_name": "Child - stunting_z score",
+      "description": "Child health indicator: stunting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0549",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0550",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0551",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0552",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0553",
+      "feature_name": "Cooking - kerosene_use",
+      "description": "Use of kerosene as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0554",
+      "feature_name": "Hours per week using wood",
+      "description": "Hours per week using wood for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0555",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0556",
+      "feature_name": "burning practice",
+      "description": "Household practice: burning (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0557",
+      "feature_name": "coliforms_cfu100ml level (lab)",
+      "description": "Lab-measured coliforms/ cfu100ml in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0558",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0559",
+      "feature_name": "urinary_sodium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_sodium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0560",
+      "feature_name": "Child - underweight_z score",
+      "description": "Child health indicator: underweight_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0561",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0562",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0563",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0564",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0565",
+      "feature_name": "Cooking - LPG_use",
+      "description": "Use of LPG as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0566",
+      "feature_name": "Hours per week using electricity",
+      "description": "Hours per week using electricity for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0567",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0568",
+      "feature_name": "collecting_for_recycling practice",
+      "description": "Household practice: collecting for recycling (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0569",
+      "feature_name": "lead_ug_l level (lab)",
+      "description": "Lab-measured lead/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0570",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0571",
+      "feature_name": "serum_albumin_g_dl (lab)",
+      "description": "Laboratory marker: serum_albumin_g_dl",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0572",
+      "feature_name": "Child - age_at_weaning_days",
+      "description": "Child health indicator: age_at_weaning_days",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0573",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0574",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0575",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0576",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0577",
+      "feature_name": "Cooking - crop_residue_use",
+      "description": "Use of crop_residue as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0578",
+      "feature_name": "Hours per week using charcoal",
+      "description": "Hours per week using charcoal for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0579",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0580",
+      "feature_name": "composting_organics practice",
+      "description": "Household practice: composting organics (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0581",
+      "feature_name": "turbidity_NTU level (lab)",
+      "description": "Lab-measured turbidity/ NTU in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0582",
+      "feature_name": "vitamin_b12 (dietary estimate)",
+      "description": "Estimated daily vitamin_b12 intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0583",
+      "feature_name": "tsh_uIU_ml (lab)",
+      "description": "Laboratory marker: tsh_uIU_ml",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0584",
+      "feature_name": "Child - wasting_z score",
+      "description": "Child health indicator: wasting_z score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0585",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0586",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0587",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0588",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0589",
+      "feature_name": "Cooking - wood_use",
+      "description": "Use of wood as cooking fuel (binary/yes-no)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0590",
+      "feature_name": "Hours per week using dung",
+      "description": "Hours per week using dung for cooking/heating",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0591",
+      "feature_name": "Indoor PM2.5 - co_living_room",
+      "description": "Estimated indoor CO concentration in living_room (proxy or monitor)",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0592",
+      "feature_name": "burying practice",
+      "description": "Household practice: burying (binary)",
+      "datatype": "binary",
+      "merge_on": "household_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0593",
+      "feature_name": "arsenic_ug_l level (lab)",
+      "description": "Lab-measured arsenic/ ug/ l in household water",
+      "datatype": "numeric",
+      "merge_on": "household_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0594",
+      "feature_name": "protein (dietary estimate)",
+      "description": "Estimated daily protein intake per person",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IABR7EFL.DTA"
+    },
+    {
+      "id": "F0595",
+      "feature_name": "urinary_potassium_mmol_l (lab)",
+      "description": "Laboratory marker: urinary_potassium_mmol_l",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAMR7EFL.DTA"
+    },
+    {
+      "id": "F0596",
+      "feature_name": "Child - birth_weight_g",
+      "description": "Child health indicator: birth_weight_g",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAKR7EFL.DTA"
+    },
+    {
+      "id": "F0597",
+      "feature_name": "Women's - menstrual_regular",
+      "description": "Women's health variable: menstrual_regular",
+      "datatype": "categorical",
+      "merge_on": "person_id",
+      "source_file": "IAIR7EFL.DTA"
+    },
+    {
+      "id": "F0598",
+      "feature_name": "Elderly - activities_of_daily_living_score",
+      "description": "Elderly-specific measure: activities_of_daily_living_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IAHR7EFL.DTA"
+    },
+    {
+      "id": "F0599",
+      "feature_name": "phq9_score score",
+      "description": "Mental health screening score: phq9_score",
+      "datatype": "numeric",
+      "merge_on": "person_id",
+      "source_file": "IACR7EFL.DTA"
+    },
+    {
+      "id": "F0600",
+      "feature_name": "Household household_paint_lead_presence exposure",
+      "description": "Household chemical exposure indicator: household_paint_lead_presence",
+      "datatype": "categorical",
+      "merge_on": "household_id",
+      "source_file": "IABR7EFL.DTA"
+    }
+  ],
+  "notes": "Features are synthetic templates built to reflect typical household survey variables related to environment, sustainable household practices and health biomarkers. 'source_file' indicates suggested dataset file where variable may be found; verify actual variable names when merging."
+}

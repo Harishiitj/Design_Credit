@@ -1,0 +1,6165 @@
+infix using "C:\COUNTRIES\IA7E\IAMR7EFL.dct"
+
+label variable mcaseid  "Case Identification"
+label variable mv000    "Country code and phase"
+label variable mv001    "Cluster number"
+label variable mv002    "Household number"
+label variable mv003    "Respondent's line number"
+label variable mv004    "Ultimate area unit"
+label variable mv005    "Men's sample weight (6 decimals)"
+label variable mv006    "Month of interview"
+label variable mv007    "Year of interview"
+label variable mv008    "Date of interview (CMC)"
+label variable mv008a   "Date of interview Century Day Code (CDC)"
+label variable mv009    "Month of birth"
+label variable mv010    "Year of birth"
+label variable mv011    "Date of birth (CMC)"
+label variable mv012    "Current age"
+label variable mv013    "Age in 5-year groups"
+label variable mv014    "Completeness of age information"
+label variable mv015    "Result of interview"
+label variable mv016    "Day of interview"
+label variable mv021    "Primary sampling unit"
+label variable mv022    "Sample stratum number"
+label variable mv023    "Sample domain"
+label variable mv024    "State"
+label variable mv025    "Type of place of residence"
+label variable mv026    "NA - De facto place of residence"
+label variable mv027    "Number of visits"
+label variable mv028    "Interviewer identification"
+label variable mv029    "NA - Keyer identification"
+label variable mv030    "Field supervisor"
+label variable mv031    "NA - Field editor"
+label variable mv032    "NA - Office editor"
+label variable mv034_1  "Line number of wife/partner"
+label variable mv034_2  "Line number of wife/partner"
+label variable mv034_3  "Line number of wife/partner"
+label variable mv034_4  "Line number of wife/partner"
+label variable mv034_5  "Line number of wife/partner"
+label variable mv034_6  "Line number of wife/partner"
+label variable mv034_7  "Line number of wife/partner"
+label variable mv034_8  "Line number of wife/partner"
+label variable mv034a_1 "NA - Wife or partner"
+label variable mv034a_2 "NA - Wife or partner"
+label variable mv034a_3 "NA - Wife or partner"
+label variable mv034a_4 "NA - Wife or partner"
+label variable mv034a_5 "NA - Wife or partner"
+label variable mv034a_6 "NA - Wife or partner"
+label variable mv034a_7 "NA - Wife or partner"
+label variable mv034a_8 "NA - Wife or partner"
+label variable mv034b_1 "Age of wife/partner"
+label variable mv034b_2 "Age of wife/partner"
+label variable mv034b_3 "Age of wife/partner"
+label variable mv034b_4 "Age of wife/partner"
+label variable mv034b_5 "Age of wife/partner"
+label variable mv034b_6 "Age of wife/partner"
+label variable mv034b_7 "Age of wife/partner"
+label variable mv034b_8 "Age of wife/partner"
+label variable mv035    "Number of wives/partners"
+label variable mv045a   "Language of questionnaire"
+label variable mv045b   "Language of interview"
+label variable mv045c   "Native language of respondent"
+label variable mv046    "Translator used"
+label variable mv801    "Time interview started (hhmm - 24 hour clock)"
+label variable mv802    "Time interview ended (hhmm - 24 hour clock)"
+label variable mv803    "Length of interview in minutes"
+label variable mv101    "Region"
+label variable mv102    "Type of place of residence"
+label variable mv103    "NA - Childhood place of residence"
+label variable mv104    "Years lived in place of residence"
+label variable mv105    "NA - Type of place of previous residence"
+label variable mv105a   "NA - Region of previous residence"
+label variable mv106    "Educational level"
+label variable mv107    "Highest year of education (at level in MV106)"
+label variable mv130    "Religion"
+label variable mv131    "Ethnicity"
+label variable mv133    "Total number of years of education"
+label variable mv134    "NA - De facto place of residence"
+label variable mv135    "Usual resident or visitor"
+label variable mv136    "Number of household members (total listed)"
+label variable mv138    "Number of eligible men in household (de facto)"
+label variable mv149    "Educational attainment"
+label variable mv150    "Relationship to household head"
+label variable mv151    "Sex of household head"
+label variable mv152    "Age of household head"
+label variable mv155    "Literacy"
+label variable mv156    "NA - Ever participated in a literacy program (excluding primary school)"
+label variable mv157    "Frequency of reading newspaper or magazine"
+label variable mv158    "Frequency of listening to radio"
+label variable mv159    "Frequency of watching television"
+label variable mv167    "NA - Times away from home in last 12 months"
+label variable mv168    "Away for more than one month in last 12 months"
+label variable mv169a   "Owns a mobile telephone"
+label variable mv169b   "Use mobile telephone for financial transactions"
+label variable mv170    "Has an account in a bank or other financial institution"
+label variable mv171a   "Use of internet"
+label variable mv171b   "NA - Frequency of using internet last month"
+label variable mv190    "Wealth index combined"
+label variable mv191    "Wealth index factor score combined (5 decimals)"
+label variable mv190a   "Wealth index for urban/rural"
+label variable mv191a   "Wealth index factor score for urban/rural (5 decimals)"
+label variable mv201    "Total children ever born"
+label variable mv202    "Sons at home"
+label variable mv203    "Daughters at home"
+label variable mv204    "Sons elsewhere"
+label variable mv205    "Daughters elsewhere"
+label variable mv206    "Sons who have died"
+label variable mv207    "Daughters who have died"
+label variable mv212    "Age of respondent at 1st birth"
+label variable mv213    "Partner currently pregnant"
+label variable mv217    "Knowledge of ovulatory cycle"
+label variable mv218    "Number of living children"
+label variable mv225    "NA - Most recent pregnancy wanted"
+label variable mv245    "NA - Number of women fathered children with"
+label variable mv246    "NA - Married to mother when first child was born"
+label variable mv247    "Age of most recent child"
+label variable mv248    "Antenatal check-ups for the mother of most recent child"
+label variable mv249    "Respondent present during check-ups for most recent child"
+label variable mv250    "Place of birth of most recent child"
+label variable mv251    "Reason for not delivering most recent child in health facility"
+label variable mv252    "Amount a child should drink, when that child has diarrhea"
+label variable mv301    "Knowledge of any contraceptive method"
+label variable mv302    "NA - Ever use of any contraceptive method"
+label variable m304a_01 "Type of contraceptive method"
+label variable m304a_02 "Type of contraceptive method"
+label variable m304a_03 "Type of contraceptive method"
+label variable m304a_04 "Type of contraceptive method"
+label variable m304a_05 "Type of contraceptive method"
+label variable m304a_06 "Type of contraceptive method"
+label variable m304a_07 "Type of contraceptive method"
+label variable m304a_08 "Type of contraceptive method"
+label variable m304a_09 "Type of contraceptive method"
+label variable m304a_10 "Type of contraceptive method"
+label variable m304a_11 "Type of contraceptive method"
+label variable m304a_12 "Type of contraceptive method"
+label variable m304a_13 "Type of contraceptive method"
+label variable m304a_14 "Type of contraceptive method"
+label variable m304a_15 "Type of contraceptive method"
+label variable m304a_16 "Type of contraceptive method"
+label variable m304a_17 "Type of contraceptive method"
+label variable m304a_18 "Type of contraceptive method"
+label variable m304a_19 "Type of contraceptive method"
+label variable m304a_20 "Type of contraceptive method"
+label variable mv304_01 "Knows contraceptive method"
+label variable mv304_02 "Knows contraceptive method"
+label variable mv304_03 "Knows contraceptive method"
+label variable mv304_04 "Knows contraceptive method"
+label variable mv304_05 "Knows contraceptive method"
+label variable mv304_06 "Knows contraceptive method"
+label variable mv304_07 "Knows contraceptive method"
+label variable mv304_08 "Knows contraceptive method"
+label variable mv304_09 "Knows contraceptive method"
+label variable mv304_10 "Knows contraceptive method"
+label variable mv304_11 "Knows contraceptive method"
+label variable mv304_12 "Knows contraceptive method"
+label variable mv304_13 "Knows contraceptive method"
+label variable mv304_14 "Knows contraceptive method"
+label variable mv304_15 "Knows contraceptive method"
+label variable mv304_16 "Knows contraceptive method"
+label variable mv304_17 "Knows contraceptive method"
+label variable mv304_18 "Knows contraceptive method"
+label variable mv304_19 "Knows contraceptive method"
+label variable mv304_20 "Knows contraceptive method"
+label variable mv305_01 "NA - Ever used contraceptive method"
+label variable mv305_02 "NA - Ever used contraceptive method"
+label variable mv305_03 "NA - Ever used contraceptive method"
+label variable mv305_04 "NA - Ever used contraceptive method"
+label variable mv305_05 "NA - Ever used contraceptive method"
+label variable mv305_06 "NA - Ever used contraceptive method"
+label variable mv305_07 "NA - Ever used contraceptive method"
+label variable mv305_08 "NA - Ever used contraceptive method"
+label variable mv305_09 "NA - Ever used contraceptive method"
+label variable mv305_10 "NA - Ever used contraceptive method"
+label variable mv305_11 "NA - Ever used contraceptive method"
+label variable mv305_12 "NA - Ever used contraceptive method"
+label variable mv305_13 "NA - Ever used contraceptive method"
+label variable mv305_14 "NA - Ever used contraceptive method"
+label variable mv305_15 "NA - Ever used contraceptive method"
+label variable mv305_16 "NA - Ever used contraceptive method"
+label variable mv305_17 "NA - Ever used contraceptive method"
+label variable mv305_18 "NA - Ever used contraceptive method"
+label variable mv305_19 "NA - Ever used contraceptive method"
+label variable mv305_20 "NA - Ever used contraceptive method"
+label variable mv307_01 "Contraceptive method currently used"
+label variable mv307_02 "Contraceptive method currently used"
+label variable mv307_03 "Contraceptive method currently used"
+label variable mv307_04 "Contraceptive method currently used"
+label variable mv307_05 "Contraceptive method currently used"
+label variable mv307_06 "Contraceptive method currently used"
+label variable mv307_07 "Contraceptive method currently used"
+label variable mv307_08 "Contraceptive method currently used"
+label variable mv307_09 "Contraceptive method currently used"
+label variable mv307_10 "Contraceptive method currently used"
+label variable mv307_11 "Contraceptive method currently used"
+label variable mv307_12 "Contraceptive method currently used"
+label variable mv307_13 "Contraceptive method currently used"
+label variable mv307_14 "Contraceptive method currently used"
+label variable mv307_15 "Contraceptive method currently used"
+label variable mv307_16 "Contraceptive method currently used"
+label variable mv307_17 "Contraceptive method currently used"
+label variable mv307_18 "Contraceptive method currently used"
+label variable mv307_19 "Contraceptive method currently used"
+label variable mv307_20 "Contraceptive method currently used"
+label variable mv312    "Current contraceptive method"
+label variable mv313    "Current contraceptive by method type"
+label variable mv323a   "Brand of condom used"
+label variable mv325b   "NA - Cost of condoms (in CURRENCY) last time obtained"
+label variable mv372a   "NA - Interviewer shown condom package"
+label variable mv384a   "On radio heard about Family Planning in the last few months"
+label variable mv384b   "On TV saw about Family Planning in the last few months"
+label variable mv384c   "In newspaper read about Family Planning in the last few months"
+label variable mv384d   "NA - Heard family planning by text messages on mobile phone"
+label variable mv395    "Discussed Family Planning with health worker in last few months"
+label variable mv396    "NA - Possible for a breastfeeding woman to get pregnant"
+label variable mv396a   "Can women get pregnant after birth of a child before period return"
+label variable mv3a00y  "NA - Source of family planning for non-users: no source"
+label variable mv3a00z  "NA - Source of family planning for non-users: any source"
+label variable mv3a09b  "Number of condoms did get last time"
+label variable mv3b17   "Source of condoms"
+label variable mv3b25a  "Contraception is woman's business, man should not worry"
+label variable mv3b25b  "Women who use contraception become promiscuous"
+label variable mv463a   "Smokes cigarettes"
+label variable mv463b   "Smokes pipe"
+label variable mv463c   "Uses chewing tobacco"
+label variable mv463d   "Uses snuff"
+label variable mv463e   "Smokes CIGAR"
+label variable mv463f   "Smokes HOOKAH"
+label variable mv463g   "Smokes GUTKHA/PAAH MASALA WITH TOBACCO"
+label variable mv463x   "Smokes/uses other"
+label variable mv463z   "Smokes nothing"
+label variable mv463aa  "NA - Frequency currently smokes tobacco"
+label variable mv463ab  "Frequency currently uses smokeless tobacco"
+label variable mv463ac  "NA - In the past smoked tobacco every day"
+label variable mv463ad  "NA - Frequency in the past smoked tobacco"
+label variable mv464    "Number of cigarettes in last 24 hours"
+label variable mv464a   "NA - On average respondent smokes daily: manufactured cigarettes"
+label variable mv464b   "NA - On average respondent smokes daily: hand roll cigarettes"
+label variable mv464c   "NA - On average respondent smokes daily: kreteks"
+label variable mv464d   "NA - On average respondent smokes daily: pipes full of tobacco"
+label variable mv464e   "NA - On average respondent smokes daily: cigars, cheroots, cigarillos"
+label variable mv464f   "NA - On average respondent smokes daily: water pipe sessions"
+label variable mv464g   "NA - On average respondent smokes daily: others"
+label variable mv464h   "NA - On average respondent uses daily: snuff by mouth"
+label variable mv464i   "NA - On average respondent uses daily: snuff by nose"
+label variable mv464j   "NA - On average respondent uses daily: chewing tobacco"
+label variable mv464k   "NA - On average respondent uses daily: betel quid with tobacco"
+label variable mv464l   "NA - On average respondent uses daily: any others"
+label variable mv474    "Heard of tuberculosis or TB"
+label variable mv474a   "Tuberculosis spread by: air through coughing or sneezing"
+label variable mv474b   "Tuberculosis spread by: sharing utensils"
+label variable mv474c   "Tuberculosis spread by: touching a person with TB"
+label variable mv474d   "Tuberculosis spread by: food"
+label variable mv474e   "Tuberculosis spread by: sexual contact"
+label variable mv474f   "Tuberculosis spread by: mosquito bites"
+label variable mv474g   "NA - Tuberculosis spread by: CS"
+label variable mv474h   "NA - Tuberculosis spread by: CS"
+label variable mv474i   "NA - Tuberculosis spread by: CS"
+label variable mv474j   "NA - Tuberculosis spread by: CS"
+label variable mv474x   "Tuberculosis spread by: other"
+label variable mv474z   "Don't know how tuberculosis is spread"
+label variable mv475    "Tuberculosis can be cured"
+label variable mv476    "Would want tuberculosis infection in family to remain secret"
+label variable mv477    "Number of injections in last 12 months"
+label variable mv478    "NA - Number of injections administered by a health worker"
+label variable mv479    "NA - Place where given injection by health worker"
+label variable mv480    "Syringe and needle from new, unopened package"
+label variable mv481    "Covered by health insurance"
+label variable mv481a   "Health insurance type: employee state insurance scheme ( ESIS )"
+label variable mv481b   "Health insurance type: central government health scheme ( CGHS )"
+label variable mv481c   "Health insurance type: state health insurance scheme"
+label variable mv481d   "Health insurance type: RASHTRIYA SWASTHYA BIMA YOJANA ( RSBY )"
+label variable mv481e   "Health insurance type: community health insurance programme"
+label variable mv481f   "Health insurance type: other health insurance through employer"
+label variable mv481g   "Health insurance type: medical reimbursement from employer"
+label variable mv481h   "Health insurance type: other privately purchased commercial health insurance"
+label variable mv481x   "Health insurance type: other"
+label variable mv482a   "NA - Arrange care of biological children under age 18"
+label variable mv482b   "NA - Primary caregiver of children under age 18"
+label variable mv482c   "NA - Arrange care of non-biological children < 18"
+label variable mv483    "Respondent circumcised"
+label variable mv483a   "NA - Age at circumcision"
+label variable mv483b   "NA - Who performed the circumcision"
+label variable mv483c   "NA - Place where circumcision was done"
+label variable mv484a   "NA - On average respondent smokes weekly: manufactured cigarettes"
+label variable mv484b   "NA - On average respondent smokes weekly: hand roll cigarettes"
+label variable mv484c   "NA - On average respondent smokes weekly: kreteks"
+label variable mv484d   "NA - On average respondent smokes weekly: pipes full of tobacco"
+label variable mv484e   "NA - On average respondent smokes weekly: cigars, cheroots, cigarillos"
+label variable mv484f   "NA - On average respondent smokes weekly: water pipe sessions"
+label variable mv484g   "NA - On average respondent smokes weekly: others"
+label variable mv484h   "NA - On average respondent uses weekly: snuff by mouth"
+label variable mv484i   "NA - On average respondent uses weekly: snuff by nose"
+label variable mv484j   "NA - On average respondent uses weekly: chewing tobacco"
+label variable mv484k   "NA - On average respondent uses weekly: betel quid with tobacco"
+label variable mv484l   "NA - On average respondent uses weekly: any others"
+label variable mv501    "Current marital status"
+label variable mv502    "Currently/formerly/never in union"
+label variable mv503    "Number of unions"
+label variable mv504    "Currently residing with wife/partner"
+label variable mv505    "Number of wives/partners"
+label variable mv507    "Month of first cohabitation"
+label variable mv508    "Year of first cohabitation"
+label variable mv509    "Date of first cohabitation (CMC)"
+label variable mv510    "Completeness of date information in MV509"
+label variable mv511    "Age at first cohabitation"
+label variable mv512    "Years since first cohabitation"
+label variable mv513    "Cohabitation duration (grouped)"
+label variable mv525    "Age at first sex"
+label variable mv527    "Time since last sex"
+label variable mv528    "Time since last sex (in days)"
+label variable mv529    "Time since last sex (in months)"
+label variable mv531    "Age at first sex (imputed)"
+label variable mv532    "Flag for MV531"
+label variable mv535    "Ever been married or in union"
+label variable mv536    "Recent sexual activity"
+label variable mv541    "NA - Intends to wait until marriage to have sex"
+label variable mv602    "Fertility preference"
+label variable mv603    "Preferred waiting time for birth of a/another child"
+label variable mv604    "Preferred waiting time for birth of a/another child (grouped)"
+label variable mv605    "Desire for more children"
+label variable mv613    "Ideal number of children"
+label variable mv614    "Ideal number of children (grouped)"
+label variable mv616    "Desired time for future birth"
+label variable mv621    "NA - Wife's desire for children"
+label variable mv627    "Ideal number of boys"
+label variable mv628    "Ideal number of girls"
+label variable mv629    "Ideal number of either sex"
+label variable mv631    "NA - Problem if wife became pregnant"
+label variable mv633a   "Wife justified refusing sex: husband has STI"
+label variable mv633b   "Wife justified refusing sex: husband has other women"
+label variable mv633c   "NA - Wife justified refusing sex: recent birth"
+label variable mv633d   "Wife justified refusing sex: tired, not in mood"
+label variable mv633e   "NA - Wife justified refusing sex: CS reason"
+label variable mv633f   "NA - Wife justified refusing sex: CS reason"
+label variable mv633g   "NA - Wife justified refusing sex: CS reason"
+label variable mv634a   "Wife refuses to have sex, husband has right to: get angry"
+label variable mv634b   "Wife refuses to have sex, husband has right to: refuse financial support"
+label variable mv634c   "Wife refuses to have sex, husband has right to: use force for sex"
+label variable mv634d   "Wife refuses to have sex, husband has right to: have sex with another women"
+label variable mv714    "Currently working"
+label variable mv714a   "Have a job, but currently absent"
+label variable mv716    "Occupation"
+label variable mv717    "Occupation (grouped)"
+label variable mv719    "NA - Works for family, others, self"
+label variable mv721    "NA - Works at home or away"
+label variable mv731    "Worked in last 12 months"
+label variable mv732    "Employment all year/seasonal"
+label variable mv739    "Person who usually decides how to spend respondent's earnings"
+label variable mv740    "NA - Type of land where respondent works"
+label variable mv741    "Type of earnings from respondent's work"
+label variable mv743a   "Person who should have greater say: respondent's health care"
+label variable mv743b   "Person who should have greater say: large household purchases"
+label variable mv743c   "NA - Person who should have greater say: daily household purchases"
+label variable mv743d   "NA - Person who should have greater say: visits to family or relatives"
+label variable mv743e   "NA - Person who should have greater say: food to be cooked each day"
+label variable mv743f   "NA - Person who should have greater say: deciding what to do with money wife ear"
+label variable mv743g   "NA - Person who should have greater say: deciding how many children to have"
+label variable mv744a   "Beating justified: wife goes out without telling husband"
+label variable mv744b   "Beating justified: wife neglects the children"
+label variable mv744c   "Beating justified: wife argues with husband"
+label variable mv744d   "Beating justified: wife refuses to have sex with husband"
+label variable mv744e   "Beating justified: wife burns food"
+label variable mv745a   "Owns a house alone or jointly"
+label variable mv745b   "Owns land alone or jointly"
+label variable mv745c   "NA - Title deed on house own by respondent"
+label variable mv745d   "NA - Title deed on land own by respondent"
+label variable mv747a   "NA - Childbearing is a woman's concern"
+label variable mv747b   "NA - Important for mother/child health to get assistance at delivery"
+label variable mv750    "Ever heard of a Sexually Transmitted Infection (STI)"
+label variable mv751    "Ever heard of AIDS"
+label variable mv754bp  "NA - Reduce risk of getting HIV: do not have sex at all"
+label variable mv754cp  "Reduce risk of getting HIV: always use condoms during sex"
+label variable mv754dp  "Reduce risk of getting HIV: have 1 sex partner only, who has no other partners"
+label variable mv754jp  "Can get HIV from mosquito bites"
+label variable mv754wp  "Can get HIV by sharing food with person who has AIDS"
+label variable mv756    "A healthy looking person can have HIV"
+label variable mv761    "Condom used during last sex with most recent partner"
+label variable mv761b   "Condom used during last sex with 2nd to most recent partner"
+label variable mv761c   "Condom used during last sex with 3rd to most recent partner"
+label variable mv762    "Source of condoms used for last sex"
+label variable mv762a   "Brand of condom used for last sex"
+label variable mv762aa  "Source for condoms: Government/ municipal hospital"
+label variable mv762ab  "Source for condoms: AYUSH"
+label variable mv762ac  "Source for condoms: Government dispensary"
+label variable mv762ad  "Source for condoms: UNC/ UHP/ UFWC"
+label variable mv762ae  "Source for condoms: CHC/ Rural hospital/ PHC"
+label variable mv762af  "Source for condoms: PHC/Additional PHC"
+label variable mv762ag  "Source for condoms: Sub-centre/ ANM"
+label variable mv762ah  "Source for condoms: Govt mobile clinic"
+label variable mv762ai  "Source for condoms: other public medical sector"
+label variable mv762aj  "Source for condoms: Private hospital/ clinic/ doctor"
+label variable mv762ak  "Source for condoms: Pharmacy/ Drugstore"
+label variable mv762al  "NA - Source for condoms: Private doctor"
+label variable mv762am  "Source for condoms: Private paramedic"
+label variable mv762an  "Source for condoms: Private mobile clinic"
+label variable mv762ao  "Source for condoms: Private AYUSH"
+label variable mv762ap  "Source for condoms: Traditional healer"
+label variable mv762aq  "Source for condoms: DAI (TBA)"
+label variable mv762ar  "Source for condoms: other private medical"
+label variable mv762as  "Source for condoms: Ration shop"
+label variable mv762at  "Source for condoms: other shop"
+label variable mv762au  "Source for condoms: Vending machine"
+label variable mv762av  "Source for condoms: NGO or Trust Hospital / Clinic"
+label variable mv762aw  "NA - Source for condoms: CS other"
+label variable mv762ax  "Source for condoms: other"
+label variable mv762az  "Don't know any source for condoms"
+label variable mv762ba  "NA - Source for female condoms: government hospital"
+label variable mv762bb  "NA - Source for female condoms: CS public"
+label variable mv762bc  "NA - Source for female condoms: CS public"
+label variable mv762bd  "NA - Source for female condoms: CS public"
+label variable mv762be  "NA - Source for female condoms: CS public"
+label variable mv762bf  "NA - Source for female condoms: CS public"
+label variable mv762bg  "NA - Source for female condoms: CS public"
+label variable mv762bh  "NA - Source for female condoms: CS public"
+label variable mv762bi  "NA - Source for female condoms: CS public"
+label variable mv762bj  "NA - Source for female condoms: private hospital/clinic"
+label variable mv762bk  "NA - Source for female condoms: pharmacy"
+label variable mv762bl  "NA - Source for female condoms: private doctor"
+label variable mv762bm  "NA - Source for female condoms: CS private"
+label variable mv762bn  "NA - Source for female condoms: CS private"
+label variable mv762bo  "NA - Source for female condoms: CS private"
+label variable mv762bp  "NA - Source for female condoms: CS private"
+label variable mv762bq  "NA - Source for female condoms: CS private"
+label variable mv762br  "NA - Source for female condoms: CS private"
+label variable mv762bs  "NA - Source for female condoms: CS other"
+label variable mv762bt  "NA - Source for female condoms: CS other"
+label variable mv762bu  "NA - Source for female condoms: CS other"
+label variable mv762bv  "NA - Source for female condoms: CS other"
+label variable mv762bw  "NA - Source for female condoms: CS other"
+label variable mv762bx  "NA - Source for female condoms: other"
+label variable mv762bz  "NA - Don't know any source for female condoms"
+label variable mv763a   "Had any STI in last 12 months"
+label variable mv763b   "Had genital sore/ulcer in last 12 months"
+label variable mv763c   "Had genital discharge in last 12 months"
+label variable mv763d   "NA - Had CS STI in last 12 months"
+label variable mv763e   "NA - Had CS STI in last 12 months"
+label variable mv763f   "NA - Had CS STI in last 12 months"
+label variable mv763g   "NA - Had CS STI in last 12 months"
+label variable mv766a   "Number of sex partners, excluding spouse, in last 12 months"
+label variable mv766b   "Number of sex partners, including spouse, in last 12 months"
+label variable mv767a   "Relationship with most recent sex partner"
+label variable mv767b   "Relationship with 2nd to most recent sex partner"
+label variable mv767c   "Relationship with 3rd to most recent sex partner"
+label variable mv768a   "NA - Length of time had sex relations with most recent partner"
+label variable mv768b   "NA - Length of time had sex relations with 2nd to most recent partner"
+label variable mv768c   "NA - Length of time had sex relations with 3rd to most recent partner"
+label variable mv769    "Can get a condom"
+label variable mv769a   "NA - Can get a female condom"
+label variable mv770    "Sought advice/treatment for last STI infection"
+label variable mv770a   "Sought STI advice/treatment from: government hospital"
+label variable mv770b   "Sought STI advice/treatment from: AYUSH"
+label variable mv770c   "Sought STI advice/treatment from: government health center"
+label variable mv770d   "Sought STI advice/treatment from: stand-alone ICTC"
+label variable mv770e   "Sought STI advice/treatment from: family planning clinic"
+label variable mv770f   "Sought STI advice/treatment from: mobile clinic"
+label variable mv770g   "Sought STI advice/treatment from: fieldworker"
+label variable mv770h   "Sought STI advice/treatment from: school based clinic"
+label variable mv770i   "Sought STI advice/treatment from: other public sector"
+label variable mv770j   "NA - Sought STI advice/treatment from: CS public"
+label variable mv770k   "Sought STI advice/treatment from: private hospital/clinic/doctor"
+label variable mv770l   "Sought STI advice/treatment from: NGO or trust hospital / clinic"
+label variable mv770m   "Sought STI advice/treatment from: AYUSH"
+label variable mv770n   "Sought STI advice/treatment from: stand-alone ICTC"
+label variable mv770o   "Sought STI advice/treatment from: pharmacy"
+label variable mv770p   "Sought STI advice/treatment from: mobile clinic"
+label variable mv770q   "Sought STI advice/treatment from: fieldworker"
+label variable mv770r   "Sought STI advice/treatment from: school based clinic"
+label variable mv770s   "Sought STI advice/treatment from: other private health"
+label variable mv770t   "Sought STI advice/treatment from: home"
+label variable mv770u   "Sought STI advice/treatment from: correctional facility"
+label variable mv770v   "NA - Sought STI advice/treatment from: CS other"
+label variable mv770w   "NA - Sought STI advice/treatment from: CS other"
+label variable mv770x   "Sought STI advice/treatment from: other"
+label variable mv774a   "HIV transmitted during pregnancy"
+label variable mv774b   "HIV transmitted during delivery"
+label variable mv774c   "HIV transmitted by breastfeeding"
+label variable mv775    "NA - Knows someone who has, or is suspected of having, HIV"
+label variable mv777    "Would want HIV infection in family to remain secret"
+label variable mv777a   "NA - Would be ashamed if someone in the family had HIV"
+label variable mv778    "Willing to care for relative with AIDS"
+label variable mv779    "A female teacher infected with HIV, but is not sick, should be allowed to contin"
+label variable mv780    "NA - Children should be taught about condoms to avoid AIDS"
+label variable mv781    "Ever been tested for HIV"
+label variable mv783    "Know a place to get HIV test"
+label variable mv784a   "Place for HIV test: government hospital"
+label variable mv784b   "Place for HIV test: government health center"
+label variable mv784c   "Place for HIV test: stand-alone ICTC"
+label variable mv784d   "Place for HIV test: family planning clinic"
+label variable mv784e   "Place for HIV test: mobile clinic"
+label variable mv784f   "Place for HIV test: fieldworker"
+label variable mv784g   "Place for HIV test: school based clinic"
+label variable mv784h   "Place for HIV test: other public sector"
+label variable mv784i   "NA - Place for HIV test: CS public"
+label variable mv784j   "NA - Place for HIV test: CS public"
+label variable mv784k   "Place for HIV test: private hospital/clinic/doctor"
+label variable mv784l   "Place for HIV test: NGO or Trust hospital / clinic"
+label variable mv784m   "Place for HIV test: stand-alone ICTC"
+label variable mv784n   "Place for HIV test: pharmacy"
+label variable mv784o   "Place for HIV test: mobile clinic"
+label variable mv784p   "Place for HIV test: fieldworker"
+label variable mv784q   "Place for HIV test: school based clinic"
+label variable mv784r   "Place for HIV test: other private health sector"
+label variable mv784s   "NA - Place for HIV test: CS private"
+label variable mv784t   "Place for HIV test: home"
+label variable mv784u   "Place for HIV test: correctional facility"
+label variable mv784v   "NA - Place for HIV test: CS other"
+label variable mv784x   "Place for HIV test: other"
+label variable mv785    "Heard about other STIs"
+label variable mv791    "Have ever paid anyone in exchange for sex"
+label variable mv791a   "NA - Last 12 months have given gifts or other goods to have sex"
+label variable mv791b   "NA - Have ever given gifts or other goods to have sex"
+label variable mv793    "Paid for sex in last 12 months"
+label variable mv793a   "Condom used last time paid for sex in last 12 months"
+label variable mv793b   "Condom used every time paid for sex in last 12 months"
+label variable mv820    "Condom used at first sex"
+label variable mv822    "Wife justified asking husband to use condom if he has STI"
+label variable mv823    "NA - Can get HIV by witchcraft or supernatural means"
+label variable mv824    "Drugs to avoid HIV transmission to baby during pregnancy"
+label variable mv825    "Would buy vegetables from vendor with HIV"
+label variable mv826    "Last time tested for HIV"
+label variable mv826a   "Months ago most recent HIV test"
+label variable mv827    "NA - Last HIV test: on your own, offered or required"
+label variable mv828    "Received result from last HIV test"
+label variable mv829    "Place where last HIV test was taken"
+label variable mv832b   "Time since last sex with 2nd to most recent partner"
+label variable mv832c   "Time since last sex with 3rd to most recent partner"
+label variable mv833a   "Used condom every time had sex with most recent partner in last 12 months"
+label variable mv833b   "Used condom every time had sex with 2nd to most recent partner in last 12 months"
+label variable mv833c   "Used condom every time had sex with 3rd to most recent partner in last 12 months"
+label variable mv834a   "Age of most recent partner"
+label variable mv834b   "Age of 2nd to most recent partner"
+label variable mv834c   "Age of 3rd to most recent partner"
+label variable mv835a   "NA - Alcohol consumption at last sex with most recent partner"
+label variable mv835b   "NA - Alcohol consumption at last sex with 2nd to most recent partner"
+label variable mv835c   "NA - Alcohol consumption at last sex with 3rd to most recent partner"
+label variable mv836    "Total lifetime number of sex partners"
+label variable mv837    "Heard of drugs to help HIV infected people live longer"
+label variable mv844    "NA - Knows someone denied health services for having, or suspected of having, HI"
+label variable mv845    "NA - Knows someone denied social event for having, or suspected of having, HIV; "
+label variable mv846    "NA - Knows someone verbally abused for having, or suspected of having, HIV; in l"
+label variable mv847    "NA - People with HIV should be ashamed of themselves"
+label variable mv848    "NA - People with HIV should be blamed for bringing disease to community"
+label variable mv849    "NA - Children 12-14 should be taught to wait for sex until marriage"
+label variable mv851a   "NA - Young men should wait for sex until marriage"
+label variable mv851b   "NA - Most young men wait for sex until marriage"
+label variable mv851c   "NA - Unmarried sexually active men should have only one partner"
+label variable mv851d   "NA - Most unmarried sexually active men have only one partner"
+label variable mv851e   "NA - Married men should only have sex with their wives"
+label variable mv851f   "NA - Most married men only have sex with their wives"
+label variable mv851g   "NA - Young women should wait for sex until marriage"
+label variable mv851h   "NA - Most young women wait for sex until marriage"
+label variable mv851i   "NA - Unmarried sexually active women should have only one partner"
+label variable mv851j   "NA - Most unmarried sexually active women have only one partner"
+label variable mv851k   "NA - Married women should only have sex with their husbands"
+label variable mv851l   "NA - Most married women only have sex with their husbands"
+label variable mv852a   "How long ago first had sex with most recent partner"
+label variable mv852b   "How long ago first had sex with 2nd most recent partner"
+label variable mv852c   "How long ago first had sex with 3rd most recent partner"
+label variable mv853a   "Times in last 12 months had sex with most recent partner"
+label variable mv853b   "Times in last 12 months had sex with 2nd most recent partner"
+label variable mv853c   "Times in last 12 months had sex with 3rd most recent partner"
+label variable mv854a   "NA - Concurrent sexual partners"
+label variable mv854b   "NA - Cumulative concurrent sexual partners"
+label variable mv856    "NA - Knowledge and use of HIV test kits"
+label variable mv857a   "NA - Children with HIV should be allowed to attend school with children without "
+label variable mv857b   "NA - People hesitate to take HIV test because reaction of other people if positi"
+label variable mv857c   "NA - People talk badly about people with or believed to have HIV"
+label variable mv857d   "NA - People with or believed to have HIV lose respect from other people"
+label variable mv858    "Would be afraid to get HIV from contact with saliva from infected person"
+label variable smweight "Sample weight (6 decimals) (state level)"
+label variable smdist   "District"
+label variable smphase  "Survey phase"
+label variable smsmod   "Household selected for the state module"
+label variable sm106    "In the last 12 months, have you been away from your home for six months or more "
+label variable sm115    "Do you usually go to a cinema hall or theatre to see a movie at least once a mon"
+label variable sm118    "Do you belong to a scheduled caste, a scheduled tribe, other backward class, or "
+label variable sm122    "What have you been doing for most of the time over the last 12 months"
+label variable sm126    "Do you own a mobile phone?"
+label variable sm127    "Do you use your mobile phone for any financial transactions?"
+label variable sm223m   "Date of getting married (month)"
+label variable sm223y   "Date of getting married (year)"
+label variable sm223c   "Date of getting married (cmc)"
+label variable sm224    "Age at first marriage"
+label variable sm128    "Do you have an account in a bank or other financial institution that you yoursel"
+label variable sm129    "Have you ever used the internet?"
+label variable sm210a   "Did all of the children you have fathered, have the same biological mother?"
+label variable sm213    "Currently in union"
+label variable sm219    "For how long have you not been living with your wife/any of your wives"
+label variable sm228    "Have you ever had sexual intercourse"
+label variable sm302    "Ever used any method"
+label variable sm303a   "Method used by respondent or partner: Female sterilization"
+label variable sm303b   "Method used by respondent or partner: Male sterilization"
+label variable sm303c   "Method used by respondent or partner: IUD/PPIUD"
+label variable sm303d   "Method used by respondent or partner: Injectables"
+label variable sm303e   "Method used by respondent or partner: Pill"
+label variable sm303f   "Method used by respondent or partner: Condom/nirodh"
+label variable sm303g   "Method used by respondent or partner: Female condom"
+label variable sm303h   "Method used by respondent or partner: Emergency contraception"
+label variable sm303i   "Method used by respondent or partner: Diaphragm"
+label variable sm303j   "Method used by respondent or partner: Foam/jelly"
+label variable sm303k   "Method used by respondent or partner: Standard Days Method"
+label variable sm303l   "Method used by respondent or partner: Lactational Amenorrhoea Method (LAM)"
+label variable sm303m   "Method used by respondent or partner: Rhythm"
+label variable sm303n   "Method used by respondent or partner: Withdrawal"
+label variable sm303x   "Method used by respondent or partner: Other modern method"
+label variable sm303y   "Method used by respondent or partner: Other traditional method"
+label variable sm305    "Facility sterilization took place"
+label variable sm306m   "Month started using male sterilization"
+label variable sm306y   "Year started using male sterilization"
+label variable sm306c   "Started using male sterilization (cmc)"
+label variable sm307    "Total paid for sterilization, including any consultation"
+label variable sm308    "Received compensation for sterilization"
+label variable sm309    "Amount of compensation recieved for sterilization"
+label variable sm310    "Regrets sterilization"
+label variable sm311d   "Seen family planning message on a wall painting or hoarding"
+label variable sm311f   "Seen family planning message on internet"
+label variable sm317    "Male condom protects against pregnancy, when used correctly"
+label variable sm318    "Knows place to obtain family planning method"
+label variable sm319a   "Place acquired contraception method: Public: Govt./Municipal Hospital"
+label variable sm319b   "Place acquired contraception method: Public: AYUSH"
+label variable sm319c   "Place acquired contraception method: Public: Govt. Dispensary"
+label variable sm319d   "Place acquired contraception method: Public: UHC/UHP/UFWC"
+label variable sm319e   "Place acquired contraception method: CHC/Rural Hospital/Block PHC"
+label variable sm319f   "Place acquired contraception method: Public: PHC/Additional PHC"
+label variable sm319g   "Place acquired contraception method: Public: Sub-Centre/ANM"
+label variable sm319h   "Place acquired contraception method: Public: Govt. Mobile Clinic"
+label variable sm319i   "Place acquired contraception method: Public: Camp"
+label variable sm319j   "Place acquired contraception method: Public: Anganwadi/ICDS Centre"
+label variable sm319k   "Place acquired contraception method: Public: ASHA"
+label variable sm319l   "Place acquired contraception method: Public: Other Community-Based Worker"
+label variable sm319m   "Place acquired contraception method: Other Public Health"
+label variable sm319n   "Place acquired contraception method: NGO or Trust Hospital/Clinic"
+label variable sm319o   "Place acquired contraception method: Private: Hospital"
+label variable sm319p   "Place acquired contraception method: Private: Doctor/Clinic"
+label variable sm319q   "Place acquired contraception method: Private: Mobile Clinic"
+label variable sm319r   "Place acquired contraception method: Private: AYUSH"
+label variable sm319s   "Place acquired contraception method: Private: Pharmacy / Drugstore"
+label variable sm319t   "Place acquired contraception method: Private: DAI (TBA)"
+label variable sm319u   "Place acquired contraception method: Private: Other Private health"
+label variable sm319v   "Place acquired contraception method: Traditional healer"
+label variable sm319w   "Place acquired contraception method: Shop"
+label variable sm319x   "Place acquired contraception method: Friend/Relative"
+label variable sm319y   "Place acquired contraception method: Other"
+label variable sm319aa  "Source of FP : Public: AYUSH: Ayurveda"
+label variable sm319ab  "Source of FP : Public: AYUSH: Yoga and naturopathy"
+label variable sm319ac  "Source of FP : Public: AYUSH: Unani"
+label variable sm319ad  "Source of FP : Public: AYUSH: Siddha"
+label variable sm319ae  "Source of FP : Public: AYUSH: Homeopathy"
+label variable sm319af  "Source of FP : Public: AYUSH: Sowa Rigpa (TTM)"
+label variable sm319ag  "Source of FP : Public: AYUSH: Other"
+label variable sm319ba  "Source of FP : Private: AYUSH: Ayurveda"
+label variable sm319bb  "Source of FP : Private: AYUSH: Yoga and naturopathy"
+label variable sm319bc  "Source of FP : Private: AYUSH: Unani"
+label variable sm319bd  "Source of FP : Private: AYUSH: Siddha"
+label variable sm319be  "Source of FP : Private: AYUSH: Homeopathy"
+label variable sm319bf  "Source of FP : Private: AYUSH: Sowa Rigpa (TTM)"
+label variable sm319bg  "Source of FP : Private: AYUSH: Other"
+label variable sm320    "Visited a health facility/camp in last three months, for any reason, respondent "
+label variable sm321    "Type of health facility visited most recently for respondent or child"
+label variable sm321a   "What type of health facility did you visit most recently for yourself (or for yo"
+label variable sm321b   "What type of health facility did you visit most recently for yourself (or for yo"
+label variable sm322a   "Service went for: Family planning"
+label variable sm322b   "Service went for: Immunization"
+label variable sm322c   "Service went for: Disease prevention"
+label variable sm322d   "Service went for: Medical treatment for self"
+label variable sm322e   "Service went for: Treatment for child"
+label variable sm322f   "Service went for: Treatment for other person"
+label variable sm322g   "Service went for: Growth monitoring of child"
+label variable sm322h   "Service went for: Health check-up"
+label variable sm322x   "Service went for: other"
+label variable sm324    "Line number from household of respondent's youngest child"
+label variable sm327    "Main reason did not have any antenatal check-up"
+label variable sm328a   "Told about sign of pregnancy complication: bleeding"
+label variable sm328b   "Told about sign of pregnancy complication: convulsion"
+label variable sm328c   "Told about sign of pregnancy complication: prolonged labour"
+label variable sm328d   "Told about sign of pregnancy complication: abdominal pain"
+label variable sm328e   "Told about sign of pregnancy complication: blood pressure"
+label variable sm329    "Told what to do if mother had pregnancy complication"
+label variable sm330a   "Health provider/worker spoke to respondent about delivery advice, during pregnan"
+label variable sm330b   "Health provider/worker spoke to respondent about nutritional advice, during preg"
+label variable sm330c   "Health provider/worker spoke to respondent about family planning, during pregnan"
+label variable sm332a   "Cord care explained to respondent, during pregnancy prior to child's birth"
+label variable sm332b   "Need to breastfeed explained to respondent, during pregnancy prior to child's bi"
+label variable sm332c   "Need to keep baby warm after birth explained to respondent, during pregnancy pri"
+label variable sm522    "Have you ever given any gifts or other goods in order to have sex or to become s"
+label variable sm523    "In the past 12 months have you given any gifts or other goods in order to have s"
+label variable sm527    "Person who obtained condom"
+label variable sm529    "Total paid last time obtained condoms"
+label variable sm530a   "Place obtained condom last time (public AYUSH)"
+label variable sm530b   "Place obtained condom last time (private AYUSH)"
+label variable sm531a   "Reason to use condom: Avoid pregnancy"
+label variable sm531b   "Reason to use condom: Avoid STD"
+label variable sm531c   "Reason to use condom: Some other reason"
+label variable sm533    "Used family planning during last intercourse"
+label variable sm537i   "Source for condoms: Public: Camp"
+label variable sm537j   "Source for condoms: Public: Anganwadi / ICDS Centre"
+label variable sm537k   "Source for condoms: Public: ASHA"
+label variable sm537l   "Source for condoms: Public: Other Community-Based Worker"
+label variable sm537aa  "Source for condoms: Public: AYUSH: Ayurveda"
+label variable sm537ab  "Source for condoms: Public: AYUSH: Yoga and naturopathy"
+label variable sm537ac  "Source for condoms: Public: AYUSH: Unani"
+label variable sm537ad  "Source for condoms: Public: AYUSH: Siddha"
+label variable sm537ae  "Source for condoms: Public: AYUSH: Homeopathy"
+label variable sm537af  "Source for condoms: Public: AYUSH: Sowa Rigpa (TTM)"
+label variable sm537ag  "Source for condoms: Public: AYUSH: Other"
+label variable sm537ba  "Source for condoms: Private: AYUSH: Ayurveda"
+label variable sm537bb  "Source for condoms: Private: AYUSH: Yoga and naturopathy"
+label variable sm537bc  "Source for condoms: Private: AYUSH: Unani"
+label variable sm537bd  "Source for condoms: Private: AYUSH: Siddha"
+label variable sm537be  "Source for condoms: Private: AYUSH: Homeopathy"
+label variable sm537bf  "Source for condoms: Private: AYUSH: Sowa Rigpa (TTM)"
+label variable sm537bg  "Source for condoms: Private: AYUSH: Other"
+label variable sm603    "Have you ever had a blood transfusion"
+label variable sm604    "Currently smokes cigarettes"
+label variable sm606    "For how long have you been smoking cigarettes regularly?"
+label variable sm607    "Do you currently smoke bidis"
+label variable sm608    "In the last 24 hours, how many bidis did you smoke"
+label variable sm609    "For how long have you been smoking bidis regularly?"
+label variable sm611e   "Uses KHAINI"
+label variable sm611f   "Uses PAN WITH TOBACCO"
+label variable sm613    "For how long have you been using smokeless tobacco regularly?"
+label variable sm615    "During the past 12 months, have you ever tried to stop smoking or using tobacco "
+label variable sm616    "In the last 12 months, have you visited a doctor or other health care provider"
+label variable sm617    "During any of these visits, were you advised to quit smoking or using tobacco in"
+label variable sm618    "In the last 30 days, did someone smoke in your home or anywhere else when you we"
+label variable sm619    "Do you drink alcohol"
+label variable sm620    "How often do you drink alcohol: almost every day, about once a week or less than"
+label variable sm621a   "Alcohol type: Tadi madi"
+label variable sm621b   "Alcohol type: Country liquor"
+label variable sm621c   "Alcohol type: Beer"
+label variable sm621d   "Alcohol type: Wine"
+label variable sm621e   "Alcohol type: Hard liquor"
+label variable sm621x   "Alcohol type: Other"
+label variable sm622    "For how long have you been consuming alcohol regularly?"
+label variable sm627a   "Do you currently have diabetes"
+label variable sm627ab  "Have you sought treatment for diabetes"
+label variable sm627b   "Do you currently have hypertension"
+label variable sm627bb  "Have you sought treatment for hypertension"
+label variable sm627c   "Do you currently have Chronic respitory diseases including Asthma"
+label variable sm627cb  "Have you sought treatment for Chronic respitory diseases including Asthma"
+label variable sm627d   "Do you currently have Goitre or any other thyroid disorder?"
+label variable sm627db  "Have you sought treatment for Goitre or any other thyroid disorder?"
+label variable sm627e   "Do you currently have Any heart disease?"
+label variable sm627eb  "Have you sought treatment for Any heart disease?"
+label variable sm627f   "Do you currently have cancer"
+label variable sm627fb  "Have you sought treatment for cancer"
+label variable sm627g   "Do you currently have chronic kidney disease"
+label variable sm627gb  "Have you sought treatment for chronic kidney disease"
+label variable sm630a   "Frequency takes milk or curd"
+label variable sm630b   "Frequency eats pulses or beans"
+label variable sm630c   "Frequency eats dark green leafy vegetable"
+label variable sm630d   "Frequency eats fruits"
+label variable sm630e   "Frequency eats eggs"
+label variable sm630f   "Frequency eats fish"
+label variable sm630g   "Frequency eats chicken or meat"
+label variable sm630h   "Frequency eats fried food"
+label variable sm630i   "Frequency takes aerated drinks"
+label variable sm701a   "Who do you think should have the greater say when making major household purchas"
+label variable sm701b   "Who do you think should have the greater say when making purchases for daily hou"
+label variable sm701c   "Who do you think should have the greater say when deciding what to do with the m"
+label variable sm701d   "Who do you think should have the greater say when deciding what to do with the m"
+label variable sm701e   "Who do you think should have the greater say when deciding how many children to "
+label variable sm706f   "Justifies domestic violence: Wife unfaithful"
+label variable sm706g   "Justifies domestic violence: Wife disrespect"
+label variable sm711    "Wife/wives currently employed for cash"
+label variable sm712    "Who decides how money earned by wife will be used"
+label variable sm714    "Amount of money earned: respondent vs. wife"
+label variable sm716    "Respondent's father ever beat mother"
+label variable sm801    "Ever heard of AIDS"
+label variable sm802    "Ever heard of HIV"
+label variable sm804a   "Source of information about AIDS: Radio"
+label variable sm804b   "Source of information about AIDS: Television"
+label variable sm804c   "Source of information about AIDS: Cinema"
+label variable sm804d   "Source of information about AIDS: Newspapers/magazines"
+label variable sm804e   "Source of information about AIDS: Posters/hoardings"
+label variable sm804f   "Source of information about AIDS: Exhibition/mela"
+label variable sm804g   "Source of information about AIDS: Health workers"
+label variable sm804h   "Source of information about AIDS: Adult education programme"
+label variable sm804i   "Source of information about AIDS: Religious leaders"
+label variable sm804j   "Source of information about AIDS: Political leaders"
+label variable sm804k   "Source of information about AIDS: School/teachers"
+label variable sm804l   "Source of information about AIDS: Community meetings"
+label variable sm804m   "Source of information about AIDS: Wife"
+label variable sm804n   "Source of information about AIDS: Friends/relatives"
+label variable sm804o   "Source of information about AIDS: Work place"
+label variable sm804p   "Source of information about AIDS: Internet"
+label variable sm804x   "Source of information about AIDS: other"
+label variable sm808    "Can people get HIV/AIDS by blood products or blood transfusion"
+label variable sm809    "Can people get HIV/AIDS by injecting drugs"
+label variable sm811    "Anything else a person can do to avoid or reduce the chances of getting HIV/AIDS"
+label variable sm812a   "Ways to avoid HIV/AIDS: Abstain from sex"
+label variable sm812b   "Ways to avoid HIV/AIDS: Use condoms"
+label variable sm812c   "Ways to avoid HIV/AIDS: Limit sex to one partner/stay faithful to one partner"
+label variable sm812d   "Ways to avoid HIV/AIDS: Limit number of sexual partners"
+label variable sm812e   "Ways to avoid HIV/AIDS: Avoid sex with sex workers"
+label variable sm812f   "Ways to avoid HIV/AIDS: Avoid sex with persons who have many partners"
+label variable sm812g   "Ways to avoid HIV/AIDS: Avoid sex with homosexuals"
+label variable sm812h   "Ways to avoid HIV/AIDS: Avoid sex with persons who inject drugs"
+label variable sm812i   "Ways to avoid HIV/AIDS: Avoid blood transfusions"
+label variable sm812j   "Ways to avoid HIV/AIDS: Use blood only from relatives"
+label variable sm812k   "Ways to avoid HIV/AIDS: Avoid injections"
+label variable sm812l   "Ways to avoid HIV/AIDS: Use only new/sterilized needles"
+label variable sm812m   "Ways to avoid HIV/AIDS: Avoid IV drip"
+label variable sm812n   "Ways to avoid HIV/AIDS: Avoid sharing razors/blades"
+label variable sm812o   "Ways to avoid HIV/AIDS: Avoid kissing"
+label variable sm812p   "Ways to avoid HIV/AIDS: Avoid mosquito bites"
+label variable sm812wx  "Ways to avoid HIV/AIDS: other"
+label variable sm812z   "Ways to avoid HIV/AIDS: Don't know"
+label variable sm826    "Do you think a child with HIV should be allowed to attend school with students w"
+label variable sm831    "In your opinion, if a male teacher has HIV/AIDS but is not sick, should he be al"
+label variable sm832    "Do you think that people living with HIV should be treated in the same public ho"
+label variable sm833    "Do you think that people living with HIV should be allowed to work in the same o"
+label variable sm843aa  "Sought STI advice/treatment from: Public AYUSH: Ayurveda"
+label variable sm843ab  "Sought STI advice/treatment from: Public AYUSH: Yoga and naturopathy"
+label variable sm843ac  "Sought STI advice/treatment from: Public AYUSH: Unani"
+label variable sm843ad  "Sought STI advice/treatment from: Public AYUSH: Siddha"
+label variable sm843ae  "Sought STI advice/treatment from: Public AYUSH: Homeopathy"
+label variable sm843af  "Sought STI advice/treatment from: Public AYUSH: Sowa Rigpa (TTM)"
+label variable sm843ag  "Sought STI advice/treatment from: Public AYUSH: Other"
+label variable sm843ba  "Sought STI advice/treatment from: Private AYUSH: Ayurveda"
+label variable sm843bb  "Sought STI advice/treatment from: Private AYUSH: Yoga and naturopathy"
+label variable sm843bc  "Sought STI advice/treatment from: Private AYUSH: Unani"
+label variable sm843bd  "Sought STI advice/treatment from: Private AYUSH: Siddha"
+label variable sm843be  "Sought STI advice/treatment from: Private AYUSH: Homeopathy"
+label variable sm843bf  "Sought STI advice/treatment from: Private AYUSH: Sowa Rigpa (TTM)"
+label variable sm843bg  "Sought STI advice/treatment from: Private AYUSH: Other"
+label variable sm844    "If a husband knows his wife has a disease that she can get during sexual interco"
+label variable sm845    "If  husband knows his wife  has sex with other men, is he justified in refusing "
+label variable sm846    "Can you say no to your wife if you do not want to have sexual intercourse?"
+label variable smb14a   "30 minutes prior to BP measure: eaten"
+label variable smb14b   "30 minutes prior to BP measure: had coffee, tea"
+label variable smb14c   "30 minutes prior to BP measure: smoked any tobacco product"
+label variable smb14d   "30 minutes prior to BP measure: use any other type of tobacco"
+label variable smb15    "Arm circumference"
+label variable smb16    "Blood pressure monitor cuff size"
+label variable smb17    "Time of first BP reading: (hhmm - 24 hour clock)"
+label variable smb18s   "First SYSTOLIC reading"
+label variable smb18d   "First DIASTOLIC reading"
+label variable smb19    "Blood pressure ever been checked previously"
+label variable smb20    "Told had high BP on two or more occasions by doctor or other health professional"
+label variable smb21    "Currently taking a prescribed medicine to lower BP"
+label variable smb24    "Time of second BP reading: (hhmm - 24 hour clock)"
+label variable smb25s   "Second SYSTOLIC reading"
+label variable smb25d   "Second DIASTOLIC reading"
+label variable smb28    "Time of third BP reading: (hhmm - 24 hour clock)"
+label variable smb29s   "Third SYSTOLIC reading"
+label variable smb29d   "Third DIASTOLIC reading"
+label variable smb53    "Time since last ate"
+label variable smb54    "Time since last drank, something other than plain water"
+label variable smb55    "Blood glucose ever been checked"
+label variable smb56    "Told high blood glucose on two or more occations by doctor or other health profe"
+label variable smb57    "Currently taking a prescribed medicine to lower blood glucose"
+label variable smb73    "Time of blood glucose reading: (hhmm - 24 hour clock)"
+label variable smb74    "Glucose level"
+label variable smb81    "Ever undergone an oral cavity examination for oral cancer"
+label variable smb305   "Waist curcumference"
+label variable smb306   "Hip curcumference"
+label variable sm190s   "Wealth index within state"
+label variable sm191s   "Wealth index factor score (5 decimals) within state"
+label variable sm190us  "Wealth index within state - urban"
+label variable sm191us  "Wealth index factor score (5 decimals) within state - urban"
+label variable sm190rs  "Wealth index within state - rural"
+label variable sm191rs  "Wealth index factor score (5 decimals) withing state - rural"
+label variable smcrefuse "Questionnaire refusal due to COVID-19"
+
+#delimit ;
+label define MV013   
+     1 "15-19"
+     2 "20-24"
+     3 "25-29"
+     4 "30-34"
+     5 "35-39"
+     6 "40-44"
+     7 "45-49"
+     8 "50-54"
+     9 "55-59"
+    10 "60-64"
+;
+label define MV014   
+     1 "Month and year - information complete"
+     2 "Month and age - year imputed"
+     3 "Year and age - month imputed"
+     4 "Year and age - year ignored"
+     5 "Year - age/month imputed"
+     6 "Age - year/month imputed"
+     7 "Month - age/year imputed"
+     8 "None - all imputed"
+;
+label define MV015   
+     1 "Completed"
+     2 "Not at home"
+     3 "Postponed"
+     4 "Refused"
+     5 "Partly completed"
+     6 "Incapacitated"
+     7 "Other"
+;
+label define MV024   
+     1 "JAMMU & KASHMIR"
+     2 "HIMACHAL PRADESH"
+     3 "PUNJAB"
+     4 "CHANDIGARH"
+     5 "UTTARAKHAND"
+     6 "HARYANA"
+     7 "NCT OF DELHI"
+     8 "RAJASTHAN"
+     9 "UTTAR PRADESH"
+    10 "BIHAR"
+    11 "SIKKIM"
+    12 "ARUNACHAL PRADESH"
+    13 "NAGALAND"
+    14 "MANIPUR"
+    15 "MIZORAM"
+    16 "TRIPURA"
+    17 "MEGHALAYA"
+    18 "ASSAM"
+    19 "WEST BENGAL"
+    20 "JHARKHAND"
+    21 "ODISHA"
+    22 "CHHATTISGARH"
+    23 "MADHYA PRADESH"
+    24 "GUJARAT"
+    25 "DADRA & NAGAR HAVELI AND DAMAN & DIU"
+    27 "MAHARASHTRA"
+    28 "ANDHRA PRADESH"
+    29 "KARNATAKA"
+    30 "GOA"
+    31 "LAKSHADWEEP"
+    32 "KERALA"
+    33 "TAMIL NADU"
+    34 "PUDUCHERRY"
+    35 "ANDAMAN & NICOBAR ISLANDS"
+    36 "TELANGANA"
+    37 "LADAKH"
+;
+label define MV025   
+     1 "Urban"
+     2 "Rural"
+;
+label define MV026   
+     0 "Capital, large city"
+     1 "Small city"
+     2 "Town"
+     3 "Countryside"
+;
+label define MV027   
+     9 "Missing"
+;
+label define MV029   
+   999 "Missing"
+;
+label define MV034   
+     0 "Wife not in household"
+;
+label define MV034A  
+     1 "Wife"
+     2 "Partner"
+;
+label define MV034B  
+    97 "Inconsistent"
+;
+label define MV035   
+     0 "No wives/partners"
+;
+label define MV045A  
+     1 "ASSAMESE"
+     2 "BENGALI"
+     3 "GUJARATI"
+     4 "HINDI"
+     5 "KANNADA"
+     6 "KASHMIRI"
+     7 "KONKANI"
+     8 "MALAYALAM"
+     9 "MANIPURI"
+    10 "MARATHI"
+    11 "NEPALI"
+    12 "ORIYA"
+    13 "PUNJABI"
+    14 "SINDHI"
+    15 "TAMIL"
+    16 "TELUGU"
+    17 "URDU"
+    18 "ENGLISH"
+    19 "GARO"
+    20 "KHASI"
+    21 "MIZO"
+;
+label define MV045B  
+     1 "ASSAMESE"
+     2 "BENGALI"
+     3 "GUJARATI"
+     4 "HINDI"
+     5 "KANNADA"
+     6 "KASHMIRI"
+     7 "KONKANI"
+     8 "MALAYALAM"
+     9 "MANIPURI"
+    10 "MARATHI"
+    11 "NEPALI"
+    12 "ORIYA"
+    13 "PUNJABI"
+    14 "SINDHI"
+    15 "TAMIL"
+    16 "TELUGU"
+    17 "URDU"
+    18 "ENGLISH"
+    19 "GARO"
+    20 "KHASI"
+    21 "MIZO"
+    96 "Other"
+;
+label define MV045C  
+     1 "ASSAMESE"
+     2 "BENGALI"
+     3 "GUJARATI"
+     4 "HINDI"
+     5 "KANNADA"
+     6 "KASHMIRI"
+     7 "KONKANI"
+     8 "MALAYALAM"
+     9 "MANIPURI"
+    10 "MARATHI"
+    11 "NEPALI"
+    12 "ORIYA"
+    13 "PUNJABI"
+    14 "SINDHI"
+    15 "TAMIL"
+    16 "TELUGU"
+    17 "URDU"
+    18 "ENGLISH"
+    19 "GARO"
+    20 "KHASI"
+    21 "MIZO"
+    96 "Other"
+;
+label define MV046   
+     0 "No"
+     1 "Yes"
+;
+label define MV801   
+  9999 "Missing"
+;
+label define MV802   
+  9999 "Missing"
+;
+label define MV803   
+    95 "95+"
+    96 "2+ visits"
+    97 "Inconsistent"
+;
+label define MV101   
+     1 "JAMMU & KASHMIR"
+     2 "HIMACHAL PRADESH"
+     3 "PUNJAB"
+     4 "CHANDIGARH"
+     5 "UTTARAKHAND"
+     6 "HARYANA"
+     7 "NCT OF DELHI"
+     8 "RAJASTHAN"
+     9 "UTTAR PRADESH"
+    10 "BIHAR"
+    11 "SIKKIM"
+    12 "ARUNACHAL PRADESH"
+    13 "NAGALAND"
+    14 "MANIPUR"
+    15 "MIZORAM"
+    16 "TRIPURA"
+    17 "MEGHALAYA"
+    18 "ASSAM"
+    19 "WEST BENGAL"
+    20 "JHARKHAND"
+    21 "ODISHA"
+    22 "CHHATTISGARH"
+    23 "MADHYA PRADESH"
+    24 "GUJARAT"
+    25 "DADRA & NAGAR HAVELI AND DAMAN & DIU"
+    27 "MAHARASHTRA"
+    28 "ANDHRA PRADESH"
+    29 "KARNATAKA"
+    30 "GOA"
+    31 "LAKSHADWEEP"
+    32 "KERALA"
+    33 "TAMIL NADU"
+    34 "PUDUCHERRY"
+    35 "ANDAMAN & NICOBAR ISLANDS"
+    36 "TELANGANA"
+    37 "LADAKH"
+;
+label define MV102   
+     1 "Urban"
+     2 "Rural"
+;
+label define MV103   
+     0 "Capital, large city"
+     1 "City"
+     2 "Town"
+     3 "Countryside"
+     4 "Abroad"
+;
+label define MV104   
+    95 "Always"
+    96 "Visitor"
+    97 "Inconsistent"
+    98 "Don't know"
+;
+label define MV105   
+     0 "Capital, large city"
+     1 "City"
+     2 "Town"
+     3 "Countryside"
+     4 "Abroad"
+;
+label define MV105A  
+     1 "Region 1"
+     2 "Region 2"
+     3 "Region 3"
+     4 "Region 4"
+    96 "Abroad"
+;
+label define MV106   
+     0 "No education"
+     1 "Primary"
+     2 "Secondary"
+     3 "Higher"
+;
+label define MV107   
+     0 "No years completed at level MV106"
+;
+label define MV130   
+     1 "Hindu"
+     2 "Muslim"
+     3 "Christian"
+     4 "Sikh"
+     5 "Buddhist / Neo-Buddhist"
+     6 "Jain"
+     7 "Jewish"
+     8 "Parsi / Zoroastrian"
+     9 "No religion"
+    96 "Other"
+;
+label define MV131   
+   991 "Caste"
+   992 "Tribe"
+   993 "No caste / tribe"
+   998 "Don't know"
+;
+label define MV133   
+    97 "Inconsistent"
+;
+label define MV134   
+     0 "Capital, large city"
+     1 "Small city"
+     2 "Town"
+     3 "Countryside"
+;
+label define MV135   
+     1 "Usual resident"
+     2 "Visitor"
+;
+label define MV149   
+     0 "No education"
+     1 "Incomplete primary"
+     2 "Complete primary"
+     3 "Incomplete secondary"
+     4 "Complete secondary"
+     5 "Higher"
+;
+label define MV150   
+     1 "Head"
+     2 "Wife or husband"
+     3 "Son/daughter"
+     4 "Son/daughter-in-law"
+     5 "Grandchild"
+     6 "Parent"
+     7 "Parent-in-law"
+     8 "Brother/sister"
+     9 "Co-spouse"
+    10 "Other relative"
+    11 "Adopted/foster child"
+    12 "Not related"
+    13 "Niece/nephew by blood"
+    14 "Niece/nephew by marriage"
+    15 "Brother-in-law or sister-in-law"
+    16 "Niece/nephew"
+    17 "Domestic servant"
+    98 "Don't know"
+;
+label define MV151   
+     1 "Male"
+     2 "Female"
+;
+label define MV152   
+    97 "97+"
+    98 "Don't know"
+;
+label define MV155   
+     0 "Cannot read at all"
+     1 "Able to read only parts of sentence"
+     2 "Able to read whole sentence"
+     3 "No card with required language"
+     4 "Blind/visually impaired"
+;
+label define MV156   
+     0 "No"
+     1 "Yes"
+;
+label define MV157   
+     0 "Not at all"
+     1 "Less than once a week"
+     2 "At least once a week"
+     3 "Almost every day"
+;
+label define MV158   
+     0 "Not at all"
+     1 "Less than once a week"
+     2 "At least once a week"
+     3 "Almost every day"
+;
+label define MV159   
+     0 "Not at all"
+     1 "Less than once a week"
+     2 "At least once a week"
+     3 "Almost every day"
+;
+label define MV167   
+     0 "None"
+    90 "90+"
+    97 "Inconsistent"
+    98 "Don't know"
+;
+label define MV168   
+     0 "No"
+     1 "Yes"
+;
+label define MV169A  
+     0 "No"
+     1 "Yes"
+;
+label define MV169B  
+     0 "No"
+     1 "Yes"
+;
+label define MV170   
+     0 "No"
+     1 "Yes"
+;
+label define MV171A  
+     0 "Never"
+     1 "Yes, last 12 months"
+     2 "Yes, before last 12 months"
+     3 "Yes, can't establish when"
+;
+label define MV171B  
+     0 "Not at all"
+     1 "Less than once a week"
+     2 "At least once a week"
+     3 "Almost every day"
+;
+label define MV190   
+     1 "Poorest"
+     2 "Poorer"
+     3 "Middle"
+     4 "Richer"
+     5 "Richest"
+;
+label define MV190A  
+     1 "Poorest"
+     2 "Poorer"
+     3 "Middle"
+     4 "Richer"
+     5 "Richest"
+;
+label define MV212   
+    99 "Missing"
+;
+label define MV213   
+     0 "No"
+     1 "Yes"
+     8 "Unsure"
+;
+label define MV217   
+     1 "During her period"
+     2 "After period ended"
+     3 "Middle of the cycle"
+     4 "Before period begins"
+     5 "At any time"
+     6 "Other"
+     8 "Don't know"
+;
+label define MV225   
+     1 "Then"
+     2 "Later"
+     3 "Not at all"
+;
+label define MV245   
+    95 "More than one woman, but unknown number"
+;
+label define MV246   
+     0 "No"
+     1 "Yes"
+;
+label define MV247   
+    95 "No living children"
+;
+label define MV248   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV249   
+     0 "Not present"
+     1 "Present"
+;
+label define MV250   
+     1 "Hospital, health facility"
+     2 "Other"
+;
+label define MV251   
+     1 "Cost too much"
+     2 "Facility closed"
+     3 "Too far/no transportation"
+     4 "Don't trust facility/poor quality service"
+     5 "No female provider"
+     6 "Not the first child"
+     7 "Mother did not think it necessary"
+     8 "Respondent did not think it necessary"
+     9 "Family did not think it necessary"
+    96 "Other"
+    98 "Don't know"
+;
+label define MV252   
+     0 "Nothing to drink"
+     2 "Less than usual/much less"
+     3 "Somewhat less"
+     4 "About the same"
+     5 "More"
+     8 "Don't know"
+;
+label define MV301   
+     0 "Knows no method"
+     1 "Knows only folkloric method"
+     2 "Knows only traditional method"
+     3 "Knows modern method"
+;
+label define MV302   
+     0 "Never used"
+     1 "Used only folkloric method"
+     2 "Used only traditional method"
+     3 "Used modern method"
+;
+label define M304A   
+     1 "Modern method"
+     2 "Traditional method"
+     3 "Folkloric method"
+;
+label define MV304   
+     0 "No"
+     1 "Yes"
+     7 "Not in contraception table, but as a current method"
+     8 "Not asked"
+;
+label define MV305   
+     0 "No"
+     1 "Yes"
+;
+label define MV307   
+     0 "No"
+     1 "Yes"
+;
+label define MV312   
+     0 "Not using"
+     1 "Pill"
+     2 "IUD"
+     3 "Injections"
+     4 "Diaphragm"
+     5 "Male condom"
+     6 "Female sterilization"
+     7 "Male sterilization"
+     8 "Periodic abstinence"
+     9 "Withdrawal"
+    10 "Other traditional"
+    11 "Implants/Norplant"
+    12 "Prolonged abstinence"
+    13 "Lactational amenorrhea (LAM)"
+    14 "Female condom"
+    15 "Foam or jelly"
+    16 "Emergency contraception"
+    17 "Other modern method"
+    18 "Standard days method (SDM)"
+    19 "Specific method 1"
+    20 "Specific method 2"
+;
+label define MV313   
+     0 "No method"
+     1 "Folkloric method"
+     2 "Traditional method"
+     3 "Modern method"
+     8 "Don't know"
+;
+label define MV323A  
+    96 "Other"
+    98 "Don't know"
+;
+label define MV325B  
+9999995 "Free"
+9999998 "Don't know"
+;
+label define MV372A  
+     0 "Package not seen"
+     1 "Package seen"
+;
+label define MV384A  
+     0 "No"
+     1 "Yes"
+;
+label define MV384B  
+     0 "No"
+     1 "Yes"
+;
+label define MV384C  
+     0 "No"
+     1 "Yes"
+;
+label define MV384D  
+     0 "No"
+     1 "Yes"
+;
+label define MV395   
+     0 "No"
+     1 "Yes"
+     2 "Depends"
+     8 "Don't know"
+;
+label define MV396   
+     0 "No"
+     1 "Yes"
+     2 "Depends"
+     8 "Don't know"
+;
+label define MV396A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV3A00Y 
+     0 "No: knows a source"
+     1 "Yes: knows no source"
+;
+label define MV3A00Z 
+     0 "No"
+     1 "Yes"
+;
+label define MV3A09B 
+   998 "Don't know"
+;
+label define MV3B17  
+    11 "Public: Govt. / Municipal Hospital"
+    12 "Public AYUSH"
+    13 "Public: Govt. Dispensary"
+    14 "Public: UHC / UHP / UFWC"
+    15 "Public: CHC / Rural Hospital / Block PHC"
+    16 "Public: PHC / Additional PHC"
+    17 "Public: Sub-Centre / ANM"
+    18 "Public: Govt. Mobile Clinic"
+    19 "Public: Camp"
+    21 "Private: Hospital / Clinic / Doctor"
+    22 "Private: Paramedic"
+    23 "Private: Mobile Clinic"
+    24 "Private AYUSH"
+    25 "Private: Traditional healer"
+    26 "Private: Pharmacy / Drugstore"
+    27 "Private: DAI (TBA)"
+    28 "Other Private Health"
+    31 "Ration shop"
+    32 "Other shop"
+    33 "Wife"
+    34 "Friend / Relative"
+    35 "Vending machine"
+    41 "Public: Anganwadi / ICDS Centre"
+    42 "Public: ASHA"
+    43 "Public: Other community based worker"
+    44 "Other Public Health sector"
+    46 "NGO or Trust Hospital / Clinic"
+    96 "Other"
+    98 "Don't know"
+;
+label define MV3B25A 
+     0 "Disagree"
+     1 "Agree"
+     8 "Don't know"
+;
+label define MV3B25B 
+     0 "Disagree"
+     1 "Agree"
+     8 "Don't know"
+;
+label define MV463A  
+     0 "No"
+     1 "Yes"
+;
+label define MV463B  
+     0 "No"
+     1 "Yes"
+;
+label define MV463C  
+     0 "No"
+     1 "Yes"
+;
+label define MV463D  
+     0 "No"
+     1 "Yes"
+;
+label define MV463E  
+     0 "No"
+     1 "Yes"
+;
+label define MV463F  
+     0 "No"
+     1 "Yes"
+;
+label define MV463G  
+     0 "No"
+     1 "Yes"
+;
+label define MV463X  
+     0 "No"
+     1 "Yes"
+;
+label define MV463Z  
+     0 "No"
+     1 "Yes, smokes nothing"
+;
+label define MV463AA 
+     0 "Do not smokes"
+     1 "Every day"
+     2 "Some days"
+;
+label define MV463AB 
+     1 "Almost every day"
+     2 "About once a week"
+     3 "Less than once a week"
+;
+label define MV463AC 
+     0 "No"
+     1 "Yes"
+;
+label define MV463AD 
+     0 "Do not smokes"
+     1 "Every day"
+     2 "Some days"
+;
+label define MV464   
+    98 "Don't know"
+;
+label define MV464A  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464B  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464C  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464D  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464E  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464F  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464G  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464H  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464I  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464J  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464K  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV464L  
+     0 "Product not used"
+   888 "Not every day"
+;
+label define MV474   
+     0 "No"
+     1 "Yes"
+;
+label define MV474A  
+     0 "No"
+     1 "Yes"
+;
+label define MV474B  
+     0 "No"
+     1 "Yes"
+;
+label define MV474C  
+     0 "No"
+     1 "Yes"
+;
+label define MV474D  
+     0 "No"
+     1 "Yes"
+;
+label define MV474E  
+     0 "No"
+     1 "Yes"
+;
+label define MV474F  
+     0 "No"
+     1 "Yes"
+;
+label define MV474G  
+     0 "No"
+     1 "Yes"
+;
+label define MV474H  
+     0 "No"
+     1 "Yes"
+;
+label define MV474I  
+     0 "No"
+     1 "Yes"
+;
+label define MV474J  
+     0 "No"
+     1 "Yes"
+;
+label define MV474X  
+     0 "No"
+     1 "Yes"
+;
+label define MV474Z  
+     0 "No"
+     1 "Yes"
+;
+label define MV475   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV476   
+     0 "No"
+     1 "Yes, remain a secret"
+     8 "Don't know/not sure/depends"
+;
+label define MV477   
+     0 "None"
+    90 "90+"
+    98 "Don't know"
+;
+label define MV478   
+     0 "None"
+    90 "90+"
+    98 "Don't know"
+;
+label define MV479   
+    10 "PUBLIC SECTOR"
+    20 "PRIVATE SECTOR"
+    30 "OTHER"
+    96 "Other"
+;
+label define MV480   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV481   
+     0 "No"
+     1 "Yes"
+;
+label define MV481A  
+     0 "No"
+     1 "Yes"
+;
+label define MV481B  
+     0 "No"
+     1 "Yes"
+;
+label define MV481C  
+     0 "No"
+     1 "Yes"
+;
+label define MV481D  
+     0 "No"
+     1 "Yes"
+;
+label define MV481E  
+     0 "No"
+     1 "Yes"
+;
+label define MV481F  
+     0 "No"
+     1 "Yes"
+;
+label define MV481G  
+     0 "No"
+     1 "Yes"
+;
+label define MV481H  
+     0 "No"
+     1 "Yes"
+;
+label define MV481X  
+     0 "No"
+     1 "Yes"
+;
+label define MV482A  
+     0 "No"
+     1 "Yes"
+     8 "Unsure"
+;
+label define MV482B  
+     0 "No"
+     1 "Yes"
+;
+label define MV482C  
+     0 "No"
+     1 "Yes"
+     8 "Unsure"
+;
+label define MV483   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV483A  
+    95 "During childhood <5 years"
+    98 "Don't know"
+;
+label define MV483B  
+     1 "Traditional practitioner / family friend"
+     2 "Health worker / professional"
+    96 "Other"
+    98 "Don't know"
+;
+label define MV483C  
+     1 "Health facility"
+     2 "Home of a health worker / professional"
+     3 "Circumcision done at home"
+     4 "Ritual site"
+    96 "Other home / place"
+    98 "Don't know"
+;
+label define MV484A  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484B  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484C  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484D  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484E  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484F  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484G  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484H  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484I  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484J  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484K  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV484L  
+     0 "Product not used"
+   888 "Not every week"
+;
+label define MV501   
+     0 "Never in union"
+     1 "Married"
+     2 "Living with partner"
+     3 "Widowed"
+     4 "Divorced"
+     5 "No longer living together/separated"
+;
+label define MV502   
+     0 "Never in union"
+     1 "Currently in union/living with a woman"
+     2 "Formerly in union/living with a woman"
+;
+label define MV503   
+     1 "Once"
+     2 "More than once"
+;
+label define MV504   
+     1 "Living with him"
+     2 "Staying elsewhere"
+;
+label define MV505   
+    98 "Don't know"
+;
+label define MV510   
+     1 "Month and year - information complete"
+     2 "Month and age - year imputed"
+     3 "Year and age - month imputed"
+     5 "Year - age/month imputed"
+     6 "Age - year/month imputed"
+     7 "Month - age/year imputed"
+     8 "None - all imputed"
+;
+label define MV511   
+    97 "Inconsistent"
+;
+label define MV513   
+     0 "Never married"
+     1 "0-4"
+     2 "5-9"
+     3 "10-14"
+     4 "15-19"
+     5 "20-24"
+     6 "25-29"
+     7 "30+"
+;
+label define MV525   
+     0 "Not had sex"
+    96 "At first union"
+    97 "Inconsistent"
+    98 "Don't know"
+;
+label define MV527   
+   100 "<1 day ago"
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Weeks: 1"
+   299 "Weeks: number missing"
+   301 "Months: 1"
+   399 "Months: number missing"
+   401 "Years: 1"
+   499 "Years: number missing"
+   994 "Refused"
+   995 "Within last 4 weeks"
+   996 "Before last birth"
+   997 "Inconsistent"
+   998 "Don't know"
+;
+label define MV528   
+    31 "31+ days"
+    94 "Refused to answer"
+    95 "Within last 4 weeks"
+    96 "Before last birth"
+    97 "Inconsistent"
+    98 "Don't know"
+;
+label define MV529   
+   995 "Within last 4 weeks"
+   996 "Before last birth"
+   997 "Inconsistent"
+   998 "Don't know"
+;
+label define MV531   
+     0 "Not had sex"
+    97 "Inconsistent"
+    98 "Don't know"
+;
+label define MV532   
+     0 "No flag"
+     1 "After interview"
+     2 "After conception >= 1 year"
+     3 "After conception < 1 year"
+     4 "At marriage, but never married"
+     5 "At marriage, but after conception"
+     6 "After marriage"
+;
+label define MV535   
+     0 "No"
+     1 "Formerly married"
+     2 "Formerly lived with a woman"
+     3 "Both, formerly married and lived with a woman"
+;
+label define MV536   
+     0 "Never had sex"
+     1 "Active in last 4 weeks"
+     3 "Not active in last 4 weeks"
+;
+label define MV541   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV602   
+     1 "Have another"
+     2 "Undecided"
+     3 "No more"
+     4 "Sterilized (respondent or partner(s))"
+     5 "Declared infecund (respondent or partner(s))"
+     6 "Never had sex"
+     7 "Man declared infecund"
+     8 "Man has no partner"
+;
+label define MV603   
+   100 "Wanted now"
+   101 "Months: 1"
+   199 "Months: number missing"
+   201 "Years: 1"
+   299 "Years: number missing"
+   993 "After marriage"
+   994 "Soon, now"
+   996 "Other, non-numeric"
+   997 "Inconsistent"
+   998 "Don't know"
+;
+label define MV604   
+     0 "<12 months"
+     1 "1 year"
+     2 "2 years"
+     3 "3 years"
+     4 "4 years"
+     5 "5 years"
+     6 "6+ years"
+     7 "Non-numeric"
+     8 "Don't know"
+;
+label define MV605   
+     1 "Wants within 2 years"
+     2 "Wants after 2+ years"
+     3 "Wants, unsure timing"
+     4 "Undecided"
+     5 "Wants no more"
+     6 "Sterilized (respondent or partner(s))"
+     7 "Declared infecund (respondent or partner(s))"
+     8 "Never had sex"
+;
+label define MV613   
+    96 "Non-numeric response"
+    98 "Don't know"
+;
+label define MV614   
+     6 "6+"
+     7 "Non-numeric response"
+;
+label define MV616   
+   100 "Wanted now"
+   101 "Months: 1"
+   199 "Months: number missing"
+   201 "Years: 1"
+   299 "Years: number missing"
+   993 "After marriage"
+   994 "Soon/now"
+   995 "Can't get pregnant"
+   996 "Other"
+   998 "Don't know"
+;
+label define MV621   
+     1 "Both want same"
+     2 "Wife wants more"
+     3 "Wife wants fewer"
+     8 "Don't know"
+;
+label define MV627   
+    96 "Other"
+    98 "Don't know"
+;
+label define MV628   
+    96 "Other"
+    98 "Don't know"
+;
+label define MV629   
+    96 "Other"
+    98 "Don't know"
+;
+label define MV631   
+     1 "Big problem"
+     2 "Small problem"
+     3 "No problem"
+     4 "Says she can't get pregnant/not having sex"
+;
+label define MV633A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV633B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV633C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV633D  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV633E  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV633F  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV633G  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV634A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know, depends"
+;
+label define MV634B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know, depends"
+;
+label define MV634C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know, depends"
+;
+label define MV634D  
+     0 "No"
+     1 "Yes"
+     8 "Don't know, depends"
+;
+label define MV714   
+     0 "No"
+     1 "Yes"
+;
+label define MV714A  
+     0 "No"
+     1 "Yes"
+;
+label define MV716   
+     0 "Not working and didn't work in last 12 months"
+     1 "Physical Scientists"
+     2 "Physical Science"
+     3 "Architects, Engineers, Technologists And Surveyors"
+     4 "Engineering Technicians"
+     5 "Aircraft And Ships Officers"
+     6 "Life Scientists"
+     7 "Life Science Technicians"
+     8 "Physicians And Surgeons"
+     9 "Nursing And Other Medical And Health Technicians"
+    10 "Scientific, Medical And Technical Persons, Other"
+    11 "Mathematicians, Statisticians And Related Workers"
+    12 "Economists, And Related Workers"
+    13 "Accountants, Auditors And Related Workers"
+    14 "Social Scientists And Related Workers"
+    15 "Jurists"
+    16 "Teachers"
+    17 "Poets, Authors, Journalists And Related Workers"
+    18 "Sculptors, Painters, Photographers, And Related Creative Artists"
+    19 "Composers And Performing Artists"
+    20 "Professional Workers, N.E.C."
+    21 "Elected And Legislative Officials"
+    22 "Administrative And Executive Officials Government And Local Bodies"
+    23 "Working Proprietors, Directors And Managers, Wholesale And Retail Trade"
+    24 "Directors And Managers, Financial Institutions"
+    25 "Working Proprietors, Directors And Managers Mining"
+    26 "Working Proprietors, Directors Managers And Related"
+    27 "Working Proprietors, Directors And Managers, Other Services"
+    29 "Administrative, Executive And Managerial Workers, N.E.C."
+    30 "Clerical And Other Supervisors"
+    31 "Village Officials"
+    32 "Stenographers, Typist And Card And Tape Punching Operators"
+    33 "Book Keepers, Cashiers And Related Workers"
+    34 "Computing Machine Operators"
+    35 "Clerical And Related Workers"
+    36 "Transport And Communication Supervisors"
+    37 "Transport Conductors And Guards"
+    38 "Mail Distributors And Related Workers"
+    39 "Telephone And Telegraph Operators"
+    40 "Merchants And Shopkeepers, Wholesale And Retail Trade"
+    41 "Manufacturers, Agents"
+    42 "Technical Salesmen And Commercial Travellers"
+    43 "Salesmen, Shop Assistants And Related Workers"
+    44 "Insurance, Real Estate, Securities And Business Service,"
+    45 "Money Lenders And Pawn Brokers"
+    49 "Sales Workers, N.E.C."
+    50 "Hotel And Restaurant Keepers"
+    51 "House Keepers, Matron And Stewards (Domestic & Institutional)"
+    52 "Cooks, Waiters, Bartenders And Related Workers (Domestic & Institutional)"
+    53 "Maids And Related House Keeping Service Workers, N.E.C."
+    54 "Building Caretakers, Sweepers, Cleaners And Related Workers"
+    55 "Launderers, Dry-Cleaners And Pressers, N.E.C."
+    56 "Hair Dresser, Barbers, Beauticians And Related Workers"
+    57 "Protective Service Workers"
+    59 "Service Workers"
+    60 "Farm Plantation, Dairy And Other Managers And Supervisors"
+    61 "Cultivators"
+    62 "Farmers, Other Than Cultivators"
+    63 "Agricultural Labourer"
+    64 "Plantation Labourers & Related Workers"
+    65 "Other Farm Workers"
+    66 "Forestry Workers"
+    67 "Hunters And Related Workers"
+    68 "Fishermen And Related Workers"
+    71 "Miners, Quarrymen, Well Drillers & Related Workers"
+    72 "Metal Processors"
+    73 "Wood Preparation Workers And Paper Makers"
+    74 "Chemical Processors And Related Workers"
+    75 "Spinners, Weavers, Knitters, Dyers And Related Workers"
+    76 "Tanners, Fellmongers And Pelt Dressers"
+    77 "Food And Beverage Processors"
+    78 "Tobacco Preparers & Tobacco Product Makers"
+    79 "Tailors, Dress Makers, Sewers, Upholsterers & Related Workers"
+    80 "Shoemakers & Leather Goods Makers"
+    81 "Carpenters, Cabinet & Related Wood Workers"
+    82 "Stone Cutters & Carvers"
+    83 "Blacksmiths, Tool Makers And Machine Tools Operators"
+    84 "Machinery Fitters, Machine Assemblers And Precession Instrument Makers (Except Electrical)"
+    85 "Electrical Fitters & Related Electrical & Electronic Workers"
+    86 "Broadcasting Station And Sound Equipment Operators And Cinema Projectionists"
+    87 "Plumbers, Welders, Sheet Metal & Structural Metal Preparers And Erectors"
+    88 "Jewellery & Precious Metal Workers And Metal Engravers"
+    89 "Glass Formers, Potters & Related Workers"
+    90 "Rubber And Plastic Product Makers Workers"
+    91 "Paper & Paper Board Products Makers"
+    92 "Painters"
+    93 "Stationery Engines And Related Equipment Operators, Oilers"
+    94 "Transport Equipment Operators (Drivers)"
+    95 "Labourers (Labourers, N.E.C.)"
+    96 "Other (Occupation not found)"
+ 99998 "DK (Don't Know)"
+;
+label define MV717   
+     0 "Not working"
+     1 "Professional / technical / managerial"
+     3 "Clerical"
+     4 "Sales"
+     5 "Services / household and domestic"
+     6 "Agricultural"
+     7 "Skilled and unskilled manual"
+     9 "Other"
+    98 "Don't know"
+;
+label define MV719   
+     1 "For family member"
+     2 "For someone else"
+     3 "Self-employed"
+;
+label define MV721   
+     1 "At home"
+     2 "Away"
+;
+label define MV731   
+     0 "No"
+     1 "In the past year"
+     2 "Currently working"
+;
+label define MV732   
+     1 "All year"
+     2 "Seasonal"
+     3 "Occasional"
+;
+label define MV739   
+     1 "Respondent alone"
+     2 "Respondent and wife/partner"
+     3 "Respondent and other person"
+     4 "Wife/partner alone"
+     5 "Someone else"
+;
+label define MV740   
+     0 "Own land"
+     1 "Family land"
+     2 "Someone else's land"
+     3 "Rented land"
+     8 "Don't know"
+;
+label define MV741   
+     0 "Not paid"
+     1 "Cash only"
+     2 "Cash and in-kind"
+     3 "In-kind only"
+;
+label define MV743A  
+     1 "Respondent alone"
+     2 "Respondent and wife/partner"
+     3 "Respondent and other person"
+     4 "Wife/partner alone"
+     5 "Someone else"
+     6 "Other"
+     8 "Don't know/depends"
+;
+label define MV743B  
+     1 "Respondent alone"
+     2 "Respondent and wife/partner"
+     3 "Respondent and other person"
+     4 "Wife/partner alone"
+     5 "Someone else"
+     6 "Other"
+     8 "Don't know/depends"
+;
+label define MV743C  
+     1 "Respondent alone"
+     2 "Respondent and wife/partner"
+     3 "Respondent and other person"
+     4 "Wife/partner alone"
+     5 "Someone else"
+     6 "Decision not made/not applicable"
+     8 "Don't know/depends"
+;
+label define MV743D  
+     1 "Respondent alone"
+     2 "Respondent and wife/partner"
+     3 "Respondent and other person"
+     4 "Wife/partner alone"
+     5 "Someone else"
+     6 "Decision not made/not applicable"
+     8 "Don't know/depends"
+;
+label define MV743E  
+     1 "Respondent alone"
+     2 "Respondent and wife/partner"
+     3 "Respondent and other person"
+     4 "Wife/partner alone"
+     5 "Someone else"
+     6 "Decision not made/not applicable"
+     8 "Don't know/depends"
+;
+label define MV743F  
+     1 "Respondent alone"
+     2 "Respondent and wife/partner"
+     3 "Respondent and other person"
+     4 "Wife/partner alone"
+     5 "Someone else"
+     6 "Decision not made/not applicable"
+     8 "Don't know/depends"
+;
+label define MV743G  
+     1 "Respondent alone"
+     2 "Respondent and wife/partner"
+     3 "Respondent and other person"
+     4 "Wife/partner alone"
+     5 "Someone else"
+     6 "Decision not made/not applicable"
+     8 "Don't know/depends"
+;
+label define MV744A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV744B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV744C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV744D  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV744E  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV745A  
+     0 "Does not own"
+     1 "Alone only"
+     2 "Jointly only"
+     3 "Both alone and jointly"
+;
+label define MV745B  
+     0 "Does not own"
+     1 "Alone only"
+     2 "Jointly only"
+     3 "Both alone and jointly"
+;
+label define MV745C  
+     0 "Does not have a title deed"
+     1 "Has a title deed and respondent on title"
+     2 "Has a title deed but respondent not on title"
+     3 "Has a title deed, don't know if respondent on title"
+     8 "Don't know if has a title deed"
+;
+label define MV745D  
+     0 "Does not have a title deed"
+     1 "Has a title deed and respondent on title"
+     2 "Has a title deed but respondent not on title"
+     3 "Has a title deed, don't know if respondent on title"
+     8 "Don't know if has a title deed"
+;
+label define MV747A  
+     0 "Disagree"
+     1 "Agree"
+     8 "Don't know"
+;
+label define MV747B  
+     0 "Disagree"
+     1 "Agree"
+     8 "Don't know"
+;
+label define MV750   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV751   
+     0 "No"
+     1 "Yes"
+;
+label define MV754BP 
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV754CP 
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV754DP 
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV754JP 
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV754WP 
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV756   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV761   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV761B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV761C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV762   
+    11 "Public: Govt. / Municipal Hospital"
+    12 "Public AYUSH"
+    13 "Public: Govt. Dispensary"
+    14 "Public: UHC / UHP / UFWC"
+    15 "Public: CHC / Rural Hospital / Block PHC"
+    16 "Public: PHC / Additional PHC"
+    17 "Public: Sub-Centre / ANM"
+    18 "Public: Govt. Mobile Clinic"
+    19 "Public: Camp"
+    21 "Private: Hospital / Clinic / Doctor"
+    22 "Private: Paramedic"
+    23 "Private: Mobile Clinic"
+    24 "Private AYUSH"
+    25 "Private: Traditional healer"
+    26 "Private: Pharmacy / Drugstore"
+    27 "Private: DAI (TBA)"
+    28 "Other Private Health"
+    31 "Ration shop"
+    32 "Other shop"
+    33 "Wife"
+    34 "Friend / Relative"
+    35 "Vending machine"
+    41 "Public: Anganwadi / ICDS Centre"
+    42 "Public: ASHA"
+    43 "Public: Other community based worker"
+    44 "Other Public Health sector"
+    46 "NGO or Trust Hospital / Clinic"
+    96 "Other"
+    98 "Don't know"
+;
+label define MV762A  
+    96 "To be entered with brand"
+    98 "Don't know"
+;
+label define MV762AA 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AB 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AC 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AD 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AE 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AF 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AG 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AH 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AI 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AJ 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AK 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AL 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AM 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AN 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AO 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AP 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AQ 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AR 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AS 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AT 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AU 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AV 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AW 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AX 
+     0 "No"
+     1 "Yes"
+;
+label define MV762AZ 
+     0 "No"
+     1 "Yes: don't know"
+;
+label define MV762BA 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BB 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BC 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BD 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BE 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BF 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BG 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BH 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BI 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BJ 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BK 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BL 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BM 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BN 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BO 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BP 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BQ 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BR 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BS 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BT 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BU 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BV 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BW 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BX 
+     0 "No"
+     1 "Yes"
+;
+label define MV762BZ 
+     0 "No"
+     1 "Yes: don't know"
+;
+label define MV763A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV763B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV763C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV763D  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV763E  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV763F  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV763G  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV766A  
+    98 "Don't know"
+;
+label define MV766B  
+    95 "95+"
+    98 "Don't know"
+;
+label define MV767A  
+     1 "Spouse"
+     2 "Girlfriend/fiance"
+     3 "Other friend"
+     4 "Casual acquaintance"
+     5 "Relative"
+     6 "Commercial sex worker"
+     7 "Live-in partner"
+     8 "TG / male partner"
+    96 "Other"
+;
+label define MV767B  
+     1 "Spouse"
+     2 "Girlfriend/fiance"
+     3 "Other friend"
+     4 "Casual acquaintance"
+     5 "Relative"
+     6 "Commercial sex worker"
+     7 "Live-in partner"
+     8 "TG / male partner"
+    96 "Other"
+;
+label define MV767C  
+     1 "Spouse"
+     2 "Girlfriend/fiance"
+     3 "Other friend"
+     4 "Casual acquaintance"
+     5 "Relative"
+     6 "Commercial sex worker"
+     7 "Live-in partner"
+     8 "TG / male partner"
+    96 "Other"
+;
+label define MV768A  
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Months: 1"
+   299 "Months: number missing"
+   301 "Years: 1"
+   399 "Years: number missing"
+;
+label define MV768B  
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Months: 1"
+   299 "Months: number missing"
+   301 "Years: 1"
+   399 "Years: number missing"
+;
+label define MV768C  
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Months: 1"
+   299 "Months: number missing"
+   301 "Years: 1"
+   399 "Years: number missing"
+;
+label define MV769   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV769A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV770   
+     0 "No"
+     1 "Yes"
+;
+label define MV770A  
+     0 "No"
+     1 "Yes"
+;
+label define MV770B  
+     0 "No"
+     1 "Yes"
+;
+label define MV770C  
+     0 "No"
+     1 "Yes"
+;
+label define MV770D  
+     0 "No"
+     1 "Yes"
+;
+label define MV770E  
+     0 "No"
+     1 "Yes"
+;
+label define MV770F  
+     0 "No"
+     1 "Yes"
+;
+label define MV770G  
+     0 "No"
+     1 "Yes"
+;
+label define MV770H  
+     0 "No"
+     1 "Yes"
+;
+label define MV770I  
+     0 "No"
+     1 "Yes"
+;
+label define MV770J  
+     0 "No"
+     1 "Yes"
+;
+label define MV770K  
+     0 "No"
+     1 "Yes"
+;
+label define MV770L  
+     0 "No"
+     1 "Yes"
+;
+label define MV770M  
+     0 "No"
+     1 "Yes"
+;
+label define MV770N  
+     0 "No"
+     1 "Yes"
+;
+label define MV770O  
+     0 "No"
+     1 "Yes"
+;
+label define MV770P  
+     0 "No"
+     1 "Yes"
+;
+label define MV770Q  
+     0 "No"
+     1 "Yes"
+;
+label define MV770R  
+     0 "No"
+     1 "Yes"
+;
+label define MV770S  
+     0 "No"
+     1 "Yes"
+;
+label define MV770T  
+     0 "No"
+     1 "Yes"
+;
+label define MV770U  
+     0 "No"
+     1 "Yes"
+;
+label define MV770V  
+     0 "No"
+     1 "Yes"
+;
+label define MV770W  
+     0 "No"
+     1 "Yes"
+;
+label define MV770X  
+     0 "No"
+     1 "Yes"
+;
+label define MV774A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV774B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV774C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV775   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV777   
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV777A  
+     0 "Disagree"
+     1 "Agree"
+     8 "Don't know/not sure/depends"
+;
+label define MV778   
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV779   
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV780   
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV781   
+     0 "No"
+     1 "Yes"
+;
+label define MV783   
+     0 "No"
+     1 "Yes"
+;
+label define MV784A  
+     0 "No"
+     1 "Yes"
+;
+label define MV784B  
+     0 "No"
+     1 "Yes"
+;
+label define MV784C  
+     0 "No"
+     1 "Yes"
+;
+label define MV784D  
+     0 "No"
+     1 "Yes"
+;
+label define MV784E  
+     0 "No"
+     1 "Yes"
+;
+label define MV784F  
+     0 "No"
+     1 "Yes"
+;
+label define MV784G  
+     0 "No"
+     1 "Yes"
+;
+label define MV784H  
+     0 "No"
+     1 "Yes"
+;
+label define MV784I  
+     0 "No"
+     1 "Yes"
+;
+label define MV784J  
+     0 "No"
+     1 "Yes"
+;
+label define MV784K  
+     0 "No"
+     1 "Yes"
+;
+label define MV784L  
+     0 "No"
+     1 "Yes"
+;
+label define MV784M  
+     0 "No"
+     1 "Yes"
+;
+label define MV784N  
+     0 "No"
+     1 "Yes"
+;
+label define MV784O  
+     0 "No"
+     1 "Yes"
+;
+label define MV784P  
+     0 "No"
+     1 "Yes"
+;
+label define MV784Q  
+     0 "No"
+     1 "Yes"
+;
+label define MV784R  
+     0 "No"
+     1 "Yes"
+;
+label define MV784S  
+     0 "No"
+     1 "Yes"
+;
+label define MV784T  
+     0 "No"
+     1 "Yes"
+;
+label define MV784U  
+     0 "No"
+     1 "Yes"
+;
+label define MV784V  
+     0 "No"
+     1 "Yes"
+;
+label define MV784X  
+     0 "No"
+     1 "Yes"
+;
+label define MV785   
+     0 "No"
+     1 "Yes"
+;
+label define MV791   
+     0 "No"
+     1 "Yes"
+;
+label define MV791A  
+     0 "No"
+     1 "Yes"
+;
+label define MV791B  
+     0 "No"
+     1 "Yes"
+;
+label define MV793   
+     0 "No"
+     1 "Yes"
+;
+label define MV793A  
+     0 "No"
+     1 "Yes"
+;
+label define MV793B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV820   
+     0 "No"
+     1 "Yes"
+     7 "Refused"
+     8 "Don't know"
+;
+label define MV822   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV823   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV824   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV825   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV826   
+     1 "Less than 12 months"
+     2 "12-23 months"
+     3 "2 years or more"
+;
+label define MV826A  
+    95 "Two or more years"
+    98 "Don't know"
+;
+label define MV827   
+     1 "Asked for the test"
+     2 "Offered and accepted"
+     3 "Required"
+;
+label define MV828   
+     0 "No"
+     1 "Yes"
+;
+label define MV829   
+    10 "PUBLIC SECTOR"
+    11 "Public: Government Hospital"
+    12 "Public: Govt. Health Centre"
+    13 "Public: Stand-Alone ICTC"
+    14 "Public: Family Planning Clinic"
+    15 "Public: Mobile Clinic"
+    16 "Public: Fieldworker"
+    17 "Public: School Based Clinic"
+    18 "Other Public Sector"
+    20 "PRIVATE SECTOR"
+    21 "Private: Hospital/Clinic/Private Doctor"
+    22 "Private: Stand-Alone ICTC"
+    23 "Private: Pharmacy"
+    24 "Private: Mobile Clinic"
+    25 "Private: Fieldworker"
+    26 "Private: School Based Clinic"
+    27 "Other Private Health Sector"
+    30 "OTHER"
+    31 "Home"
+    32 "Correctional Facility"
+    41 "NGO or Trust Hospital /Clinic"
+    96 "Other"
+;
+label define MV832B  
+   100 "<1 day ago"
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Weeks: 1"
+   299 "Weeks: number missing"
+   301 "Months: 1"
+   399 "Months: number missing"
+   401 "Years: 1"
+   995 "Within last 4 weeks"
+   996 "Before last birth"
+   997 "Inconsistent"
+   998 "Don't know"
+;
+label define MV832C  
+   100 "<1 day ago"
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Weeks: 1"
+   299 "Weeks: number missing"
+   301 "Months: 1"
+   399 "Months: number missing"
+   401 "Years: 1"
+   995 "Within last 4 weeks"
+   996 "Before last birth"
+   997 "Inconsistent"
+   998 "Don't know"
+;
+label define MV833A  
+     0 "No"
+     1 "Yes"
+;
+label define MV833B  
+     0 "No"
+     1 "Yes"
+;
+label define MV833C  
+     0 "No"
+     1 "Yes"
+;
+label define MV834A  
+    95 "95+"
+    98 "Don't know"
+;
+label define MV834B  
+    95 "95+"
+    98 "Don't know"
+;
+label define MV834C  
+    95 "95+"
+    98 "Don't know"
+;
+label define MV835A  
+     0 "No"
+     1 "Respondent drunk only"
+     2 "Partner drunk only"
+     3 "Both drunk"
+     4 "Neither drunk but consumed alcohol"
+;
+label define MV835B  
+     0 "No"
+     1 "Respondent drunk only"
+     2 "Partner drunk only"
+     3 "Both drunk"
+     4 "Neither drunk but consumed alcohol"
+;
+label define MV835C  
+     0 "No"
+     1 "Respondent drunk only"
+     2 "Partner drunk only"
+     3 "Both drunk"
+     4 "Neither drunk but consumed alcohol"
+;
+label define MV836   
+    95 "95+"
+    98 "Don't know"
+;
+label define MV837   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define MV844   
+     0 "No"
+     1 "Yes"
+     8 "Don't know anyone with AIDS"
+;
+label define MV845   
+     0 "No"
+     1 "Yes"
+;
+label define MV846   
+     0 "No"
+     1 "Yes"
+;
+label define MV847   
+     0 "Disagree"
+     1 "Agree"
+     8 "Don't know/no opinion"
+;
+label define MV848   
+     0 "Disagree"
+     1 "Agree"
+     8 "Don't know/no opinion"
+;
+label define MV849   
+     0 "No"
+     1 "Yes"
+     8 "Don't know/depends"
+;
+label define MV851A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851D  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851E  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851F  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851G  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851H  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851I  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851J  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851K  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV851L  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV852A  
+   100 "Days: 0"
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Weeks: 1"
+   299 "Weeks: number missing"
+   301 "Months: 1"
+   399 "Months: number missing"
+   401 "Years: 1"
+   499 "Years: number missing"
+;
+label define MV852B  
+   100 "Days: 0"
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Weeks: 1"
+   299 "Weeks: number missing"
+   301 "Months: 1"
+   399 "Months: number missing"
+   401 "Years: 1"
+   499 "Years: number missing"
+;
+label define MV852C  
+   100 "Days: 0"
+   101 "Days: 1"
+   199 "Days: number missing"
+   201 "Weeks: 1"
+   299 "Weeks: number missing"
+   301 "Months: 1"
+   399 "Months: number missing"
+   401 "Years: 1"
+   499 "Years: number missing"
+;
+label define MV853A  
+    95 "95+"
+    98 "Don't know"
+;
+label define MV853B  
+    95 "95+"
+    98 "Don't know"
+;
+label define MV853C  
+    95 "95+"
+    98 "Don't know"
+;
+label define MV854A  
+     0 "No"
+     1 "Yes"
+;
+label define MV854B  
+     0 "No"
+     1 "Yes"
+;
+label define MV856   
+     0 "Never heard of HIV test kits"
+     1 "Has tested with HIV test kits"
+     2 "Knows test kits but never tested with them"
+     3 "Knows test kits un-known if tested"
+;
+label define MV857A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV857B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV857C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV857D  
+     0 "No"
+     1 "Yes"
+     8 "Don't know/not sure/depends"
+;
+label define MV858   
+     0 "No"
+     1 "Yes"
+     2 "Says he has HIV"
+     8 "Don't know/not sure/depends"
+;
+label define SMDIST  
+     1 "Kupwara"
+     2 "Badgam"
+     3 "Leh(Ladakh)"
+     4 "Kargil"
+     5 "Punch"
+     6 "Rajouri"
+     7 "Kathua"
+     8 "Baramula"
+     9 "Bandipore"
+    10 "Srinagar"
+    11 "Ganderbal"
+    12 "Pulwama"
+    13 "Shupiyan"
+    14 "Anantnag"
+    15 "Kulgam"
+    16 "Doda"
+    17 "Ramban"
+    18 "Kishtwar"
+    19 "Udhampur"
+    20 "Reasi"
+    21 "Jammu"
+    22 "Samba"
+    23 "Chamba"
+    24 "Kangra"
+    25 "Lahul & Spiti"
+    26 "Kullu"
+    27 "Mandi"
+    28 "Hamirpur"
+    29 "Una"
+    30 "Bilaspur"
+    31 "Solan"
+    32 "Sirmaur"
+    33 "Shimla"
+    34 "Kinnaur"
+    36 "Kapurthala"
+    37 "Jalandhar"
+    38 "Hoshiarpur"
+    39 "Shahid Bhagat Singh Nagar"
+    40 "Fatehgarh Sahib"
+    41 "Ludhiana"
+    42 "Moga"
+    44 "Muktsar"
+    45 "Faridkot"
+    46 "Bathinda"
+    47 "Mansa"
+    48 "Patiala"
+    49 "Amritsar"
+    50 "Tarn Taran"
+    51 "Rupnagar"
+    52 "Sahibzada Ajit Singh Nagar"
+    53 "Sangrur"
+    54 "Barnala"
+    55 "Chandigarh"
+    56 "Uttarkashi"
+    57 "Chamoli"
+    58 "Rudraprayag"
+    59 "Tehri Garhwal"
+    60 "Dehradun"
+    61 "Garhwal"
+    62 "Pithoragarh"
+    63 "Bageshwar"
+    64 "Almora"
+    65 "Champawat"
+    66 "Nainital"
+    67 "Udham Singh Nagar"
+    68 "Hardwar"
+    69 "Panchkula"
+    70 "Ambala"
+    71 "Yamunanagar"
+    72 "Kurukshetra"
+    73 "Kaithal"
+    74 "Karnal"
+    75 "Panipat"
+    76 "Sonipat"
+    77 "Jind"
+    78 "Fatehabad"
+    79 "Sirsa"
+    80 "Hisar"
+    82 "Rohtak"
+    83 "Jhajjar"
+    84 "Mahendragarh"
+    85 "Rewari"
+    86 "Gurgaon"
+    87 "Mewat"
+    88 "Faridabad"
+    89 "Palwal"
+    99 "Ganganagar"
+   100 "Hanumangarh"
+   101 "Bikaner"
+   102 "Churu"
+   103 "Jhunjhunun"
+   104 "Alwar"
+   105 "Bharatpur"
+   106 "Dhaulpur"
+   107 "Karauli"
+   108 "Sawai Madhopur"
+   109 "Dausa"
+   110 "Jaipur"
+   111 "Sikar"
+   112 "Nagaur"
+   113 "Jodhpur"
+   114 "Jaisalmer"
+   115 "Barmer"
+   116 "Jalor"
+   117 "Sirohi"
+   118 "Pali"
+   119 "Ajmer"
+   120 "Tonk"
+   121 "Bundi"
+   122 "Bhilwara"
+   123 "Rajsamand"
+   124 "Dungarpur"
+   125 "Banswara"
+   126 "Chittaurgarh"
+   127 "Kota"
+   128 "Baran"
+   129 "Jhalawar"
+   130 "Udaipur"
+   131 "Pratapgarh"
+   132 "Saharanpur"
+   134 "Bijnor"
+   136 "Rampur"
+   137 "Jyotiba Phule Nagar"
+   138 "Meerut"
+   139 "Baghpat"
+   141 "Gautam Buddha Nagar"
+   142 "Bulandshahr"
+   143 "Aligarh"
+   144 "Mahamaya Nagar"
+   145 "Mathura"
+   146 "Agra"
+   147 "Firozabad"
+   148 "Mainpuri"
+   150 "Bareilly"
+   151 "Pilibhit"
+   152 "Shahjahanpur"
+   153 "Kheri"
+   154 "Sitapur"
+   155 "Hardoi"
+   156 "Unnao"
+   157 "Lucknow"
+   159 "Farrukhabad"
+   160 "Kannauj"
+   161 "Etawah"
+   162 "Auraiya"
+   163 "Kanpur Dehat"
+   164 "Kanpur Nagar"
+   165 "Jalaun"
+   166 "Jhansi"
+   167 "Lalitpur"
+   168 "Hamirpur"
+   169 "Mahoba"
+   170 "Banda"
+   171 "Chitrakoot"
+   172 "Fatehpur"
+   173 "Pratapgarh"
+   174 "Kaushambi"
+   175 "Allahabad"
+   176 "Bara Banki"
+   177 "Faizabad"
+   178 "Ambedkar Nagar"
+   180 "Bahraich"
+   181 "Shrawasti"
+   182 "Balrampur"
+   183 "Gonda"
+   184 "Siddharthnagar"
+   185 "Basti"
+   186 "Sant Kabir Nagar"
+   187 "Mahrajganj"
+   188 "Gorakhpur"
+   189 "Kushinagar"
+   190 "Deoria"
+   191 "Azamgarh"
+   192 "Mau"
+   193 "Ballia"
+   194 "Jaunpur"
+   195 "Ghazipur"
+   196 "Chandauli"
+   197 "Varanasi"
+   198 "Sant Ravidas Nagar (Bhadohi)"
+   199 "Mirzapur"
+   200 "Sonbhadra"
+   201 "Etah"
+   202 "Kanshiram Nagar"
+   203 "Pashchim Champaran"
+   204 "Purba Champaran"
+   205 "Sheohar"
+   206 "Sitamarhi"
+   207 "Madhubani"
+   208 "Supaul"
+   209 "Araria"
+   210 "Kishanganj"
+   211 "Purnia"
+   212 "Katihar"
+   213 "Madhepura"
+   214 "Saharsa"
+   215 "Darbhanga"
+   216 "Muzaffarpur"
+   217 "Gopalganj"
+   218 "Siwan"
+   219 "Saran"
+   220 "Vaishali"
+   221 "Samastipur"
+   222 "Begusarai"
+   223 "Khagaria"
+   224 "Bhagalpur"
+   225 "Banka"
+   226 "Munger"
+   227 "Lakhisarai"
+   228 "Sheikhpura"
+   229 "Nalanda"
+   230 "Patna"
+   231 "Bhojpur"
+   232 "Buxar"
+   233 "Kaimur (Bhabua)"
+   234 "Rohtas"
+   235 "Aurangabad"
+   236 "Gaya"
+   237 "Nawada"
+   238 "Jamui"
+   239 "Jehanabad"
+   240 "Arwal"
+   241 "North  District"
+   242 "West District"
+   243 "South District"
+   244 "East District"
+   245 "Tawang"
+   246 "West Kameng"
+   247 "East Kameng"
+   248 "Papum Pare"
+   249 "Upper Subansiri"
+   252 "Upper Siang"
+   253 "Changlang"
+   255 "Lower Subansiri"
+   257 "Dibang Valley"
+   258 "Lower Dibang Valley"
+   260 "Anjaw"
+   261 "Mon"
+   262 "Mokokchung"
+   263 "Zunheboto"
+   264 "Wokha"
+   265 "Dimapur"
+   266 "Phek"
+   267 "Tuensang"
+   268 "Longleng"
+   269 "Kiphire"
+   270 "Kohima"
+   271 "Peren"
+   272 "Senapati"
+   273 "Tamenglong"
+   274 "Churachandpur"
+   275 "Bishnupur"
+   276 "Thoubal"
+   277 "Imphal West"
+   278 "Imphal East"
+   279 "Ukhrul"
+   280 "Chandel"
+   281 "Mamit"
+   282 "Kolasib"
+   283 "Aizawl"
+   284 "Champhai"
+   285 "Serchhip"
+   286 "Lunglei"
+   287 "Lawngtlai"
+   288 "Saiha"
+   291 "Dhalai"
+   295 "South Garo Hills"
+   297 "Ribhoi"
+   298 "East Khasi Hills"
+   300 "Kokrajhar"
+   302 "Goalpara"
+   303 "Barpeta"
+   304 "Morigaon"
+   307 "Lakhimpur"
+   308 "Dhemaji"
+   309 "Tinsukia"
+   310 "Dibrugarh"
+   313 "Golaghat"
+   315 "Dima Hasao"
+   316 "Cachar"
+   317 "Karimganj"
+   318 "Hailakandi"
+   319 "Bongaigaon"
+   320 "Chirang"
+   321 "Kamrup"
+   322 "Kamrup Metropolitan"
+   323 "Nalbari"
+   324 "Baksa"
+   325 "Darrang"
+   326 "Udalguri"
+   327 "Darjiling"
+   328 "Jalpaiguri"
+   329 "Koch Bihar"
+   330 "Uttar Dinajpur"
+   331 "Dakshin Dinajpur"
+   332 "Maldah"
+   333 "Murshidabad"
+   334 "Birbhum"
+   336 "Nadia"
+   337 "North Twenty Four Parganas"
+   338 "Hugli"
+   339 "Bankura"
+   340 "Puruliya"
+   341 "Haora"
+   342 "Kolkata"
+   343 "South Twenty Four Parganas"
+   344 "Paschim Medinipur"
+   345 "Purba Medinipur"
+   346 "Garhwa"
+   347 "Chatra"
+   348 "Kodarma"
+   349 "Giridih"
+   350 "Deoghar"
+   351 "Godda"
+   352 "Sahibganj"
+   353 "Pakur"
+   354 "Dhanbad"
+   355 "Bokaro"
+   356 "Lohardaga"
+   357 "Purbi Singhbhum"
+   358 "Palamu"
+   359 "Latehar"
+   360 "Hazaribagh"
+   361 "Ramgarh"
+   362 "Dumka"
+   363 "Jamtara"
+   364 "Ranchi"
+   365 "Khunti"
+   366 "Gumla"
+   367 "Simdega"
+   368 "Pashchimi Singhbhum"
+   369 "Saraikela-Kharsawan"
+   370 "Bargarh"
+   371 "Jharsuguda"
+   372 "Sambalpur"
+   373 "Debagarh"
+   374 "Sundargarh"
+   375 "Kendujhar"
+   376 "Mayurbhanj"
+   377 "Baleshwar"
+   378 "Bhadrak"
+   379 "Kendrapara"
+   380 "Jagatsinghapur"
+   381 "Cuttack"
+   382 "Jajapur"
+   383 "Dhenkanal"
+   384 "Anugul"
+   385 "Nayagarh"
+   386 "Khordha"
+   387 "Puri"
+   388 "Ganjam"
+   389 "Gajapati"
+   390 "Kandhamal"
+   391 "Baudh"
+   392 "Subarnapur"
+   393 "Balangir"
+   394 "Nuapada"
+   395 "Kalahandi"
+   396 "Rayagada"
+   397 "Nabarangapur"
+   398 "Koraput"
+   399 "Malkangiri"
+   400 "Koriya"
+   402 "Jashpur"
+   403 "Raigarh"
+   404 "Korba"
+   405 "Janjgir - Champa"
+   407 "Kabeerdham"
+   408 "Rajnandgaon"
+   411 "Mahasamund"
+   412 "Dhamtari"
+   413 "Uttar Bastar Kanker"
+   415 "Narayanpur"
+   417 "Bijapur"
+   418 "Sheopur"
+   419 "Morena"
+   420 "Bhind"
+   421 "Gwalior"
+   422 "Datia"
+   423 "Shivpuri"
+   424 "Tikamgarh"
+   425 "Chhatarpur"
+   426 "Panna"
+   427 "Sagar"
+   428 "Damoh"
+   429 "Satna"
+   430 "Rewa"
+   431 "Umaria"
+   432 "Neemuch"
+   433 "Mandsaur"
+   434 "Ratlam"
+   435 "Ujjain"
+   437 "Dewas"
+   438 "Dhar"
+   439 "Indore"
+   440 "Khargone (West Nimar)"
+   441 "Barwani"
+   442 "Rajgarh"
+   443 "Vidisha"
+   444 "Bhopal"
+   445 "Sehore"
+   446 "Raisen"
+   447 "Betul"
+   448 "Harda"
+   449 "Hoshangabad"
+   450 "Katni"
+   451 "Jabalpur"
+   452 "Narsimhapur"
+   453 "Dindori"
+   454 "Mandla"
+   455 "Chhindwara"
+   456 "Seoni"
+   457 "Balaghat"
+   458 "Guna"
+   459 "Ashoknagar"
+   460 "Shahdol"
+   461 "Anuppur"
+   462 "Sidhi"
+   463 "Singrauli"
+   464 "Jhabua"
+   465 "Alirajpur"
+   466 "Khandwa (East Nimar)"
+   467 "Burhanpur"
+   468 "Kachchh"
+   469 "Banas Kantha"
+   470 "Patan"
+   471 "Mahesana"
+   473 "Gandhinagar"
+   478 "Porbandar"
+   480 "Amreli"
+   482 "Anand"
+   485 "Dohad"
+   487 "Narmada"
+   488 "Bharuch"
+   489 "The Dangs"
+   490 "Navsari"
+   491 "Valsad"
+   492 "Surat"
+   493 "Tapi"
+   494 "Diu"
+   495 "Daman"
+   496 "Dadra & Nagar Haveli"
+   497 "Nandurbar"
+   498 "Dhule"
+   499 "Jalgaon"
+   500 "Buldana"
+   501 "Akola"
+   502 "Washim"
+   503 "Amravati"
+   504 "Wardha"
+   505 "Nagpur"
+   506 "Bhandara"
+   507 "Gondiya"
+   508 "Gadchiroli"
+   509 "Chandrapur"
+   510 "Yavatmal"
+   511 "Nanded"
+   512 "Hingoli"
+   513 "Parbhani"
+   514 "Jalna"
+   515 "Aurangabad"
+   516 "Nashik"
+   518 "Mumbai Suburban"
+   519 "Mumbai"
+   520 "Raigarh"
+   521 "Pune"
+   522 "Ahmadnagar"
+   523 "Bid"
+   524 "Latur"
+   525 "Osmanabad"
+   526 "Solapur"
+   527 "Satara"
+   528 "Ratnagiri"
+   529 "Sindhudurg"
+   530 "Kolhapur"
+   531 "Sangli"
+   542 "Srikakulam"
+   543 "Vizianagaram"
+   544 "Visakhapatnam"
+   545 "East Godavari"
+   546 "West Godavari"
+   547 "Krishna"
+   548 "Guntur"
+   549 "Prakasam"
+   550 "Sri Potti Sriramulu Nellore"
+   551 "Y.S.R."
+   552 "Kurnool"
+   553 "Anantapur"
+   554 "Chittoor"
+   555 "Belgaum"
+   556 "Bagalkot"
+   557 "Bijapur"
+   558 "Bidar"
+   559 "Raichur"
+   560 "Koppal"
+   561 "Gadag"
+   562 "Dharwad"
+   563 "Uttara Kannada"
+   564 "Haveri"
+   565 "Bellary"
+   566 "Chitradurga"
+   567 "Davanagere"
+   568 "Shimoga"
+   569 "Udupi"
+   570 "Chikmagalur"
+   571 "Tumkur"
+   572 "Bangalore"
+   573 "Mandya"
+   574 "Hassan"
+   575 "Dakshina Kannada"
+   576 "Kodagu"
+   577 "Mysore"
+   578 "Chamarajanagar"
+   579 "Gulbarga"
+   580 "Yadgir"
+   581 "Kolar"
+   582 "Chikkaballapura"
+   583 "Bangalore Rural"
+   584 "Ramanagara"
+   585 "North Goa"
+   586 "South Goa"
+   587 "Lakshadweep"
+   588 "Kasaragod"
+   589 "Kannur"
+   590 "Wayanad"
+   591 "Kozhikode"
+   592 "Malappuram"
+   593 "Palakkad"
+   594 "Thrissur"
+   595 "Ernakulam"
+   596 "Idukki"
+   597 "Kottayam"
+   598 "Alappuzha"
+   599 "Pathanamthitta"
+   600 "Kollam"
+   601 "Thiruvananthapuram"
+   602 "Thiruvallur"
+   603 "Chennai"
+   604 "Kancheepuram"
+   605 "Vellore"
+   606 "Tiruvannamalai"
+   607 "Viluppuram"
+   608 "Salem"
+   609 "Namakkal"
+   610 "Erode"
+   611 "The Nilgiris"
+   612 "Dindigul"
+   613 "Karur"
+   614 "Tiruchirappalli"
+   615 "Perambalur"
+   616 "Ariyalur"
+   617 "Cuddalore"
+   618 "Nagapattinam"
+   619 "Thiruvarur"
+   620 "Thanjavur"
+   621 "Pudukkottai"
+   622 "Sivaganga"
+   623 "Madurai"
+   624 "Theni"
+   625 "Virudhunagar"
+   626 "Ramanathapuram"
+   627 "Thoothukkudi"
+   628 "Tirunelveli"
+   629 "Kanniyakumari"
+   630 "Dharmapuri"
+   631 "Krishnagiri"
+   632 "Coimbatore"
+   633 "Tiruppur"
+   634 "Yanam"
+   635 "Puducherry"
+   636 "Mahe"
+   637 "Karaikal"
+   638 "Nicobars"
+   639 "North  & Middle Andaman"
+   640 "South Andaman"
+   801 "East Siang"
+   802 "Kra Daadi"
+   803 "Kurung Kumey"
+   804 "Lohit"
+   805 "Longding"
+   806 "Namsai"
+   807 "Siang"
+   808 "Tirap"
+   809 "West Siang"
+   810 "Biswanath"
+   811 "Charaideo"
+   812 "Dhubri"
+   813 "Hojai"
+   814 "Jorhat"
+   815 "Karbi Anglong"
+   816 "Majuli"
+   817 "Nagaon"
+   818 "Sivasagar"
+   819 "Sonitpur"
+   820 "South Salmara Mancachar"
+   821 "West Karbi Anglong"
+   822 "Balod"
+   823 "Baloda Bazar"
+   824 "Balrampur"
+   825 "Bastar"
+   826 "Bemetara"
+   827 "Bilaspur"
+   828 "Dantewada"
+   829 "Durg"
+   830 "Gariyaband"
+   831 "Kodagaon"
+   832 "Mungeli"
+   833 "Raipur"
+   834 "Sukma"
+   835 "Surajpur"
+   836 "Surguja"
+   837 "Central"
+   838 "East"
+   839 "New Delhi"
+   840 "North"
+   841 "North East"
+   842 "North West"
+   843 "Shahdara"
+   844 "South"
+   845 "South East"
+   846 "South West"
+   847 "West"
+   848 "Ahmadabad"
+   849 "Aravali"
+   850 "Bhavnagar"
+   851 "Botad"
+   852 "Chhota Udaipur"
+   853 "Devbhumi Dwarka"
+   854 "Gir Somnath"
+   855 "Jamnagar"
+   856 "Junagadh"
+   857 "Kheda"
+   858 "Mahisagar"
+   859 "Morbi"
+   860 "Panch Mahals"
+   861 "Rajkot"
+   862 "Sabar Kantha"
+   863 "Surendranagar"
+   864 "Vadodara"
+   865 "Bhiwani"
+   866 "Charkhi Dadri"
+   867 "Agar Malwa"
+   868 "Shajapur"
+   869 "Palghar"
+   870 "Thane"
+   871 "East Garo Hills"
+   872 "East Jantia Hills"
+   873 "North Garo Hills"
+   874 "South West Garo Hills"
+   875 "South West Khasi Hills"
+   876 "West Garo Hills"
+   877 "West Jaintia Hills"
+   878 "West Khasi Hills"
+   879 "Fazilka"
+   880 "Firozpur"
+   881 "Gurdaspur"
+   882 "Pathankot"
+   883 "Adilabad"
+   884 "Bhadradri Kothagudem"
+   885 "Hyderabad"
+   886 "Jagitial"
+   887 "Jangoan"
+   888 "Jayashankar Bhupalapally"
+   889 "Jogulamba Gadwal"
+   890 "Kamareddy"
+   891 "Karimnagar"
+   892 "Khammam"
+   893 "Komaram Bheem Asifabad"
+   894 "Mahabubabad"
+   895 "Mahabubnagar"
+   896 "Mancherial"
+   897 "Medak"
+   898 "Medchal-Malkajgiri"
+   899 "Nagarkurnool"
+   900 "Nalgonda"
+   901 "Nirmal"
+   902 "Nizamabad"
+   903 "Peddapalli"
+   904 "Rajanna Sircilla"
+   905 "Ranga Reddy"
+   906 "Sangareddy"
+   907 "Siddipet"
+   908 "Suryapet"
+   909 "Vikarabad"
+   910 "Wanaparthy"
+   911 "Warangal Rural"
+   912 "Warangal Urban"
+   913 "Yadadri Bhuvanagiri"
+   914 "Gomati"
+   915 "Khowai"
+   916 "North Tripura"
+   917 "Sepahijala"
+   918 "South Tripura"
+   919 "Unakoti"
+   920 "West Tripura"
+   921 "Amethi"
+   922 "Budaun"
+   923 "Ghaziabad"
+   924 "Hapur"
+   925 "Moradabad"
+   926 "Muzaffarnagar"
+   927 "Rae Bareli"
+   928 "Sambhal"
+   929 "Shamli"
+   930 "Sultanpur"
+   931 "Paschim Barddhaman"
+   932 "Purba Barddhaman"
+;
+label define SMPHASE 
+     1 "Phase 1"
+     2 "Phase 2"
+;
+label define SMSMOD  
+     0 "No"
+     1 "Yes"
+;
+label define SM106   
+     0 "No"
+     1 "Yes"
+;
+label define SM115   
+     0 "No"
+     1 "Yes"
+;
+label define SM118   
+     1 "Schedule caste"
+     2 "Schedule tribe"
+     3 "OBC"
+     4 "None of them"
+     8 "Don't know"
+;
+label define SM122   
+     1 "Going to school / studying"
+     2 "Looking for work"
+     3 "Retired"
+     4 "Unable to work / ill / handicapped"
+     5 "Housework / childcare"
+     6 "Other"
+;
+label define SM126   
+     0 "No"
+     1 "Yes"
+;
+label define SM127   
+     0 "No"
+     1 "Yes"
+;
+label define SM223M  
+    97 "Inconsistent"
+    98 "Don't know month"
+;
+label define SM223Y  
+  9997 "Inconsistent"
+  9998 "Don't know year"
+;
+label define SM223C  
+  9997 "Inconsistent"
+  9998 "Don't know"
+;
+label define SM224   
+    98 "Don't know"
+;
+label define SM128   
+     0 "No"
+     1 "Yes"
+;
+label define SM129   
+     0 "No"
+     1 "Yes"
+;
+label define SM210A  
+     0 "No"
+     1 "Yes"
+;
+label define SM213   
+     0 "Never married"
+     1 "Currently married"
+     2 "Married, gauna not performed"
+     3 "Widowed"
+     4 "Divorced"
+     5 "Separated"
+     6 "Deserted"
+;
+label define SM219   
+   100 "Months"
+   200 "Years"
+;
+label define SM228   
+     0 "No"
+     1 "Yes"
+     8 "Don't know / refused"
+;
+label define SM302   
+     0 "No"
+     1 "Yes"
+;
+label define SM303A  
+     0 "No"
+     1 "Yes"
+;
+label define SM303B  
+     0 "No"
+     1 "Yes"
+;
+label define SM303C  
+     0 "No"
+     1 "Yes"
+;
+label define SM303D  
+     0 "No"
+     1 "Yes"
+;
+label define SM303E  
+     0 "No"
+     1 "Yes"
+;
+label define SM303F  
+     0 "No"
+     1 "Yes"
+;
+label define SM303G  
+     0 "No"
+     1 "Yes"
+;
+label define SM303H  
+     0 "No"
+     1 "Yes"
+;
+label define SM303I  
+     0 "No"
+     1 "Yes"
+;
+label define SM303J  
+     0 "No"
+     1 "Yes"
+;
+label define SM303K  
+     0 "No"
+     1 "Yes"
+;
+label define SM303L  
+     0 "No"
+     1 "Yes"
+;
+label define SM303M  
+     0 "No"
+     1 "Yes"
+;
+label define SM303N  
+     0 "No"
+     1 "Yes"
+;
+label define SM303X  
+     0 "No"
+     1 "Yes"
+;
+label define SM303Y  
+     0 "No"
+     1 "Yes"
+;
+label define SM305   
+    11 "Public: Govt./Municipal Hospital"
+    12 "Public: Govt. Dispensary"
+    13 "Public: UHC/UHP/UFWC"
+    14 "Public: CHC/Rural Hospital/Block PHC"
+    15 "Public: PHC/Additional PHC"
+    16 "Public: Sub-Centre"
+    17 "Public: Govt. Mobile Clinic"
+    18 "Public: Camp"
+    19 "Other Public Sector Health Facility"
+    21 "NGO or Trust Hospital/Clinic"
+    31 "Private: Hospital"
+    32 "Private: Doctor/Clinic"
+    33 "Private: Mobile Clinic"
+    34 "Other Private Health Facility"
+    96 "Other"
+    98 "Don't know"
+;
+label define SM306M  
+    98 "Don't know"
+;
+label define SM306Y  
+  9998 "Don't know"
+;
+label define SM306C  
+  9998 "Don't know"
+;
+label define SM307   
+ 99995 "Free"
+ 99998 "Don't know"
+;
+label define SM308   
+     0 "No"
+     1 "Yes"
+;
+label define SM309   
+  9998 "Don't know"
+;
+label define SM310   
+     0 "No"
+     1 "Yes"
+;
+label define SM311D  
+     0 "No"
+     1 "Yes"
+;
+label define SM311F  
+     0 "No"
+     1 "Yes"
+;
+label define SM317   
+     0 "Not at all"
+     1 "Most of the time"
+     2 "Sometimes"
+     8 "Don't know/unsure"
+;
+label define SM318   
+     0 "No"
+     1 "Yes"
+;
+label define SM319A  
+     0 "No"
+     1 "Yes"
+;
+label define SM319B  
+     0 "No"
+     1 "Yes"
+;
+label define SM319C  
+     0 "No"
+     1 "Yes"
+;
+label define SM319D  
+     0 "No"
+     1 "Yes"
+;
+label define SM319E  
+     0 "No"
+     1 "Yes"
+;
+label define SM319F  
+     0 "No"
+     1 "Yes"
+;
+label define SM319G  
+     0 "No"
+     1 "Yes"
+;
+label define SM319H  
+     0 "No"
+     1 "Yes"
+;
+label define SM319I  
+     0 "No"
+     1 "Yes"
+;
+label define SM319J  
+     0 "No"
+     1 "Yes"
+;
+label define SM319K  
+     0 "No"
+     1 "Yes"
+;
+label define SM319L  
+     0 "No"
+     1 "Yes"
+;
+label define SM319M  
+     0 "No"
+     1 "Yes"
+;
+label define SM319N  
+     0 "No"
+     1 "Yes"
+;
+label define SM319O  
+     0 "No"
+     1 "Yes"
+;
+label define SM319P  
+     0 "No"
+     1 "Yes"
+;
+label define SM319Q  
+     0 "No"
+     1 "Yes"
+;
+label define SM319R  
+     0 "No"
+     1 "Yes"
+;
+label define SM319S  
+     0 "No"
+     1 "Yes"
+;
+label define SM319T  
+     0 "No"
+     1 "Yes"
+;
+label define SM319U  
+     0 "No"
+     1 "Yes"
+;
+label define SM319V  
+     0 "No"
+     1 "Yes"
+;
+label define SM319W  
+     0 "No"
+     1 "Yes"
+;
+label define SM319X  
+     0 "No"
+     1 "Yes"
+;
+label define SM319Y  
+     0 "No"
+     1 "Yes"
+;
+label define SM319AA 
+     0 "No"
+     1 "Yes"
+;
+label define SM319AB 
+     0 "No"
+     1 "Yes"
+;
+label define SM319AC 
+     0 "No"
+     1 "Yes"
+;
+label define SM319AD 
+     0 "No"
+     1 "Yes"
+;
+label define SM319AE 
+     0 "No"
+     1 "Yes"
+;
+label define SM319AF 
+     0 "No"
+     1 "Yes"
+;
+label define SM319AG 
+     0 "No"
+     1 "Yes"
+;
+label define SM319BA 
+     0 "No"
+     1 "Yes"
+;
+label define SM319BB 
+     0 "No"
+     1 "Yes"
+;
+label define SM319BC 
+     0 "No"
+     1 "Yes"
+;
+label define SM319BD 
+     0 "No"
+     1 "Yes"
+;
+label define SM319BE 
+     0 "No"
+     1 "Yes"
+;
+label define SM319BF 
+     0 "No"
+     1 "Yes"
+;
+label define SM319BG 
+     0 "No"
+     1 "Yes"
+;
+label define SM320   
+     0 "No"
+     1 "Yes"
+;
+label define SM321   
+    11 "Public: Govt. / Municipal Hospital"
+    12 "Public AYUSH"
+    19 "Public: Govt. Dispensary"
+    20 "Public: UHC / UHP / UFWC"
+    21 "Public: CHC / Rural Hospital / Block PHC"
+    22 "Public: PHC / Additional PHC"
+    23 "Public: Sub-Centre / ANM"
+    24 "Public: Govt. Mobile Clinic"
+    25 "Public: Camp"
+    26 "Public: Anganwadi / ICDS Centre"
+    27 "Other Public Health sector"
+    31 "NGO or Trust Hospital / Clinic"
+    41 "Private: Hospital / Clinic"
+    42 "Private: Mobile Clinic"
+    43 "Private AYUSH"
+    51 "Private: Pharmacy / Drugstore"
+    52 "Other Private Health"
+    96 "Other"
+;
+label define SM321A  
+    12 "Public AYUSH: Ayurveda"
+    13 "Public AYUSH: Yoga and naturopathy"
+    14 "Publc AYUSH: Unani"
+    15 "Public AYUSH: Siddha"
+    16 "Public AYUSH: Homeopathy"
+    17 "Public AYUSH: Sowa Rigpa (TTM)"
+    18 "Public AYUSH: Other"
+;
+label define SM321B  
+    43 "Private AYUSH: Ayurveda"
+    44 "Private AYUSH: Yoga and naturopathy"
+    45 "Private AYUSH: Unani"
+    46 "Private AYUSH: Siddha"
+    47 "Private AYUSH: Homeopathy"
+    48 "Private AYUSH: Sowa Rigpa (TTM)"
+    49 "Private AYUSH: Other"
+;
+label define SM322A  
+     0 "No"
+     1 "Yes"
+;
+label define SM322B  
+     0 "No"
+     1 "Yes"
+;
+label define SM322C  
+     0 "No"
+     1 "Yes"
+;
+label define SM322D  
+     0 "No"
+     1 "Yes"
+;
+label define SM322E  
+     0 "No"
+     1 "Yes"
+;
+label define SM322F  
+     0 "No"
+     1 "Yes"
+;
+label define SM322G  
+     0 "No"
+     1 "Yes"
+;
+label define SM322H  
+     0 "No"
+     1 "Yes"
+;
+label define SM322X  
+     0 "No"
+     1 "Yes"
+;
+label define SM324   
+     0 "Child not listed in the household"
+;
+label define SM327   
+     1 "He did not think it was necessary/did not allow"
+     2 "Family did not think it was necessary/did not allow"
+     3 "Child's mother did not want check-up"
+     4 "Has had children before"
+     5 "Costs too much"
+     6 "Too far/no transportation"
+     7 "No female health worker available"
+    96 "Other"
+    98 "Don't Know"
+;
+label define SM328A  
+     0 "No"
+     1 "Yes"
+;
+label define SM328B  
+     0 "No"
+     1 "Yes"
+;
+label define SM328C  
+     0 "No"
+     1 "Yes"
+;
+label define SM328D  
+     0 "No"
+     1 "Yes"
+;
+label define SM328E  
+     0 "No"
+     1 "Yes"
+;
+label define SM329   
+     0 "No"
+     1 "Yes"
+;
+label define SM330A  
+     0 "No"
+     1 "Yes"
+;
+label define SM330B  
+     0 "No"
+     1 "Yes"
+;
+label define SM330C  
+     0 "No"
+     1 "Yes"
+;
+label define SM332A  
+     0 "No"
+     1 "Yes"
+;
+label define SM332B  
+     0 "No"
+     1 "Yes"
+;
+label define SM332C  
+     0 "No"
+     1 "Yes"
+;
+label define SM522   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM523   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM527   
+     1 "Man himself"
+     2 "Partner"
+     3 "Someone else"
+;
+label define SM529   
+   995 "Free"
+   998 "Don't know"
+;
+label define SM530A  
+    12 "Public AYUSH: Ayurveda"
+    13 "Public AYUSH: Yoga and naturopathy"
+    14 "Publc AYUSH: Unani"
+    15 "Public AYUSH: Siddha"
+    16 "Public AYUSH: Homeopathy"
+    17 "Public AYUSH: Sowa Rigpa (TTM)"
+    18 "Public AYUSH: Other"
+;
+label define SM530B  
+    44 "Private AYUSH: Ayurveda"
+    45 "Private AYUSH: Yoga and naturopathy"
+    46 "Private AYUSH: Unani"
+    47 "Private AYUSH: Siddha"
+    48 "Private AYUSH: Homeopathy"
+    49 "Private AYUSH: Sowa Rigpa (TTM)"
+    50 "Private AYUSH: Other"
+;
+label define SM531A  
+     0 "No"
+     1 "Yes"
+;
+label define SM531B  
+     0 "No"
+     1 "Yes"
+;
+label define SM531C  
+     0 "No"
+     1 "Yes"
+;
+label define SM533   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM537I  
+     0 "No"
+     1 "Yes"
+;
+label define SM537J  
+     0 "No"
+     1 "Yes"
+;
+label define SM537K  
+     0 "No"
+     1 "Yes"
+;
+label define SM537L  
+     0 "No"
+     1 "Yes"
+;
+label define SM537AA 
+     0 "No"
+     1 "Yes"
+;
+label define SM537AB 
+     0 "No"
+     1 "Yes"
+;
+label define SM537AC 
+     0 "No"
+     1 "Yes"
+;
+label define SM537AD 
+     0 "No"
+     1 "Yes"
+;
+label define SM537AE 
+     0 "No"
+     1 "Yes"
+;
+label define SM537AF 
+     0 "No"
+     1 "Yes"
+;
+label define SM537AG 
+     0 "No"
+     1 "Yes"
+;
+label define SM537BA 
+     0 "No"
+     1 "Yes"
+;
+label define SM537BB 
+     0 "No"
+     1 "Yes"
+;
+label define SM537BC 
+     0 "No"
+     1 "Yes"
+;
+label define SM537BD 
+     0 "No"
+     1 "Yes"
+;
+label define SM537BE 
+     0 "No"
+     1 "Yes"
+;
+label define SM537BF 
+     0 "No"
+     1 "Yes"
+;
+label define SM537BG 
+     0 "No"
+     1 "Yes"
+;
+label define SM603   
+     0 "No"
+     1 "Yes"
+;
+label define SM604   
+     0 "Not at all"
+     1 "Every day"
+     2 "Some days"
+;
+label define SM606   
+   100 "Weeks"
+   200 "Month"
+   300 "Years"
+   995 "Never smoked regularly"
+;
+label define SM607   
+     0 "Not at all"
+     1 "Every day"
+     2 "Some days"
+;
+label define SM608   
+    98 "Don't know"
+;
+label define SM609   
+   100 "Weeks"
+   200 "Month"
+   300 "Years"
+   995 "Never smoked bidis regularly"
+;
+label define SM611E  
+     0 "No"
+     1 "Yes"
+;
+label define SM611F  
+     0 "No"
+     1 "Yes"
+;
+label define SM613   
+   100 "Weeks"
+   200 "Month"
+   300 "Years"
+   995 "Never used smokeless tobacco regularly"
+;
+label define SM615   
+     0 "No"
+     1 "Yes"
+;
+label define SM616   
+     0 "No"
+     1 "Yes"
+;
+label define SM617   
+     0 "No"
+     1 "Yes"
+;
+label define SM618   
+     0 "No"
+     1 "Yes"
+;
+label define SM619   
+     0 "No"
+     1 "Yes"
+;
+label define SM620   
+     0 "None"
+     1 "Almost every day"
+     2 "About once a week"
+     3 "Less than once a week"
+;
+label define SM621A  
+     0 "No"
+     1 "Yes"
+;
+label define SM621B  
+     0 "No"
+     1 "Yes"
+;
+label define SM621C  
+     0 "No"
+     1 "Yes"
+;
+label define SM621D  
+     0 "No"
+     1 "Yes"
+;
+label define SM621E  
+     0 "No"
+     1 "Yes"
+;
+label define SM621X  
+     0 "No"
+     1 "Yes"
+;
+label define SM622   
+   100 "Weeks"
+   200 "Month"
+   300 "Years"
+   995 "Never drank alcohol regularly"
+;
+label define SM627A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM627AB 
+     0 "No"
+     1 "Yes"
+;
+label define SM627B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM627BB 
+     0 "No"
+     1 "Yes"
+;
+label define SM627C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM627CB 
+     0 "No"
+     1 "Yes"
+;
+label define SM627D  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM627DB 
+     0 "No"
+     1 "Yes"
+;
+label define SM627E  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM627EB 
+     0 "No"
+     1 "Yes"
+;
+label define SM627F  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM627FB 
+     0 "No"
+     1 "Yes"
+;
+label define SM627G  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM627GB 
+     0 "No"
+     1 "Yes"
+;
+label define SM630A  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM630B  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM630C  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM630D  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM630E  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM630F  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM630G  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM630H  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM630I  
+     0 "Never"
+     1 "Daily"
+     2 "Weekly"
+     3 "Occasionally"
+;
+label define SM701A  
+     1 "Husband"
+     2 "Wife"
+     3 "Both equally"
+     8 "Don't know / depends"
+;
+label define SM701B  
+     1 "Husband"
+     2 "Wife"
+     3 "Both equally"
+     8 "Don't know / depends"
+;
+label define SM701C  
+     1 "Husband"
+     2 "Wife"
+     3 "Both equally"
+     8 "Don't know / depends"
+;
+label define SM701D  
+     1 "Husband"
+     2 "Wife"
+     3 "Both equally"
+     8 "Don't know / depends"
+;
+label define SM701E  
+     1 "Husband"
+     2 "Wife"
+     3 "Both equally"
+     8 "Don't know / depends"
+;
+label define SM706F  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM706G  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM711   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM712   
+     1 "Respondent"
+     2 "Wife"
+     3 "Respondent and wife jointly"
+     6 "Other"
+;
+label define SM714   
+     1 "More than wife"
+     2 "Less than wife"
+     3 "About the same"
+     8 "Don't know"
+;
+label define SM716   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM801   
+     0 "No"
+     1 "Yes"
+;
+label define SM802   
+     0 "No"
+     1 "Yes"
+;
+label define SM804A  
+     0 "No"
+     1 "Yes"
+;
+label define SM804B  
+     0 "No"
+     1 "Yes"
+;
+label define SM804C  
+     0 "No"
+     1 "Yes"
+;
+label define SM804D  
+     0 "No"
+     1 "Yes"
+;
+label define SM804E  
+     0 "No"
+     1 "Yes"
+;
+label define SM804F  
+     0 "No"
+     1 "Yes"
+;
+label define SM804G  
+     0 "No"
+     1 "Yes"
+;
+label define SM804H  
+     0 "No"
+     1 "Yes"
+;
+label define SM804I  
+     0 "No"
+     1 "Yes"
+;
+label define SM804J  
+     0 "No"
+     1 "Yes"
+;
+label define SM804K  
+     0 "No"
+     1 "Yes"
+;
+label define SM804L  
+     0 "No"
+     1 "Yes"
+;
+label define SM804M  
+     0 "No"
+     1 "Yes"
+;
+label define SM804N  
+     0 "No"
+     1 "Yes"
+;
+label define SM804O  
+     0 "No"
+     1 "Yes"
+;
+label define SM804P  
+     0 "No"
+     1 "Yes"
+;
+label define SM804X  
+     0 "No"
+     1 "Yes"
+;
+label define SM808   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM809   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM811   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812A  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812B  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812C  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812D  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812E  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812F  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812G  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812H  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812I  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812J  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812K  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812L  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812M  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812N  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812O  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812P  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812WX 
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM812Z  
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM826   
+     0 "Should not be allowed"
+     1 "Should be allowed"
+     8 "Don't know / not sure / depends"
+;
+label define SM831   
+     0 "Should not be allowed"
+     1 "Should be allowed"
+     8 "Don't know / not sure / depends"
+;
+label define SM832   
+     0 "Should not be treated"
+     1 "Should be treated"
+     8 "Don't know / not sure / depends"
+;
+label define SM833   
+     0 "Should not be allowed"
+     1 "Should be allowed"
+     8 "Don't know / not sure / depends"
+;
+label define SM843AA 
+     0 "No"
+     1 "Yes"
+;
+label define SM843AB 
+     0 "No"
+     1 "Yes"
+;
+label define SM843AC 
+     0 "No"
+     1 "Yes"
+;
+label define SM843AD 
+     0 "No"
+     1 "Yes"
+;
+label define SM843AE 
+     0 "No"
+     1 "Yes"
+;
+label define SM843AF 
+     0 "No"
+     1 "Yes"
+;
+label define SM843AG 
+     0 "No"
+     1 "Yes"
+;
+label define SM843BA 
+     0 "No"
+     1 "Yes"
+;
+label define SM843BB 
+     0 "No"
+     1 "Yes"
+;
+label define SM843BC 
+     0 "No"
+     1 "Yes"
+;
+label define SM843BD 
+     0 "No"
+     1 "Yes"
+;
+label define SM843BE 
+     0 "No"
+     1 "Yes"
+;
+label define SM843BF 
+     0 "No"
+     1 "Yes"
+;
+label define SM843BG 
+     0 "No"
+     1 "Yes"
+;
+label define SM844   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM845   
+     0 "No"
+     1 "Yes"
+     8 "Don't know"
+;
+label define SM846   
+     0 "No"
+     1 "Yes"
+;
+label define SMB14A  
+     0 "No"
+     1 "Yes"
+;
+label define SMB14B  
+     0 "No"
+     1 "Yes"
+;
+label define SMB14C  
+     0 "No"
+     1 "Yes"
+;
+label define SMB14D  
+     0 "No"
+     1 "Yes"
+;
+label define SMB15   
+    99 "Missing"
+;
+label define SMB16   
+     1 "Small: 17cm-22cm"
+     2 "Medium: 23cm-31cm"
+     3 "Large: 32cm-42cm"
+;
+label define SMB17   
+  9999 "Missing"
+;
+label define SMB18S  
+   994 "Refused"
+   995 "Technical problem"
+   996 "Other"
+;
+label define SMB18D  
+   994 "Refused"
+   995 "Technical problem"
+   996 "Other"
+;
+label define SMB19   
+     0 "No"
+     1 "Yes"
+;
+label define SMB20   
+     0 "No"
+     1 "Yes"
+;
+label define SMB21   
+     0 "No"
+     1 "Yes"
+;
+label define SMB24   
+  9999 "Missing"
+;
+label define SMB25S  
+   994 "Refused"
+   995 "Technical problem"
+   996 "Other"
+;
+label define SMB25D  
+   994 "Refused"
+   995 "Technical problem"
+   996 "Other"
+;
+label define SMB28   
+  9999 "Missing"
+;
+label define SMB29S  
+   994 "Refused"
+   995 "Technical problem"
+   996 "Other"
+;
+label define SMB29D  
+   994 "Refused"
+   995 "Technical problem"
+   996 "Other"
+;
+label define SMB53   
+    99 "Missing"
+;
+label define SMB54   
+    95 "95+ hours ago"
+;
+label define SMB55   
+     0 "No"
+     1 "Yes"
+;
+label define SMB56   
+     0 "No"
+     1 "Yes"
+;
+label define SMB57   
+     0 "No"
+     1 "Yes"
+;
+label define SMB73   
+  9696 "Not tested"
+;
+label define SMB74   
+   499 "499 (mg/dL) +"
+   995 "Refused"
+   996 "Other"
+   998 "Not tested"
+;
+label define SMB81   
+     0 "No"
+     1 "Yes"
+;
+label define SM190S  
+     1 "Poorest"
+     2 "Poorer"
+     3 "Middle"
+     4 "Richer"
+     5 "Richest"
+;
+label define SM190US 
+     1 "Poorest"
+     2 "Poorer"
+     3 "Middle"
+     4 "Richer"
+     5 "Richest"
+;
+label define SM190RS 
+     1 "Poorest"
+     2 "Poorer"
+     3 "Middle"
+     4 "Richer"
+     5 "Richest"
+;
+label define SMCREFUSE
+     1 "Household COVID affected"
+     2 "Fear/concern about contracting COVID"
+     3 "No, not COVID related"
+;
+
+#delimit cr
+label values mv013    MV013   
+label values mv014    MV014   
+label values mv015    MV015   
+label values mv024    MV024   
+label values mv025    MV025   
+label values mv026    MV026   
+label values mv034_1  MV034   
+label values mv034_2  MV034   
+label values mv034_3  MV034   
+label values mv034_4  MV034   
+label values mv034_5  MV034   
+label values mv034_6  MV034   
+label values mv034_7  MV034   
+label values mv034_8  MV034   
+label values mv034a_1 MV034A  
+label values mv034a_2 MV034A  
+label values mv034a_3 MV034A  
+label values mv034a_4 MV034A  
+label values mv034a_5 MV034A  
+label values mv034a_6 MV034A  
+label values mv034a_7 MV034A  
+label values mv034a_8 MV034A  
+label values mv034b_1 MV034B  
+label values mv034b_2 MV034B  
+label values mv034b_3 MV034B  
+label values mv034b_4 MV034B  
+label values mv034b_5 MV034B  
+label values mv034b_6 MV034B  
+label values mv034b_7 MV034B  
+label values mv034b_8 MV034B  
+label values mv035    MV035   
+label values mv045a   MV045A  
+label values mv045b   MV045B  
+label values mv045c   MV045C  
+label values mv046    MV046   
+label values mv803    MV803   
+label values mv101    MV101   
+label values mv102    MV102   
+label values mv103    MV103   
+label values mv104    MV104   
+label values mv105    MV105   
+label values mv105a   MV105A  
+label values mv106    MV106   
+label values mv107    MV107   
+label values mv130    MV130   
+label values mv131    MV131   
+label values mv133    MV133   
+label values mv134    MV134   
+label values mv135    MV135   
+label values mv149    MV149   
+label values mv150    MV150   
+label values mv151    MV151   
+label values mv152    MV152   
+label values mv155    MV155   
+label values mv156    MV156   
+label values mv157    MV157   
+label values mv158    MV158   
+label values mv159    MV159   
+label values mv167    MV167   
+label values mv168    MV168   
+label values mv169a   MV169A  
+label values mv169b   MV169B  
+label values mv170    MV170   
+label values mv171a   MV171A  
+label values mv171b   MV171B  
+label values mv190    MV190   
+label values mv190a   MV190A  
+label values mv213    MV213   
+label values mv217    MV217   
+label values mv225    MV225   
+label values mv245    MV245   
+label values mv246    MV246   
+label values mv247    MV247   
+label values mv248    MV248   
+label values mv249    MV249   
+label values mv250    MV250   
+label values mv251    MV251   
+label values mv252    MV252   
+label values mv301    MV301   
+label values mv302    MV302   
+label values m304a_01 M304A   
+label values m304a_02 M304A   
+label values m304a_03 M304A   
+label values m304a_04 M304A   
+label values m304a_05 M304A   
+label values m304a_06 M304A   
+label values m304a_07 M304A   
+label values m304a_08 M304A   
+label values m304a_09 M304A   
+label values m304a_10 M304A   
+label values m304a_11 M304A   
+label values m304a_12 M304A   
+label values m304a_13 M304A   
+label values m304a_14 M304A   
+label values m304a_15 M304A   
+label values m304a_16 M304A   
+label values m304a_17 M304A   
+label values m304a_18 M304A   
+label values m304a_19 M304A   
+label values m304a_20 M304A   
+label values mv304_01 MV304   
+label values mv304_02 MV304   
+label values mv304_03 MV304   
+label values mv304_04 MV304   
+label values mv304_05 MV304   
+label values mv304_06 MV304   
+label values mv304_07 MV304   
+label values mv304_08 MV304   
+label values mv304_09 MV304   
+label values mv304_10 MV304   
+label values mv304_11 MV304   
+label values mv304_12 MV304   
+label values mv304_13 MV304   
+label values mv304_14 MV304   
+label values mv304_15 MV304   
+label values mv304_16 MV304   
+label values mv304_17 MV304   
+label values mv304_18 MV304   
+label values mv304_19 MV304   
+label values mv304_20 MV304   
+label values mv305_01 MV305   
+label values mv305_02 MV305   
+label values mv305_03 MV305   
+label values mv305_04 MV305   
+label values mv305_05 MV305   
+label values mv305_06 MV305   
+label values mv305_07 MV305   
+label values mv305_08 MV305   
+label values mv305_09 MV305   
+label values mv305_10 MV305   
+label values mv305_11 MV305   
+label values mv305_12 MV305   
+label values mv305_13 MV305   
+label values mv305_14 MV305   
+label values mv305_15 MV305   
+label values mv305_16 MV305   
+label values mv305_17 MV305   
+label values mv305_18 MV305   
+label values mv305_19 MV305   
+label values mv305_20 MV305   
+label values mv307_01 MV307   
+label values mv307_02 MV307   
+label values mv307_03 MV307   
+label values mv307_04 MV307   
+label values mv307_05 MV307   
+label values mv307_06 MV307   
+label values mv307_07 MV307   
+label values mv307_08 MV307   
+label values mv307_09 MV307   
+label values mv307_10 MV307   
+label values mv307_11 MV307   
+label values mv307_12 MV307   
+label values mv307_13 MV307   
+label values mv307_14 MV307   
+label values mv307_15 MV307   
+label values mv307_16 MV307   
+label values mv307_17 MV307   
+label values mv307_18 MV307   
+label values mv307_19 MV307   
+label values mv307_20 MV307   
+label values mv312    MV312   
+label values mv313    MV313   
+label values mv323a   MV323A  
+label values mv325b   MV325B  
+label values mv372a   MV372A  
+label values mv384a   MV384A  
+label values mv384b   MV384B  
+label values mv384c   MV384C  
+label values mv384d   MV384D  
+label values mv395    MV395   
+label values mv396    MV396   
+label values mv396a   MV396A  
+label values mv3a00y  MV3A00Y 
+label values mv3a00z  MV3A00Z 
+label values mv3a09b  MV3A09B 
+label values mv3b17   MV3B17  
+label values mv3b25a  MV3B25A 
+label values mv3b25b  MV3B25B 
+label values mv463a   MV463A  
+label values mv463b   MV463B  
+label values mv463c   MV463C  
+label values mv463d   MV463D  
+label values mv463e   MV463E  
+label values mv463f   MV463F  
+label values mv463g   MV463G  
+label values mv463x   MV463X  
+label values mv463z   MV463Z  
+label values mv463aa  MV463AA 
+label values mv463ab  MV463AB 
+label values mv463ac  MV463AC 
+label values mv463ad  MV463AD 
+label values mv464    MV464   
+label values mv464a   MV464A  
+label values mv464b   MV464B  
+label values mv464c   MV464C  
+label values mv464d   MV464D  
+label values mv464e   MV464E  
+label values mv464f   MV464F  
+label values mv464g   MV464G  
+label values mv464h   MV464H  
+label values mv464i   MV464I  
+label values mv464j   MV464J  
+label values mv464k   MV464K  
+label values mv464l   MV464L  
+label values mv474    MV474   
+label values mv474a   MV474A  
+label values mv474b   MV474B  
+label values mv474c   MV474C  
+label values mv474d   MV474D  
+label values mv474e   MV474E  
+label values mv474f   MV474F  
+label values mv474g   MV474G  
+label values mv474h   MV474H  
+label values mv474i   MV474I  
+label values mv474j   MV474J  
+label values mv474x   MV474X  
+label values mv474z   MV474Z  
+label values mv475    MV475   
+label values mv476    MV476   
+label values mv477    MV477   
+label values mv478    MV478   
+label values mv479    MV479   
+label values mv480    MV480   
+label values mv481    MV481   
+label values mv481a   MV481A  
+label values mv481b   MV481B  
+label values mv481c   MV481C  
+label values mv481d   MV481D  
+label values mv481e   MV481E  
+label values mv481f   MV481F  
+label values mv481g   MV481G  
+label values mv481h   MV481H  
+label values mv481x   MV481X  
+label values mv482a   MV482A  
+label values mv482b   MV482B  
+label values mv482c   MV482C  
+label values mv483    MV483   
+label values mv483a   MV483A  
+label values mv483b   MV483B  
+label values mv483c   MV483C  
+label values mv484a   MV484A  
+label values mv484b   MV484B  
+label values mv484c   MV484C  
+label values mv484d   MV484D  
+label values mv484e   MV484E  
+label values mv484f   MV484F  
+label values mv484g   MV484G  
+label values mv484h   MV484H  
+label values mv484i   MV484I  
+label values mv484j   MV484J  
+label values mv484k   MV484K  
+label values mv484l   MV484L  
+label values mv501    MV501   
+label values mv502    MV502   
+label values mv503    MV503   
+label values mv504    MV504   
+label values mv505    MV505   
+label values mv510    MV510   
+label values mv511    MV511   
+label values mv513    MV513   
+label values mv525    MV525   
+label values mv527    MV527   
+label values mv528    MV528   
+label values mv529    MV529   
+label values mv531    MV531   
+label values mv532    MV532   
+label values mv535    MV535   
+label values mv536    MV536   
+label values mv541    MV541   
+label values mv602    MV602   
+label values mv603    MV603   
+label values mv604    MV604   
+label values mv605    MV605   
+label values mv613    MV613   
+label values mv614    MV614   
+label values mv616    MV616   
+label values mv621    MV621   
+label values mv627    MV627   
+label values mv628    MV628   
+label values mv629    MV629   
+label values mv631    MV631   
+label values mv633a   MV633A  
+label values mv633b   MV633B  
+label values mv633c   MV633C  
+label values mv633d   MV633D  
+label values mv633e   MV633E  
+label values mv633f   MV633F  
+label values mv633g   MV633G  
+label values mv634a   MV634A  
+label values mv634b   MV634B  
+label values mv634c   MV634C  
+label values mv634d   MV634D  
+label values mv714    MV714   
+label values mv714a   MV714A  
+label values mv716    MV716   
+label values mv717    MV717   
+label values mv719    MV719   
+label values mv721    MV721   
+label values mv731    MV731   
+label values mv732    MV732   
+label values mv739    MV739   
+label values mv740    MV740   
+label values mv741    MV741   
+label values mv743a   MV743A  
+label values mv743b   MV743B  
+label values mv743c   MV743C  
+label values mv743d   MV743D  
+label values mv743e   MV743E  
+label values mv743f   MV743F  
+label values mv743g   MV743G  
+label values mv744a   MV744A  
+label values mv744b   MV744B  
+label values mv744c   MV744C  
+label values mv744d   MV744D  
+label values mv744e   MV744E  
+label values mv745a   MV745A  
+label values mv745b   MV745B  
+label values mv745c   MV745C  
+label values mv745d   MV745D  
+label values mv747a   MV747A  
+label values mv747b   MV747B  
+label values mv750    MV750   
+label values mv751    MV751   
+label values mv754bp  MV754BP 
+label values mv754cp  MV754CP 
+label values mv754dp  MV754DP 
+label values mv754jp  MV754JP 
+label values mv754wp  MV754WP 
+label values mv756    MV756   
+label values mv761    MV761   
+label values mv761b   MV761B  
+label values mv761c   MV761C  
+label values mv762    MV762   
+label values mv762a   MV762A  
+label values mv762aa  MV762AA 
+label values mv762ab  MV762AB 
+label values mv762ac  MV762AC 
+label values mv762ad  MV762AD 
+label values mv762ae  MV762AE 
+label values mv762af  MV762AF 
+label values mv762ag  MV762AG 
+label values mv762ah  MV762AH 
+label values mv762ai  MV762AI 
+label values mv762aj  MV762AJ 
+label values mv762ak  MV762AK 
+label values mv762al  MV762AL 
+label values mv762am  MV762AM 
+label values mv762an  MV762AN 
+label values mv762ao  MV762AO 
+label values mv762ap  MV762AP 
+label values mv762aq  MV762AQ 
+label values mv762ar  MV762AR 
+label values mv762as  MV762AS 
+label values mv762at  MV762AT 
+label values mv762au  MV762AU 
+label values mv762av  MV762AV 
+label values mv762aw  MV762AW 
+label values mv762ax  MV762AX 
+label values mv762az  MV762AZ 
+label values mv762ba  MV762BA 
+label values mv762bb  MV762BB 
+label values mv762bc  MV762BC 
+label values mv762bd  MV762BD 
+label values mv762be  MV762BE 
+label values mv762bf  MV762BF 
+label values mv762bg  MV762BG 
+label values mv762bh  MV762BH 
+label values mv762bi  MV762BI 
+label values mv762bj  MV762BJ 
+label values mv762bk  MV762BK 
+label values mv762bl  MV762BL 
+label values mv762bm  MV762BM 
+label values mv762bn  MV762BN 
+label values mv762bo  MV762BO 
+label values mv762bp  MV762BP 
+label values mv762bq  MV762BQ 
+label values mv762br  MV762BR 
+label values mv762bs  MV762BS 
+label values mv762bt  MV762BT 
+label values mv762bu  MV762BU 
+label values mv762bv  MV762BV 
+label values mv762bw  MV762BW 
+label values mv762bx  MV762BX 
+label values mv762bz  MV762BZ 
+label values mv763a   MV763A  
+label values mv763b   MV763B  
+label values mv763c   MV763C  
+label values mv763d   MV763D  
+label values mv763e   MV763E  
+label values mv763f   MV763F  
+label values mv763g   MV763G  
+label values mv766a   MV766A  
+label values mv766b   MV766B  
+label values mv767a   MV767A  
+label values mv767b   MV767B  
+label values mv767c   MV767C  
+label values mv768a   MV768A  
+label values mv768b   MV768B  
+label values mv768c   MV768C  
+label values mv769    MV769   
+label values mv769a   MV769A  
+label values mv770    MV770   
+label values mv770a   MV770A  
+label values mv770b   MV770B  
+label values mv770c   MV770C  
+label values mv770d   MV770D  
+label values mv770e   MV770E  
+label values mv770f   MV770F  
+label values mv770g   MV770G  
+label values mv770h   MV770H  
+label values mv770i   MV770I  
+label values mv770j   MV770J  
+label values mv770k   MV770K  
+label values mv770l   MV770L  
+label values mv770m   MV770M  
+label values mv770n   MV770N  
+label values mv770o   MV770O  
+label values mv770p   MV770P  
+label values mv770q   MV770Q  
+label values mv770r   MV770R  
+label values mv770s   MV770S  
+label values mv770t   MV770T  
+label values mv770u   MV770U  
+label values mv770v   MV770V  
+label values mv770w   MV770W  
+label values mv770x   MV770X  
+label values mv774a   MV774A  
+label values mv774b   MV774B  
+label values mv774c   MV774C  
+label values mv775    MV775   
+label values mv777    MV777   
+label values mv777a   MV777A  
+label values mv778    MV778   
+label values mv779    MV779   
+label values mv780    MV780   
+label values mv781    MV781   
+label values mv783    MV783   
+label values mv784a   MV784A  
+label values mv784b   MV784B  
+label values mv784c   MV784C  
+label values mv784d   MV784D  
+label values mv784e   MV784E  
+label values mv784f   MV784F  
+label values mv784g   MV784G  
+label values mv784h   MV784H  
+label values mv784i   MV784I  
+label values mv784j   MV784J  
+label values mv784k   MV784K  
+label values mv784l   MV784L  
+label values mv784m   MV784M  
+label values mv784n   MV784N  
+label values mv784o   MV784O  
+label values mv784p   MV784P  
+label values mv784q   MV784Q  
+label values mv784r   MV784R  
+label values mv784s   MV784S  
+label values mv784t   MV784T  
+label values mv784u   MV784U  
+label values mv784v   MV784V  
+label values mv784x   MV784X  
+label values mv785    MV785   
+label values mv791    MV791   
+label values mv791a   MV791A  
+label values mv791b   MV791B  
+label values mv793    MV793   
+label values mv793a   MV793A  
+label values mv793b   MV793B  
+label values mv820    MV820   
+label values mv822    MV822   
+label values mv823    MV823   
+label values mv824    MV824   
+label values mv825    MV825   
+label values mv826    MV826   
+label values mv826a   MV826A  
+label values mv827    MV827   
+label values mv828    MV828   
+label values mv829    MV829   
+label values mv832b   MV832B  
+label values mv832c   MV832C  
+label values mv833a   MV833A  
+label values mv833b   MV833B  
+label values mv833c   MV833C  
+label values mv834a   MV834A  
+label values mv834b   MV834B  
+label values mv834c   MV834C  
+label values mv835a   MV835A  
+label values mv835b   MV835B  
+label values mv835c   MV835C  
+label values mv836    MV836   
+label values mv837    MV837   
+label values mv844    MV844   
+label values mv845    MV845   
+label values mv846    MV846   
+label values mv847    MV847   
+label values mv848    MV848   
+label values mv849    MV849   
+label values mv851a   MV851A  
+label values mv851b   MV851B  
+label values mv851c   MV851C  
+label values mv851d   MV851D  
+label values mv851e   MV851E  
+label values mv851f   MV851F  
+label values mv851g   MV851G  
+label values mv851h   MV851H  
+label values mv851i   MV851I  
+label values mv851j   MV851J  
+label values mv851k   MV851K  
+label values mv851l   MV851L  
+label values mv852a   MV852A  
+label values mv852b   MV852B  
+label values mv852c   MV852C  
+label values mv853a   MV853A  
+label values mv853b   MV853B  
+label values mv853c   MV853C  
+label values mv854a   MV854A  
+label values mv854b   MV854B  
+label values mv856    MV856   
+label values mv857a   MV857A  
+label values mv857b   MV857B  
+label values mv857c   MV857C  
+label values mv857d   MV857D  
+label values mv858    MV858   
+label values smdist   SMDIST  
+label values smphase  SMPHASE 
+label values smsmod   SMSMOD  
+label values sm106    SM106   
+label values sm115    SM115   
+label values sm118    SM118   
+label values sm122    SM122   
+label values sm126    SM126   
+label values sm127    SM127   
+label values sm223m   SM223M  
+label values sm223y   SM223Y  
+label values sm223c   SM223C  
+label values sm224    SM224   
+label values sm128    SM128   
+label values sm129    SM129   
+label values sm210a   SM210A  
+label values sm213    SM213   
+label values sm219    SM219   
+label values sm228    SM228   
+label values sm302    SM302   
+label values sm303a   SM303A  
+label values sm303b   SM303B  
+label values sm303c   SM303C  
+label values sm303d   SM303D  
+label values sm303e   SM303E  
+label values sm303f   SM303F  
+label values sm303g   SM303G  
+label values sm303h   SM303H  
+label values sm303i   SM303I  
+label values sm303j   SM303J  
+label values sm303k   SM303K  
+label values sm303l   SM303L  
+label values sm303m   SM303M  
+label values sm303n   SM303N  
+label values sm303x   SM303X  
+label values sm303y   SM303Y  
+label values sm305    SM305   
+label values sm306m   SM306M  
+label values sm306y   SM306Y  
+label values sm306c   SM306C  
+label values sm307    SM307   
+label values sm308    SM308   
+label values sm309    SM309   
+label values sm310    SM310   
+label values sm311d   SM311D  
+label values sm311f   SM311F  
+label values sm317    SM317   
+label values sm318    SM318   
+label values sm319a   SM319A  
+label values sm319b   SM319B  
+label values sm319c   SM319C  
+label values sm319d   SM319D  
+label values sm319e   SM319E  
+label values sm319f   SM319F  
+label values sm319g   SM319G  
+label values sm319h   SM319H  
+label values sm319i   SM319I  
+label values sm319j   SM319J  
+label values sm319k   SM319K  
+label values sm319l   SM319L  
+label values sm319m   SM319M  
+label values sm319n   SM319N  
+label values sm319o   SM319O  
+label values sm319p   SM319P  
+label values sm319q   SM319Q  
+label values sm319r   SM319R  
+label values sm319s   SM319S  
+label values sm319t   SM319T  
+label values sm319u   SM319U  
+label values sm319v   SM319V  
+label values sm319w   SM319W  
+label values sm319x   SM319X  
+label values sm319y   SM319Y  
+label values sm319aa  SM319AA 
+label values sm319ab  SM319AB 
+label values sm319ac  SM319AC 
+label values sm319ad  SM319AD 
+label values sm319ae  SM319AE 
+label values sm319af  SM319AF 
+label values sm319ag  SM319AG 
+label values sm319ba  SM319BA 
+label values sm319bb  SM319BB 
+label values sm319bc  SM319BC 
+label values sm319bd  SM319BD 
+label values sm319be  SM319BE 
+label values sm319bf  SM319BF 
+label values sm319bg  SM319BG 
+label values sm320    SM320   
+label values sm321    SM321   
+label values sm321a   SM321A  
+label values sm321b   SM321B  
+label values sm322a   SM322A  
+label values sm322b   SM322B  
+label values sm322c   SM322C  
+label values sm322d   SM322D  
+label values sm322e   SM322E  
+label values sm322f   SM322F  
+label values sm322g   SM322G  
+label values sm322h   SM322H  
+label values sm322x   SM322X  
+label values sm324    SM324   
+label values sm327    SM327   
+label values sm328a   SM328A  
+label values sm328b   SM328B  
+label values sm328c   SM328C  
+label values sm328d   SM328D  
+label values sm328e   SM328E  
+label values sm329    SM329   
+label values sm330a   SM330A  
+label values sm330b   SM330B  
+label values sm330c   SM330C  
+label values sm332a   SM332A  
+label values sm332b   SM332B  
+label values sm332c   SM332C  
+label values sm522    SM522   
+label values sm523    SM523   
+label values sm527    SM527   
+label values sm529    SM529   
+label values sm530a   SM530A  
+label values sm530b   SM530B  
+label values sm531a   SM531A  
+label values sm531b   SM531B  
+label values sm531c   SM531C  
+label values sm533    SM533   
+label values sm537i   SM537I  
+label values sm537j   SM537J  
+label values sm537k   SM537K  
+label values sm537l   SM537L  
+label values sm537aa  SM537AA 
+label values sm537ab  SM537AB 
+label values sm537ac  SM537AC 
+label values sm537ad  SM537AD 
+label values sm537ae  SM537AE 
+label values sm537af  SM537AF 
+label values sm537ag  SM537AG 
+label values sm537ba  SM537BA 
+label values sm537bb  SM537BB 
+label values sm537bc  SM537BC 
+label values sm537bd  SM537BD 
+label values sm537be  SM537BE 
+label values sm537bf  SM537BF 
+label values sm537bg  SM537BG 
+label values sm603    SM603   
+label values sm604    SM604   
+label values sm606    SM606   
+label values sm607    SM607   
+label values sm608    SM608   
+label values sm609    SM609   
+label values sm611e   SM611E  
+label values sm611f   SM611F  
+label values sm613    SM613   
+label values sm615    SM615   
+label values sm616    SM616   
+label values sm617    SM617   
+label values sm618    SM618   
+label values sm619    SM619   
+label values sm620    SM620   
+label values sm621a   SM621A  
+label values sm621b   SM621B  
+label values sm621c   SM621C  
+label values sm621d   SM621D  
+label values sm621e   SM621E  
+label values sm621x   SM621X  
+label values sm622    SM622   
+label values sm627a   SM627A  
+label values sm627ab  SM627AB 
+label values sm627b   SM627B  
+label values sm627bb  SM627BB 
+label values sm627c   SM627C  
+label values sm627cb  SM627CB 
+label values sm627d   SM627D  
+label values sm627db  SM627DB 
+label values sm627e   SM627E  
+label values sm627eb  SM627EB 
+label values sm627f   SM627F  
+label values sm627fb  SM627FB 
+label values sm627g   SM627G  
+label values sm627gb  SM627GB 
+label values sm630a   SM630A  
+label values sm630b   SM630B  
+label values sm630c   SM630C  
+label values sm630d   SM630D  
+label values sm630e   SM630E  
+label values sm630f   SM630F  
+label values sm630g   SM630G  
+label values sm630h   SM630H  
+label values sm630i   SM630I  
+label values sm701a   SM701A  
+label values sm701b   SM701B  
+label values sm701c   SM701C  
+label values sm701d   SM701D  
+label values sm701e   SM701E  
+label values sm706f   SM706F  
+label values sm706g   SM706G  
+label values sm711    SM711   
+label values sm712    SM712   
+label values sm714    SM714   
+label values sm716    SM716   
+label values sm801    SM801   
+label values sm802    SM802   
+label values sm804a   SM804A  
+label values sm804b   SM804B  
+label values sm804c   SM804C  
+label values sm804d   SM804D  
+label values sm804e   SM804E  
+label values sm804f   SM804F  
+label values sm804g   SM804G  
+label values sm804h   SM804H  
+label values sm804i   SM804I  
+label values sm804j   SM804J  
+label values sm804k   SM804K  
+label values sm804l   SM804L  
+label values sm804m   SM804M  
+label values sm804n   SM804N  
+label values sm804o   SM804O  
+label values sm804p   SM804P  
+label values sm804x   SM804X  
+label values sm808    SM808   
+label values sm809    SM809   
+label values sm811    SM811   
+label values sm812a   SM812A  
+label values sm812b   SM812B  
+label values sm812c   SM812C  
+label values sm812d   SM812D  
+label values sm812e   SM812E  
+label values sm812f   SM812F  
+label values sm812g   SM812G  
+label values sm812h   SM812H  
+label values sm812i   SM812I  
+label values sm812j   SM812J  
+label values sm812k   SM812K  
+label values sm812l   SM812L  
+label values sm812m   SM812M  
+label values sm812n   SM812N  
+label values sm812o   SM812O  
+label values sm812p   SM812P  
+label values sm812wx  SM812WX 
+label values sm812z   SM812Z  
+label values sm826    SM826   
+label values sm831    SM831   
+label values sm832    SM832   
+label values sm833    SM833   
+label values sm843aa  SM843AA 
+label values sm843ab  SM843AB 
+label values sm843ac  SM843AC 
+label values sm843ad  SM843AD 
+label values sm843ae  SM843AE 
+label values sm843af  SM843AF 
+label values sm843ag  SM843AG 
+label values sm843ba  SM843BA 
+label values sm843bb  SM843BB 
+label values sm843bc  SM843BC 
+label values sm843bd  SM843BD 
+label values sm843be  SM843BE 
+label values sm843bf  SM843BF 
+label values sm843bg  SM843BG 
+label values sm844    SM844   
+label values sm845    SM845   
+label values sm846    SM846   
+label values smb14a   SMB14A  
+label values smb14b   SMB14B  
+label values smb14c   SMB14C  
+label values smb14d   SMB14D  
+label values smb16    SMB16   
+label values smb18s   SMB18S  
+label values smb18d   SMB18D  
+label values smb19    SMB19   
+label values smb20    SMB20   
+label values smb21    SMB21   
+label values smb25s   SMB25S  
+label values smb25d   SMB25D  
+label values smb29s   SMB29S  
+label values smb29d   SMB29D  
+label values smb54    SMB54   
+label values smb55    SMB55   
+label values smb56    SMB56   
+label values smb57    SMB57   
+label values smb73    SMB73   
+label values smb74    SMB74   
+label values smb81    SMB81   
+label values sm190s   SM190S  
+label values sm190us  SM190US 
+label values sm190rs  SM190RS 
+label values smcrefuse SMCREFUSE

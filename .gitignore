@@ -1,0 +1,4 @@
+# Ignore dataset directories and Python virtual environment
+Dataset/
+Dataset1/
+.venv/
